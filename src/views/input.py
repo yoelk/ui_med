@@ -7,8 +7,8 @@ from kivy.uix.label import Label
 from kivy.uix.layout import Layout
 from kivy.uix.textinput import TextInput
 
+from src.app_base import ViewCfg
 from src.model.languages import Texts, get_str
-from src.views.settings import TEXT_FIELD_NAME_WIDTH, TEXT_WIDGET_HEIGHT
 
 
 class EditTextFieldLayout(BoxLayout):
@@ -29,12 +29,12 @@ class EditTextFieldLayout(BoxLayout):
         field_value: str = field_value if field_value else ""
 
         super().__init__(**kwargs)
-        self.orientation = "horizontal"
+        self.orientation: str = "horizontal"
         self.size_hint = (1, None)
-        self.height = TEXT_WIDGET_HEIGHT
+        self.height = ViewCfg.TEXT_WIDGET_HEIGHT
 
         self.name_widget = Label(text=f"{get_str(field_name)}:",
-                                 size_hint=(None, 1), width=TEXT_FIELD_NAME_WIDTH)
+                                 size_hint=(None, 1), width=ViewCfg.TEXT_FIELD_NAME_WIDTH)
         self.add_widget(self.name_widget)
 
         self.value_widget = TextInput(text=field_value,
@@ -56,11 +56,12 @@ class InputLayoutContainer(BoxLayout):
         :return: Nothing
         """
         super().__init__(**kwargs)
-        self.orientation = "vertical"
+        self.orientation: str = "vertical"
         self.input_layout: Layout = input_layout
         self.input_layout.size_hint = (1, 1)
         self.add_widget(self.input_layout)
 
         self.save_button: Button = Button(text=get_str(Texts.SAVE), size_hint=(1, None),
-                                          height=TEXT_WIDGET_HEIGHT, on_press=on_save)
+                                          height=ViewCfg.TEXT_WIDGET_HEIGHT,
+                                          on_press=on_save)
         self.add_widget(self.save_button)

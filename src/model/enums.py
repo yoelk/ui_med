@@ -1,18 +1,13 @@
-from enum import IntEnum, auto
+from enum import Enum
 
 
-class Languages(IntEnum):
+class Languages(Enum):
     """
-    Supported languages names
+    Supported allowed_languages names
     """
-    ENGLISH = auto()
-    HEBREW = auto()
-    ARAB = auto()
-    ITALIAN = auto()
+    ENGLISH = "ENGLISH"
+    HEBREW = "HEBREW"
+    ARAB = "ARAB"
+    ITALIAN = "ITALIAN"
 
-    @classmethod
-    def default_language(cls) -> "Languages":
-        """
-        :return: The default language
-        """
-        return Languages.ENGLISH
+    DEFAULT = ENGLISH

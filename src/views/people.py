@@ -2,84 +2,61 @@ from typing import Callable, List, Optional
 
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
-from kivy.lang import Builder
-from kivy.uix.dropdown import DropDown
-from kivy.uix.recycleview import RecycleView
 from kivy.uix.label import Label
+from kivy.uix.spinner import Spinner
 
+from src.app_base import ViewCfg, get_app
 from src.model.languages import Texts, get_str
 from src.model.enums import Languages
 from src.model.people import FullName, Person
 from src.views.input import EditTextFieldLayout, InputLayoutContainer
-from src.views.settings import TEXT_WIDGET_HEIGHT
-
-Builder.load_string('''
-<SelectableLabel>:
-    # Draw a background to indicate selection
-    canvas.before:
-        Color:
-            rgba: (.0, 0.9, .1, .3) if self.selected else (0, 0, 0, 1)
-        Rectangle:
-            pos: self.pos
-            size: self.size
-<RV>:
-    viewclass: 'SelectableLabel'
-    SelectableRecycleBoxLayout:
-        default_size: None, dp(56)
-        default_size_hint: 1, None
-        size_hint_y: None
-        height: self.minimum_height
-        orientation: 'vertical'
-        multiselect: True
-        touch_multiselect: True
-''')
+from src.views.people_recycle_view import PeopleRecycleView
 
 
-class PeopleRecycleView(RecycleView):
-    def __init__(self, people: Optional[List[Person]], **kwargs):
-        super(PeopleRecycleView, self).__init__(**kwargs)
-
-        if people is None:
-            people = []
-        self.data = [{'text': str(x)} for x in people]
-
-
-class EditFullNameLayout(BoxLayout):
+class EditNameLayout(BoxLayout):
     """
-    A layout for adding/editing a full name
+    A layout for adding/editing a name
     """
 
-    def __init__(self, is_editable: bool, languages: List[Languages],
-                 full_name: FullName, **kwargs) -> None:
+    def __init__(self, is_editable: bool, name: FullName,
+                 allowed_languages: Optional[List[Languages]] = None, **kwargs) -> None:
         """
         Initialize
         :param is_editable: Are the details editable
-        :param languages: Languages that can be chosen
-        :param full_name: The existing full name if possible
+        :param name: The existing full name if possible
+        :param allowed_languages: Languages that can be chosen
         :return: Nothing
         """
         self.is_editable: bool = is_editable
-        self.full_name: FullName = full_name
+        self.name: FullName = name
 
         super().__init__(**kwargs)
-        self.orientation = "vertical"
+        self.orientation: str = "vertical"
 
-        self.languages_widget = DropDown()
-        for language in languages:
-            self.languages_widget.add_widget(Label(text=get_str(language)))
+        assert self.name.language in allowed_languages
+        self.languages_widget = \
+            Spinner(text=get_str(self.name.language),
+                    values=sorted(get_str(lang) for lang in allowed_languages),
+                    size_hint=(1, None), height=ViewCfg.TEXT_WIDGET_HEIGHT,
+                    disabled=not self.is_editable)
         self.add_widget(self.languages_widget)
 
         self.first_names_widget = \
             EditTextFieldLayout(is_editable=is_editable,
                                 field_name=Texts.FIRST_NAMES,
-                                field_value=self.full_name.first_names)
+                                field_value=self.name.first_names,
+                                disabled=not self.is_editable)
         self.add_widget(self.first_names_widget)
 
         self.last_names_widget = \
             EditTextFieldLayout(is_editable=is_editable,
                                 field_name=Texts.LAST_NAMES,
-                                field_value=self.full_name.last_names)
+                                field_value=self.name.last_names,
+                                disabled=not self.is_editable)
         self.add_widget(self.last_names_widget)
+
+        self.bottom_spacer = Label(size_hint=(1, 1))
+        self.add_widget(self.bottom_spacer)
 
 
 class EditPersonLayout(BoxLayout):
@@ -87,26 +64,82 @@ class EditPersonLayout(BoxLayout):
     A layout for adding/editing a person
     """
 
-    def __init__(self, is_editable: bool, person: Person, **kwargs) -> None:
+    def __init__(self, is_editable: bool, person: Person,
+                 on_save: Callable[[], None], **kwargs) -> None:
         """
         Initialize
         :param is_editable: Are the details editable
         :param person: The existing person's details if possible
+        :param on_save: Callback for saving changes
         :return: Nothing
         """
         self.is_editable: bool = is_editable
         self.person: Person = person
+        self.on_save: Callable[[], None] = on_save
+        self.add_name_layout: Optional[InputLayoutContainer] = None
 
         super().__init__(**kwargs)
-        self.orientation = "vertical"
+        self.orientation: str = "vertical"
+
+        self.names_title = Label(text=f"{get_str(Texts.NAMES)}:",
+                                 size_hint=(1, None), height=ViewCfg.TEXT_WIDGET_HEIGHT)
+        self.add_widget(self.names_title)
 
         self.full_name_widgets = []
         for name in person.names:
-            full_name_widget = EditTextFieldLayout(is_editable=False,
-                                                   field_name=Texts.FULL_NAME,
-                                                   field_value=str(name))
-            self.full_name_widgets.append(full_name_widget)
-            self.add_widget(full_name_widget)
+            name_widget = EditNameLayout(is_editable=False, name=name)
+            self.full_name_widgets.append(name_widget)
+            self.add_widget(name_widget)
+
+        self.add_name_button: Optional[Button] = None
+        self.add_name_button = Button(text=get_str(Texts.ADD_NAME),
+                                      size_hint=(1, None),
+                                      height=ViewCfg.TEXT_WIDGET_HEIGHT,
+                                      on_press=self.open_add_name_screen,
+                                      disabled=not self.is_add_name_enabled)
+        self.add_widget(self.add_name_button)
+
+        self.bottom_spacer = Label(size_hint=(1, 1))
+        self.add_widget(self.bottom_spacer)
+
+    @property
+    def is_add_name_enabled(self) -> bool:
+        """
+        :return: Is the name adding button enabled
+        """
+        return self.is_editable and self.person.languages_without_name
+
+    # noinspection PyUnusedLocal
+    def open_add_name_screen(self, *args) -> None:
+        """
+        Open a screen for adding a name
+        :return: Nothing
+        """
+        languages_without_name: List[Languages] = self.person.languages_without_name
+        language: Languages = languages_without_name[0]
+        if get_app().get_cur_lang() in languages_without_name:
+            language = get_app().get_cur_lang()
+        elif Languages.DEFAULT in languages_without_name:
+            language = Languages.DEFAULT
+        new_name: FullName = FullName(language=language)
+        self.person.names.append(new_name)
+        self.add_name_button.disabled = not self.is_add_name_enabled
+
+        self.add_name_layout: InputLayoutContainer = InputLayoutContainer(
+            input_layout=EditNameLayout(
+                is_editable=True, name=new_name,
+                allowed_languages=languages_without_name),
+            on_save=self.close_add_name_screen)
+        get_app().set_root_widget(self.add_name_layout)
+
+    # noinspection PyUnusedLocal
+    def close_add_name_screen(self, *args) -> None:
+        """
+        Close the screen for adding a name
+        :return: Nothing
+        """
+        self.on_save()
+        get_app().set_root_widget(self)
 
 
 class ManagePeopleLayout(BoxLayout):
@@ -115,29 +148,30 @@ class ManagePeopleLayout(BoxLayout):
     """
 
     def __init__(self, people: Optional[List[Person]],
-                 on_add_person: Callable[[Person], None], **kwargs) -> None:
+                 on_save: Callable[[], None], **kwargs) -> None:
         """
         Initialize
         :param people: The existing people's list
-        :param on_add_person: Callback for adding a person
+        :param on_save: Callback for saving changes
         :return: Nothing
         """
         self.people: List[Person] = people if people else []
-        self.on_add_person: Callable[[Person], None] = on_add_person
+        self.on_save: Callable[[], None] = on_save
         self.edit_person_layout: Optional[InputLayoutContainer] = None
 
         super().__init__(**kwargs)
-        self.orientation = "vertical"
+        self.orientation: str = "vertical"
 
-        self.headline = Label(text=f"{get_str(Texts.PEOPLE)}:",
-                              size_hint=(1, None), height=TEXT_WIDGET_HEIGHT)
-        self.add_widget(self.headline)
+        self.people_title = Label(text=f"{get_str(Texts.PEOPLE)}:",
+                                  size_hint=(1, None), height=ViewCfg.TEXT_WIDGET_HEIGHT)
+        self.add_widget(self.people_title)
 
         self.people_list = PeopleRecycleView(people=self.people, size_hint=(1, 1))
         self.add_widget(self.people_list)
 
         self.add_person_button = Button(text=get_str(Texts.ADD_PERSON),
-                                        size_hint=(1, None), height=TEXT_WIDGET_HEIGHT,
+                                        size_hint=(1, None),
+                                        height=ViewCfg.TEXT_WIDGET_HEIGHT,
                                         on_press=self.open_add_person_screen)
         self.add_widget(self.add_person_button)
 
@@ -147,13 +181,14 @@ class ManagePeopleLayout(BoxLayout):
         Open a screen for adding a person
         :return: Nothing
         """
+        person: Person = Person()
+        self.people.append(person)
         self.edit_person_layout: InputLayoutContainer = \
             InputLayoutContainer(input_layout=EditPersonLayout(is_editable=True,
-                                                               person=Person()),
+                                                               person=person,
+                                                               on_save=self.on_save),
                                  on_save=self.close_add_person_screen)
-        parent = self.parent
-        parent.remove_widget(self)
-        parent.add_widget(self.edit_person_layout)
+        get_app().set_root_widget(self.edit_person_layout)
 
     # noinspection PyUnusedLocal
     def close_add_person_screen(self, *args) -> None:
@@ -161,7 +196,5 @@ class ManagePeopleLayout(BoxLayout):
         Close the screen for adding a person
         :return: Nothing
         """
-        self.on_add_person(self.edit_person_layout.input_layout.person)
-        parent = self.edit_person_layout.parent
-        parent.remove_widget(self.edit_person_layout)
-        parent.add_widget(self)
+        self.on_save()
+        get_app().set_root_widget(self)

@@ -1,9 +1,36 @@
+from typing import List, Optional
+
+from kivy.lang import Builder
 from kivy.properties import BooleanProperty
 from kivy.uix.behaviors import FocusBehavior
 from kivy.uix.label import Label
 from kivy.uix.recycleboxlayout import RecycleBoxLayout
+from kivy.uix.recycleview import RecycleView
 from kivy.uix.recycleview.layout import LayoutSelectionBehavior
 from kivy.uix.recycleview.views import RecycleDataViewBehavior
+
+from src.model.people import Person
+
+Builder.load_string('''
+<SelectableLabel>:
+    # Draw a background to indicate selection
+    canvas.before:
+        Color:
+            rgba: (.0, 0.9, .1, .3) if self.selected else (0, 0, 0, 1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+<PeopleRecycleView>:
+    viewclass: 'SelectableLabel'
+    SelectableRecycleBoxLayout:
+        default_size: None, dp(56)
+        default_size_hint: 1, None
+        size_hint_y: None
+        height: self.minimum_height
+        orientation: 'vertical'
+        multiselect: True
+        touch_multiselect: True
+''')
 
 
 class SelectableRecycleBoxLayout(FocusBehavior, LayoutSelectionBehavior,
@@ -41,3 +68,12 @@ class SelectableLabel(RecycleDataViewBehavior, Label):
             print("selection changed to {0}".format(rv.data[index]))
         else:
             print("selection removed for {0}".format(rv.data[index]))
+
+
+class PeopleRecycleView(RecycleView):
+    def __init__(self, people: Optional[List[Person]], **kwargs):
+        super(PeopleRecycleView, self).__init__(**kwargs)
+
+        if not people:
+            people = []
+        self.data = [{'text': str(x)} for x in people]

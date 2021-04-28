@@ -1,20 +1,22 @@
-from enum import Enum, IntEnum, auto
-from typing import Dict, Optional, Union
+from enum import Enum
+from typing import Dict, Optional
 
+from src.app_base import get_app
 from src.model.enums import Languages
-from src.views.settings import Settings
 
 
-class Texts(IntEnum):
+class Texts(Enum):
     """
     Texts in the system
     """
-    PEOPLE = auto()
-    ADD_PERSON = auto()
-    FIRST_NAMES = auto()
-    LAST_NAMES = auto()
-    FULL_NAME = auto()
-    SAVE = auto()
+    PEOPLE = "PEOPLE"
+    ADD_PERSON = "ADD_PERSON"
+    FIRST_NAMES = "FIRST_NAMES"
+    LAST_NAMES = "LAST_NAMES"
+    FULL_NAME = "FULL_NAME"
+    SAVE = "SAVE"
+    NAMES = "NAMES"
+    ADD_NAME = "ADD_NAME"
 
 
 LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
@@ -58,15 +60,23 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
                  Languages.HEBREW: None,
                  Languages.ARAB: None,
                  Languages.ITALIAN: None, },
+    Texts.NAMES: {Languages.ENGLISH: "Names",
+                  Languages.HEBREW: None,
+                  Languages.ARAB: None,
+                  Languages.ITALIAN: None, },
+    Texts.ADD_NAME: {Languages.ENGLISH: "Add Name",
+                     Languages.HEBREW: None,
+                     Languages.ARAB: None,
+                     Languages.ITALIAN: None, },
 }
 """
-Representations in different languages of strings in the system.
+Representations in different allowed_languages of strings in the system.
 It's a static key-value store of texts and their translations.
 For enums, the key is the enum's name
 """
 
 
-def get_str(text: Enum, language: Optional[Languages] = Settings().language) -> str:
+def get_str(text: Enum, language: Optional[Languages] = None) -> str:
     """
     :param text: A text
     :param language: The required language
@@ -74,9 +84,11 @@ def get_str(text: Enum, language: Optional[Languages] = Settings().language) -> 
     """
     assert text in LANGUAGE_STRINGS, f"Missing language string: {text}"
 
+    if not language:
+        language = get_app().get_cur_lang()
     if language in LANGUAGE_STRINGS[text]:
         return LANGUAGE_STRINGS[text][language]
 
     else:
-        assert Languages.default_language() in LANGUAGE_STRINGS[text]
-        return LANGUAGE_STRINGS[text][Languages.default_language()]
+        assert Languages.DEFAULT in LANGUAGE_STRINGS[text]
+        return LANGUAGE_STRINGS[text][Languages.DEFAULT]
