@@ -7,7 +7,7 @@ from kivy.uix.label import Label
 from kivy.uix.layout import Layout
 from kivy.uix.textinput import TextInput
 
-from src.app_base import ViewCfg
+from src.app_base import ViewCfg, get_app
 from src.model.languages import Texts, get_str
 
 
@@ -42,26 +42,44 @@ class EditTextFieldLayout(BoxLayout):
         self.add_widget(self.value_widget)
 
 
-class InputLayoutContainer(BoxLayout):
+class InputLayout(BoxLayout):
     """
-    A container for an input layout
+    An input layout with a save button
     """
 
-    def __init__(self, input_layout: Layout, on_save: Callable[[], None],
+    def __init__(self, on_close: Callable[[], None],
                  **kwargs) -> None:
         """
         Initialize
-        :param input_layout: The input layout
-        :param on_save: Callback for saving the input
+        :param on_close: Callback for closing ourselves
         :return: Nothing
         """
         super().__init__(**kwargs)
-        self.orientation: str = "vertical"
-        self.input_layout: Layout = input_layout
-        self.input_layout.size_hint = (1, 1)
-        self.add_widget(self.input_layout)
+        self.on_close: Callable[[], None] = on_close
 
+        self.bottom_spacer = Label(size_hint=(1, 1))
         self.save_button: Button = Button(text=get_str(Texts.SAVE), size_hint=(1, None),
                                           height=ViewCfg.TEXT_WIDGET_HEIGHT,
-                                          on_press=on_save)
+                                          on_press=self.on_save)
+
+    def add_save_button(self) -> None:
+        """
+        Add the save button
+        :return: Nothing
+        """
+        self.add_widget(self.bottom_spacer)
         self.add_widget(self.save_button)
+
+    def on_save(self, *args) -> None:
+        """
+        Callback for closing ourselves
+        :return: Nothing
+        """
+        get_app().save_model()
+        self.on_close()
+
+    def __str__(self) -> str:
+        """
+        :return: Ourselves as a string
+        """
+        return f"{type(self)}"

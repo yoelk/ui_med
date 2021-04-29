@@ -9,11 +9,11 @@ from src.app_base import ViewCfg, get_app
 from src.model.languages import Texts, get_str
 from src.model.enums import Languages
 from src.model.people import FullName, Person
-from src.views.input import EditTextFieldLayout, InputLayoutContainer
+from src.views.input import EditTextFieldLayout, InputLayout
 from src.views.people_recycle_view import PeopleRecycleView
 
 
-class EditNameLayout(BoxLayout):
+class EditNameLayout(InputLayout):
     """
     A layout for adding/editing a name
     """
@@ -55,28 +55,24 @@ class EditNameLayout(BoxLayout):
                                 disabled=not self.is_editable)
         self.add_widget(self.last_names_widget)
 
-        self.bottom_spacer = Label(size_hint=(1, 1))
-        self.add_widget(self.bottom_spacer)
+        self.add_save_button()
 
 
-class EditPersonLayout(BoxLayout):
+class EditPersonLayout(InputLayout):
     """
     A layout for adding/editing a person
     """
 
-    def __init__(self, is_editable: bool, person: Person,
-                 on_save: Callable[[], None], **kwargs) -> None:
+    def __init__(self, is_editable: bool, person: Person, **kwargs) -> None:
         """
         Initialize
         :param is_editable: Are the details editable
         :param person: The existing person's details if possible
-        :param on_save: Callback for saving changes
         :return: Nothing
         """
         self.is_editable: bool = is_editable
         self.person: Person = person
-        self.on_save: Callable[[], None] = on_save
-        self.add_name_layout: Optional[InputLayoutContainer] = None
+        self.add_name_layout: Optional[EditNameLayout] = None
 
         super().__init__(**kwargs)
         self.orientation: str = "vertical"
@@ -87,7 +83,8 @@ class EditPersonLayout(BoxLayout):
 
         self.full_name_widgets = []
         for name in person.names:
-            name_widget = EditNameLayout(is_editable=False, name=name)
+            name_widget = EditNameLayout(is_editable=False, name=name,
+                                         on_close=self.close_add_name_screen)
             self.full_name_widgets.append(name_widget)
             self.add_widget(name_widget)
 
@@ -99,8 +96,7 @@ class EditPersonLayout(BoxLayout):
                                       disabled=not self.is_add_name_enabled)
         self.add_widget(self.add_name_button)
 
-        self.bottom_spacer = Label(size_hint=(1, 1))
-        self.add_widget(self.bottom_spacer)
+        self.add_save_button()
 
     @property
     def is_add_name_enabled(self) -> bool:
@@ -125,11 +121,10 @@ class EditPersonLayout(BoxLayout):
         self.person.names.append(new_name)
         self.add_name_button.disabled = not self.is_add_name_enabled
 
-        self.add_name_layout: InputLayoutContainer = InputLayoutContainer(
-            input_layout=EditNameLayout(
-                is_editable=True, name=new_name,
-                allowed_languages=languages_without_name),
-            on_save=self.close_add_name_screen)
+        self.add_name_layout = EditNameLayout(
+            is_editable=True, name=new_name,
+            allowed_languages=languages_without_name,
+            on_close=self.close_add_name_screen)
         get_app().set_root_widget(self.add_name_layout)
 
     # noinspection PyUnusedLocal
@@ -138,7 +133,6 @@ class EditPersonLayout(BoxLayout):
         Close the screen for adding a name
         :return: Nothing
         """
-        self.on_save()
         get_app().set_root_widget(self)
 
 
@@ -147,17 +141,14 @@ class ManagePeopleLayout(BoxLayout):
     A layout for managing people
     """
 
-    def __init__(self, people: Optional[List[Person]],
-                 on_save: Callable[[], None], **kwargs) -> None:
+    def __init__(self, people: Optional[List[Person]], **kwargs) -> None:
         """
         Initialize
         :param people: The existing people's list
-        :param on_save: Callback for saving changes
         :return: Nothing
         """
         self.people: List[Person] = people if people else []
-        self.on_save: Callable[[], None] = on_save
-        self.edit_person_layout: Optional[InputLayoutContainer] = None
+        self.edit_person_layout: Optional[EditPersonLayout] = None
 
         super().__init__(**kwargs)
         self.orientation: str = "vertical"
@@ -183,11 +174,8 @@ class ManagePeopleLayout(BoxLayout):
         """
         person: Person = Person()
         self.people.append(person)
-        self.edit_person_layout: InputLayoutContainer = \
-            InputLayoutContainer(input_layout=EditPersonLayout(is_editable=True,
-                                                               person=person,
-                                                               on_save=self.on_save),
-                                 on_save=self.close_add_person_screen)
+        self.edit_person_layout = EditPersonLayout(
+            is_editable=True, person=person, on_close=self.close_add_person_screen)
         get_app().set_root_widget(self.edit_person_layout)
 
     # noinspection PyUnusedLocal
@@ -196,5 +184,4 @@ class ManagePeopleLayout(BoxLayout):
         Close the screen for adding a person
         :return: Nothing
         """
-        self.on_save()
         get_app().set_root_widget(self)
