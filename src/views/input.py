@@ -4,11 +4,11 @@ from typing import Callable, Optional
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
-from kivy.uix.layout import Layout
 from kivy.uix.textinput import TextInput
 
 from src.app_base import ViewCfg, get_app
-from src.model.languages import Texts, get_str
+from src.model.enums import Orientations
+from src.model.languages import Texts, to_str
 
 
 class EditTextFieldLayout(BoxLayout):
@@ -29,17 +29,23 @@ class EditTextFieldLayout(BoxLayout):
         field_value: str = field_value if field_value else ""
 
         super().__init__(**kwargs)
-        self.orientation: str = "horizontal"
+        self.orientation = Orientations.HORIZONTAL
         self.size_hint = (1, None)
         self.height = ViewCfg.TEXT_WIDGET_HEIGHT
 
-        self.name_widget = Label(text=f"{get_str(field_name)}:",
+        self.name_widget = Label(text=f"{to_str(field_name)}:",
                                  size_hint=(None, 1), width=ViewCfg.TEXT_FIELD_NAME_WIDTH)
         self.add_widget(self.name_widget)
 
         self.value_widget = TextInput(text=field_value,
                                       size_hint=(1, 1))
         self.add_widget(self.value_widget)
+
+    def get_value(self) -> str:
+        """
+        :return: The text of the value widget
+        """
+        return self.value_widget.text
 
 
 class InputLayout(BoxLayout):
@@ -58,7 +64,7 @@ class InputLayout(BoxLayout):
         self.on_close: Callable[[], None] = on_close
 
         self.bottom_spacer = Label(size_hint=(1, 1))
-        self.save_button: Button = Button(text=get_str(Texts.SAVE), size_hint=(1, None),
+        self.save_button: Button = Button(text=to_str(Texts.SAVE), size_hint=(1, None),
                                           height=ViewCfg.TEXT_WIDGET_HEIGHT,
                                           on_press=self.on_save)
 

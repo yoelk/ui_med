@@ -1,12 +1,12 @@
-from kivy.app import App
+from functools import partial
+
 from kivy.core.window import Window
 from kivy.modules import inspector
-from kivy.uix.widget import Widget
 
 from src.app_base import AppBase, get_logger
 from src.model.enums import Languages
 from src.model.people import FullName, Person
-from src.views.people import ManagePeopleLayout
+from src.views.people import EditNameLayout, EditPersonLayout, ManagePeopleLayout
 
 # TODO(joel): save data using a consistent store
 model = {
@@ -29,28 +29,37 @@ class UiMedApp(AppBase):
         :return: Nothing
         """
         super().__init__(**kwargs)
-
         self.model = model
-        self.manage_people_layout = ManagePeopleLayout(people=self.model["people"])
 
     def build(self):
-        inspector.create_inspector(Window, self.manage_people_layout)
-        return self.manage_people_layout
+        manage_people_layout: ManagePeopleLayout = \
+            ManagePeopleLayout(people=self.model["people"])
+        inspector.create_inspector(Window, manage_people_layout)
+        return manage_people_layout
 
-    def set_root_widget(self, widget: Widget) -> None:
-        get_logger().info(f"set_root_widget {self.root} -> {widget}")
-        window = self.root.parent
-        window.remove_widget(self.root)
-        window.add_widget(widget)
-        self.root = widget
+    # API
+    def manage_people(self, *args) -> None:
+        self._set_root_widget(
+            widget=ManagePeopleLayout(people=self.model["people"]))
 
-    def get_cur_lang(self) -> Languages:
-        # TODO(joel): use app config for default language
-        return Languages.ENGLISH
+    def edit_person(self, person: Person, *args) -> None:
+        self._set_root_widget(
+            widget=EditPersonLayout(
+                is_editable=True, person=person, on_close=self.manage_people))
 
-    def save_model(self) -> None:
+    def edit_person_name(self, person: Person, name: FullName, *args) -> None:
+        self._set_root_widget(
+            widget=EditNameLayout(
+                is_editable=True, person=person, name=name,
+                on_close=partial(self.edit_person, person)))
+
+    def save_model(self, *args) -> None:
         # TODO(joel): Save model
         get_logger().info(f"model saved:\n{self.model}")
+
+    def get_cur_lang(self, *args) -> Languages:
+        # TODO(joel): use app config for default language
+        return Languages.ENGLISH
 
 
 if __name__ == '__main__':

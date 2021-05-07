@@ -11,3 +11,12 @@ class Languages(Enum):
     ITALIAN = "ITALIAN"
 
     DEFAULT = ENGLISH
+
+
+class Orientations(object):
+    """
+    Orientations
+    """
+
+    HORIZONTAL = "horizontal"
+    VERTICAL = "vertical"

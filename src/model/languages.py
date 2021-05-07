@@ -5,6 +5,8 @@ from src.app_base import get_app
 from src.model.enums import Languages
 
 
+# TODO(joel): Encapsulate this file's contents in a class
+
 class Texts(Enum):
     """
     Texts in the system
@@ -17,6 +19,7 @@ class Texts(Enum):
     SAVE = "SAVE"
     NAMES = "NAMES"
     ADD_NAME = "ADD_NAME"
+    EDIT = "EDIT"
 
 
 LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
@@ -68,6 +71,10 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
                      Languages.HEBREW: None,
                      Languages.ARAB: None,
                      Languages.ITALIAN: None, },
+    Texts.EDIT: {Languages.ENGLISH: "Edit",
+                 Languages.HEBREW: None,
+                 Languages.ARAB: None,
+                 Languages.ITALIAN: None, },
 }
 """
 Representations in different allowed_languages of strings in the system.
@@ -76,19 +83,19 @@ For enums, the key is the enum's name
 """
 
 
-def get_str(text: Enum, language: Optional[Languages] = None) -> str:
+def to_str(text_enum: Enum, language: Optional[Languages] = None) -> str:
     """
-    :param text: A text
-    :param language: The required language
-    :return: the translation of the text
+    :param text_enum: A text enum
+    :param language: The language
+    :return: The text in the required language
     """
-    assert text in LANGUAGE_STRINGS, f"Missing language string: {text}"
+    assert text_enum in LANGUAGE_STRINGS, f"Missing language string: {text_enum}"
 
     if not language:
         language = get_app().get_cur_lang()
-    if language in LANGUAGE_STRINGS[text]:
-        return LANGUAGE_STRINGS[text][language]
+    if language in LANGUAGE_STRINGS[text_enum]:
+        return LANGUAGE_STRINGS[text_enum][language]
 
     else:
-        assert Languages.DEFAULT in LANGUAGE_STRINGS[text]
-        return LANGUAGE_STRINGS[text][Languages.DEFAULT]
+        assert Languages.DEFAULT in LANGUAGE_STRINGS[text_enum]
+        return LANGUAGE_STRINGS[text_enum][Languages.DEFAULT]

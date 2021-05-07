@@ -1,11 +1,12 @@
 import logging
+from abc import ABC
 from logging import Formatter, Logger, StreamHandler
 from typing import Optional
 
 from kivy.app import App
 from kivy.uix.widget import Widget
 
-from src.model.enums import Languages
+from src.app_api import UiMedAppApi
 
 
 class ViewCfg(object):
@@ -22,7 +23,7 @@ class ViewCfg(object):
     """
 
 
-class AppBase(App):
+class AppBase(App, UiMedAppApi, ABC):
     """
     Base class for our app
     """
@@ -47,34 +48,26 @@ class AppBase(App):
             fmt='%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
         self.logger.addHandler(hdlr=console_handler)
 
-    def set_root_widget(self, widget: Widget) -> None:
+    def _set_root_widget(self, widget: Widget) -> None:
         """
         Set the root widget
         :param widget: The new widget
         :return: Nothing
         """
-        raise NotImplementedError
-
-    # TODO(joel): the current language should be part of the settings
-    def get_cur_lang(self) -> Languages:
-        """
-        :return: The current app language
-        """
-        raise NotImplementedError
-
-    def save_model(self) -> None:
-        """
-        Save the current model
-        :return: Nothing
-        """
-        raise NotImplementedError
+        get_logger().info(f"set_root_widget {self.root} -> {widget}")
+        window = self.root.parent
+        window.remove_widget(self.root)
+        window.add_widget(widget)
+        self.root = widget
 
 
 def get_app() -> Optional[AppBase]:
     """
     :return: The current app
     """
-    return App.get_running_app()
+    app = App.get_running_app()
+    assert isinstance(app, AppBase)
+    return app
 
 
 def get_logger() -> Logger:
