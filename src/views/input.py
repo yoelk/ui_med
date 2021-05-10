@@ -53,35 +53,36 @@ class InputLayout(BoxLayout):
     An input layout with a save button
     """
 
-    def __init__(self, on_close: Callable[[], None],
+    def __init__(self, on_close: Callable[[], None], close_button_text: str,
                  **kwargs) -> None:
         """
         Initialize
         :param on_close: Callback for closing ourselves
+        :param close_button_text: The text on the close button
         :return: Nothing
         """
         super().__init__(**kwargs)
         self.on_close: Callable[[], None] = on_close
-
-        self.bottom_spacer = Label(size_hint=(1, 1))
-        self.save_button: Button = Button(text=to_str(Texts.SAVE), size_hint=(1, None),
-                                          height=ViewCfg.TEXT_WIDGET_HEIGHT,
-                                          on_press=self.on_save)
+        self.close_button_text: str = close_button_text
 
     def add_save_button(self) -> None:
         """
         Add the save button
         :return: Nothing
         """
-        self.add_widget(self.bottom_spacer)
-        self.add_widget(self.save_button)
+        bottom_spacer = Label(size_hint=(1, 1))
+        self.add_widget(bottom_spacer)
 
-    def on_save(self, *args) -> None:
+        close_button: Button = Button(text=self.close_button_text, size_hint=(1, None),
+                                      height=ViewCfg.TEXT_WIDGET_HEIGHT,
+                                      on_press=self.on_close_button_pressed)
+        self.add_widget(close_button)
+
+    def on_close_button_pressed(self, *args) -> None:
         """
         Callback for closing ourselves
         :return: Nothing
         """
-        get_app().save_model()
         self.on_close()
 
     def __str__(self) -> str:

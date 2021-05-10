@@ -20,6 +20,7 @@ class Texts(Enum):
     NAMES = "NAMES"
     ADD_NAME = "ADD_NAME"
     EDIT = "EDIT"
+    BACK = "BACK"
 
 
 LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
@@ -72,6 +73,10 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
                      Languages.ARAB: None,
                      Languages.ITALIAN: None, },
     Texts.EDIT: {Languages.ENGLISH: "Edit",
+                 Languages.HEBREW: None,
+                 Languages.ARAB: None,
+                 Languages.ITALIAN: None, },
+    Texts.BACK: {Languages.ENGLISH: "Back",
                  Languages.HEBREW: None,
                  Languages.ARAB: None,
                  Languages.ITALIAN: None, },

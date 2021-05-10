@@ -11,22 +11,22 @@ class UiMedAppApi(object):
     API for our app
     """
 
-    def manage_people(self, *args) -> None:
+    def view_manage_people(self, *args) -> None:
         """
         Manage the people
         :return: Nothing
         """
         raise NotImplementedError
 
-    def edit_person(self, person: Person, *args) -> None:
+    def view_edit_person(self, person: Optional[Person], *args) -> None:
         """
         Edit a person
-        :param person: The person
+        :param person: The person, or None if one needs to be created
         :return: Nothing
         """
         raise NotImplementedError
 
-    def edit_person_name(self, person: Person, name: FullName, *args) -> None:
+    def view_edit_person_name(self, person: Person, name: FullName, *args) -> None:
         """
         Edit a person
         :param person: The person
@@ -35,9 +35,9 @@ class UiMedAppApi(object):
         """
         raise NotImplementedError
 
-    def save_model(self, *args) -> None:
+    def model_put_person(self, person: Person, *args) -> None:
         """
-        Save the current model
+        Put a person in the database
         :return: Nothing
         """
         raise NotImplementedError

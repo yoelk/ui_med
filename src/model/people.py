@@ -1,4 +1,5 @@
 from typing import List, Optional
+from uuid import UUID, uuid4
 
 from src.model.enums import Languages
 
@@ -39,6 +40,7 @@ class Person(object):
         :param names: The person's names
         :return: Nothing
         """
+        self.uuid: UUID = uuid4()
         self.names: List[FullName] = names if names else []
         languages_with_names: List[Languages] = self.languages_with_names
         assert len(languages_with_names) == len(set(languages_with_names)), \
