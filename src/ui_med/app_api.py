@@ -1,9 +1,9 @@
-from typing import Optional
+from typing import Optional, Union
 
 from kivy.app import App
 
-from src.model.enums import Languages
-from src.model.people import FullName, Person
+from ui_med.model.enums import Languages
+from ui_med.model.people import FullName, Person
 
 
 class UiMedAppApi(object):
@@ -13,24 +13,40 @@ class UiMedAppApi(object):
 
     def view_manage_people(self, *args) -> None:
         """
-        Manage the people
+        Open the view for Managing people
         :return: Nothing
         """
         raise NotImplementedError
 
-    def view_edit_person(self, person: Optional[Person], *args) -> None:
+    def view_edit_person(self, person: Union[Person, int], *args) -> None:
         """
-        Edit a person
-        :param person: The person, or None if one needs to be created
+        Open the view for editing a person
+        :param person: The person object or its index in the people list
+        None means a new person needs to be created
+        :return: Nothing
+        """
+        raise NotImplementedError
+
+    def view_add_person(self, *args) -> None:
+        """
+        Open the view for adding a person
         :return: Nothing
         """
         raise NotImplementedError
 
     def view_edit_person_name(self, person: Person, name: FullName, *args) -> None:
         """
-        Edit a person
+        Open the view for editing a person's name
         :param person: The person
         :param name: The name
+        :return: Nothing
+        """
+        raise NotImplementedError
+
+    def view_add_person_fear(self, person: Person, *args) -> None:
+        """
+        Open the view for adding a person's fear
+        :param person: The person
         :return: Nothing
         """
         raise NotImplementedError

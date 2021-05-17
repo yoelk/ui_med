@@ -1,15 +1,15 @@
 from functools import partial
-from typing import Any, List, Optional
+from typing import Any, List, Optional, Union
 
 from kivy.core.window import Window
 from kivy.modules import inspector
 from kivy.storage.dictstore import DictStore
 
-from src.app_base import AppBase, get_logger
-from src.model.db import DB_STORAGE_FILENAME, DbKeys
-from src.model.enums import Languages
-from src.model.people import FullName, Person
-from src.views.people import EditNameLayout, EditPersonLayout, ManagePeopleLayout
+from ui_med.app_base import AppBase, get_logger
+from ui_med.model.db import DB_STORAGE_FILENAME, DbKeys
+from ui_med.model.enums import Languages
+from ui_med.model.people import FullName, Person
+from ui_med.views.people import EditNameLayout, EditPersonLayout, ManagePeopleLayout
 
 
 class UiMedApp(AppBase):
@@ -64,17 +64,27 @@ class UiMedApp(AppBase):
         self._set_root_widget(
             widget=ManagePeopleLayout(people=self.db_get(DbKeys.PEOPLE)))
 
-    def view_edit_person(self, person: Optional[Person], *args) -> None:
-        person = person or Person()
+    def view_edit_person(self, person: Union[Person, int], *args) -> None:
+        if isinstance(person, int):
+            person = self.db_get(DbKeys.PEOPLE)[person]
+
+        assert isinstance(person, Person)
         self._set_root_widget(
             widget=EditPersonLayout(
                 is_editable=True, person=person, on_close=self.view_manage_people))
+
+    def view_add_person(self, *args) -> None:
+        self.view_edit_person(Person())
 
     def view_edit_person_name(self, person: Person, name: FullName, *args) -> None:
         self._set_root_widget(
             widget=EditNameLayout(
                 is_editable=True, person=person, name=name,
                 on_close=partial(self.view_edit_person, person)))
+
+    def view_add_person_fear(self, person: Person, *args) -> None:
+        # TODO(joel): implement choice view for fears, with a search box
+        pass
 
     def model_put_person(self, person: Person, *args) -> None:
         people: List[Person] = self.db_get(DbKeys.PEOPLE)

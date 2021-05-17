@@ -6,7 +6,7 @@ from typing import Optional
 from kivy.app import App
 from kivy.uix.widget import Widget
 
-from src.app_api import UiMedAppApi
+from ui_med.app_api import UiMedAppApi
 
 
 class ViewCfg(object):
@@ -18,7 +18,7 @@ class ViewCfg(object):
     """The height of a text field
     """
 
-    TEXT_FIELD_NAME_WIDTH: str = "300dp"
+    TEXT_FIELD_NAME_WIDTH: str = "200dp"
     """The width of a text field's name
     """
 

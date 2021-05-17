@@ -9,8 +9,8 @@ from kivy.uix.recycleview import RecycleView
 from kivy.uix.recycleview.layout import LayoutSelectionBehavior
 from kivy.uix.recycleview.views import RecycleDataViewBehavior
 
-from src.app_base import get_logger
-from src.model.people import Person
+from ui_med.app_base import get_app, get_logger
+from ui_med.model.people import Person
 
 Builder.load_string('''
 <SelectableLabel>:
@@ -62,13 +62,11 @@ class SelectableLabel(RecycleDataViewBehavior, Label):
         if self.collide_point(*touch.pos) and self.selectable:
             return self.parent.select_with_touch(self.index, touch)
 
-    def apply_selection(self, rv, index, is_selected):
+    def apply_selection(self, rv, index, is_selected) -> None:
         """ Respond to the selection of items in the view. """
         self.selected = is_selected
         if is_selected:
-            get_logger().info(f"selection changed to {rv.data[index]}")
-        else:
-            get_logger().info(f"selection removed to {rv.data[index]}")
+            get_app().view_edit_person(index)
 
 
 class PeopleRecycleView(RecycleView):

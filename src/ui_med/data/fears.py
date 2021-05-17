@@ -1,0 +1,494 @@
+from enum import Enum
+from typing import List, Optional
+
+
+class FearNames(Enum):
+    """
+    Fear names
+    """
+    ACHLUOPHOBIA = "ACHLUOPHOBIA_NAME"
+    ACROPHOBIA = "ACROPHOBIA_NAME"
+    AEROPHOBIA = "AEROPHOBIA_NAME"
+    ALGOPHOBIA = "ALGOPHOBIA_NAME"
+    AGORAPHOBIA = "AGORAPHOBIA_NAME"
+    AICHMOPHOBIA = "AICHMOPHOBIA_NAME"
+    AMAXOPHOBIA = "AMAXOPHOBIA_NAME"
+    ANDROPHOBIA = "ANDROPHOBIA_NAME"
+    ANGINOPHOBIA = "ANGINOPHOBIA_NAME"
+    ANTHROPHOBIA = "ANTHROPHOBIA_NAME"
+    ANTHROPOPHOBIA = "ANTHROPOPHOBIA_NAME"
+    APHENPHOSMPHOBIA = "APHENPHOSMPHOBIA_NAME"
+    ARACHIBUTYROPHOBIA = "ARACHIBUTYROPHOBIA_NAME"
+    ARACHNOPHOBIA = "ARACHNOPHOBIA_NAME"
+    ARITHMOPHOBIA = "ARITHMOPHOBIA_NAME"
+    ASTRAPHOBIA = "ASTRAPHOBIA_NAME"
+    ATAXOPHOBIA = "ATAXOPHOBIA_NAME"
+    ATELOPHOBIA = "ATELOPHOBIA_NAME"
+    ATYCHIPHOBIA = "ATYCHIPHOBIA_NAME"
+    AUTOMATONOPHOBIA = "AUTOMATONOPHOBIA_NAME"
+    AUTOPHOBIA = "AUTOPHOBIA_NAME"
+    BACTERIOPHOBIA = "BACTERIOPHOBIA_NAME"
+    BAROPHOBIA = "BAROPHOBIA_NAME"
+    BATHMOPHOBIA = "BATHMOPHOBIA_NAME"
+    BATRACHOPHOBIA = "BATRACHOPHOBIA_NAME"
+    BELONEPHOBIA = "BELONEPHOBIA_NAME"
+    BIBLIOPHOBIA = "BIBLIOPHOBIA_NAME"
+    BOTANOPHOBIA = "BOTANOPHOBIA_NAME"
+    CACOPHOBIA = "CACOPHOBIA_NAME"
+    CATAGELOPHOBIA = "CATAGELOPHOBIA_NAME"
+    CATOPTROPHOBIA = "CATOPTROPHOBIA_NAME"
+    CHIONOPHOBIA = "CHIONOPHOBIA_NAME"
+    CHROMOPHOBIA = "CHROMOPHOBIA_NAME"
+    CHRONOMENTROPHOBIA = "CHRONOMENTROPHOBIA_NAME"
+    CHRONOPHOBIA = "CHRONOPHOBIA_NAME"
+    CLAUSTROPHOBIA = "CLAUSTROPHOBIA_NAME"
+    COULROPHOBIA = "COULROPHOBIA_NAME"
+    CYBERPHOBIA = "CYBERPHOBIA_NAME"
+    CYNOPHOBIA = "CYNOPHOBIA_NAME"
+    DENDROPHOBIA = "DENDROPHOBIA_NAME"
+    DENTOPHOBIA = "DENTOPHOBIA_NAME"
+    DOMATOPHOBIA = "DOMATOPHOBIA_NAME"
+    DYSTYCHIPHOBIA = "DYSTYCHIPHOBIA_NAME"
+    ECOPHOBIA = "ECOPHOBIA_NAME"
+    ELUROPHOBIA = "ELUROPHOBIA_NAME"
+    ENTOMOPHOBIA = "ENTOMOPHOBIA_NAME"
+    EPHEBIPHOBIA = "EPHEBIPHOBIA_NAME"
+    EQUINOPHOBIA = "EQUINOPHOBIA_NAME"
+    GAMOPHOBIA = "GAMOPHOBIA_NAME"
+    GENUPHOBIA = "GENUPHOBIA_NAME"
+    GLOSSOPHOBIA = "GLOSSOPHOBIA_NAME"
+    GYNOPHOBIA = "GYNOPHOBIA_NAME"
+    HAPHEPHOBIA = "HAPHEPHOBIA_NAME"
+    HELIOPHOBIA = "HELIOPHOBIA_NAME"
+    HEMOPHOBIA = "HEMOPHOBIA_NAME"
+    HERPETOPHOBIA = "HERPETOPHOBIA_NAME"
+    HIPPOPOTOMONSTROSESQUIPEDALIOPHOBIA = "HIPPOPOTOMONSTROSESQUIPEDALIOPHOBIA_NAME"
+    HYDROPHOBIA = "HYDROPHOBIA_NAME"
+    HYPOCHONDRIA = "HYPOCHONDRIA_NAME"
+    IATROPHOBIA = "IATROPHOBIA_NAME"
+    INSECTOPHOBIA = "INSECTOPHOBIA_NAME"
+    KOINONIPHOBIA = "KOINONIPHOBIA_NAME"
+    KOUMPOUNOPHOBIA = "KOUMPOUNOPHOBIA_NAME"
+    LEUKOPHOBIA = "LEUKOPHOBIA_NAME"
+    LILAPSOPHOBIA = "LILAPSOPHOBIA_NAME"
+    LOCKIOPHOBIA = "LOCKIOPHOBIA_NAME"
+    MAGEIROCOPHOBIA = "MAGEIROCOPHOBIA_NAME"
+    MEGALOPHOBIA = "MEGALOPHOBIA_NAME"
+    MELANOPHOBIA = "MELANOPHOBIA_NAME"
+    MICROPHOBIA = "MICROPHOBIA_NAME"
+    MYSOPHOBIA = "MYSOPHOBIA_NAME"
+    NECROPHOBIA = "NECROPHOBIA_NAME"
+    NOCTIPHOBIA = "NOCTIPHOBIA_NAME"
+    NOSOCOMEPHOBIA = "NOSOCOMEPHOBIA_NAME"
+    NYCTOPHOBIA = "NYCTOPHOBIA_NAME"
+    OBESOPHOBIA = "OBESOPHOBIA_NAME"
+    OCTOPHOBIA = "OCTOPHOBIA_NAME"
+    OMBROPHOBIA = "OMBROPHOBIA_NAME"
+    OPHIDIOPHOBIA = "OPHIDIOPHOBIA_NAME"
+    ORNITHOPHOBIA = "ORNITHOPHOBIA_NAME"
+    PAPYROPHOBIA = "PAPYROPHOBIA_NAME"
+    PATHOPHOBIA = "PATHOPHOBIA_NAME"
+    PEDOPHOBIA = "PEDOPHOBIA_NAME"
+    PHILEMATOPHOBIA = "PHILEMATOPHOBIA_NAME"
+    PHILOPHOBIA = "PHILOPHOBIA_NAME"
+    PHOBOPHOBIA = "PHOBOPHOBIA_NAME"
+    PODOPHOBIA = "PODOPHOBIA_NAME"
+    PORPHYROPHOBIA = "PORPHYROPHOBIA_NAME"
+    PTERIDOPHOBIA = "PTERIDOPHOBIA_NAME"
+    PTEROMERHANOPHOBIA = "PTEROMERHANOPHOBIA_NAME"
+    PYROPHOBIA = "PYROPHOBIA_NAME"
+    SAMHAINOPHOBIA = "SAMHAINOPHOBIA_NAME"
+    SCOLIONOPHOBIA = "SCOLIONOPHOBIA_NAME"
+    SCOPTOPHOBIA = "SCOPTOPHOBIA_NAME"
+    SELENOPHOBIA = "SELENOPHOBIA_NAME"
+    SOCIOPHOBIA = "SOCIOPHOBIA_NAME"
+    SOMNIPHOBIA = "SOMNIPHOBIA_NAME"
+    TACHOPHOBIA = "TACHOPHOBIA_NAME"
+    TECHNOPHOBIA = "TECHNOPHOBIA_NAME"
+    TONITROPHOBIA = "TONITROPHOBIA_NAME"
+    TRYPANOPHOBIA = "TRYPANOPHOBIA_NAME"
+    TRYPOPHOBIA = "TRYPOPHOBIA_NAME"
+    VENUSTRAPHOBIA = "VENUSTRAPHOBIA_NAME"
+    VERMINOPHOBIA = "VERMINOPHOBIA_NAME"
+    WICCAPHOBIA = "WICCAPHOBIA_NAME"
+    XENOPHOBIA = "XENOPHOBIA_NAME"
+    ZOOPHOBIA = "ZOOPHOBIA_NAME"
+
+
+class FearDescriptions(Enum):
+    """
+    Fear descriptions
+    """
+    ACHLUOPHOBIA = "ACHLUOPHOBIA_DESC"
+    ACROPHOBIA = "ACROPHOBIA_DESC"
+    AEROPHOBIA = "AEROPHOBIA_DESC"
+    ALGOPHOBIA = "ALGOPHOBIA_DESC"
+    AGORAPHOBIA = "AGORAPHOBIA_DESC"
+    AICHMOPHOBIA = "AICHMOPHOBIA_DESC"
+    AMAXOPHOBIA = "AMAXOPHOBIA_DESC"
+    ANDROPHOBIA = "ANDROPHOBIA_DESC"
+    ANGINOPHOBIA = "ANGINOPHOBIA_DESC"
+    ANTHROPHOBIA = "ANTHROPHOBIA_DESC"
+    ANTHROPOPHOBIA = "ANTHROPOPHOBIA_DESC"
+    APHENPHOSMPHOBIA = "APHENPHOSMPHOBIA_DESC"
+    ARACHIBUTYROPHOBIA = "ARACHIBUTYROPHOBIA_DESC"
+    ARACHNOPHOBIA = "ARACHNOPHOBIA_DESC"
+    ARITHMOPHOBIA = "ARITHMOPHOBIA_DESC"
+    ASTRAPHOBIA = "ASTRAPHOBIA_DESC"
+    ATAXOPHOBIA = "ATAXOPHOBIA_DESC"
+    ATELOPHOBIA = "ATELOPHOBIA_DESC"
+    ATYCHIPHOBIA = "ATYCHIPHOBIA_DESC"
+    AUTOMATONOPHOBIA = "AUTOMATONOPHOBIA_DESC"
+    AUTOPHOBIA = "AUTOPHOBIA_DESC"
+    BACTERIOPHOBIA = "BACTERIOPHOBIA_DESC"
+    BAROPHOBIA = "BAROPHOBIA_DESC"
+    BATHMOPHOBIA = "BATHMOPHOBIA_DESC"
+    BATRACHOPHOBIA = "BATRACHOPHOBIA_DESC"
+    BELONEPHOBIA = "BELONEPHOBIA_DESC"
+    BIBLIOPHOBIA = "BIBLIOPHOBIA_DESC"
+    BOTANOPHOBIA = "BOTANOPHOBIA_DESC"
+    CACOPHOBIA = "CACOPHOBIA_DESC"
+    CATAGELOPHOBIA = "CATAGELOPHOBIA_DESC"
+    CATOPTROPHOBIA = "CATOPTROPHOBIA_DESC"
+    CHIONOPHOBIA = "CHIONOPHOBIA_DESC"
+    CHROMOPHOBIA = "CHROMOPHOBIA_DESC"
+    CHRONOMENTROPHOBIA = "CHRONOMENTROPHOBIA_DESC"
+    CHRONOPHOBIA = "CHRONOPHOBIA_DESC"
+    CLAUSTROPHOBIA = "CLAUSTROPHOBIA_DESC"
+    COULROPHOBIA = "COULROPHOBIA_DESC"
+    CYBERPHOBIA = "CYBERPHOBIA_DESC"
+    CYNOPHOBIA = "CYNOPHOBIA_DESC"
+    DENDROPHOBIA = "DENDROPHOBIA_DESC"
+    DENTOPHOBIA = "DENTOPHOBIA_DESC"
+    DOMATOPHOBIA = "DOMATOPHOBIA_DESC"
+    DYSTYCHIPHOBIA = "DYSTYCHIPHOBIA_DESC"
+    ECOPHOBIA = "ECOPHOBIA_DESC"
+    ELUROPHOBIA = "ELUROPHOBIA_DESC"
+    ENTOMOPHOBIA = "ENTOMOPHOBIA_DESC"
+    EPHEBIPHOBIA = "EPHEBIPHOBIA_DESC"
+    EQUINOPHOBIA = "EQUINOPHOBIA_DESC"
+    GAMOPHOBIA = "GAMOPHOBIA_DESC"
+    GENUPHOBIA = "GENUPHOBIA_DESC"
+    GLOSSOPHOBIA = "GLOSSOPHOBIA_DESC"
+    GYNOPHOBIA = "GYNOPHOBIA_DESC"
+    HAPHEPHOBIA = "HAPHEPHOBIA_DESC"
+    HELIOPHOBIA = "HELIOPHOBIA_DESC"
+    HEMOPHOBIA = "HEMOPHOBIA_DESC"
+    HERPETOPHOBIA = "HERPETOPHOBIA_DESC"
+    HIPPOPOTOMONSTROSESQUIPEDALIOPHOBIA = "HIPPOPOTOMONSTROSESQUIPEDALIOPHOBIA_DESC"
+    HYDROPHOBIA = "HYDROPHOBIA_DESC"
+    HYPOCHONDRIA = "HYPOCHONDRIA_DESC"
+    IATROPHOBIA = "IATROPHOBIA_DESC"
+    INSECTOPHOBIA = "INSECTOPHOBIA_DESC"
+    KOINONIPHOBIA = "KOINONIPHOBIA_DESC"
+    KOUMPOUNOPHOBIA = "KOUMPOUNOPHOBIA_DESC"
+    LEUKOPHOBIA = "LEUKOPHOBIA_DESC"
+    LILAPSOPHOBIA = "LILAPSOPHOBIA_DESC"
+    LOCKIOPHOBIA = "LOCKIOPHOBIA_DESC"
+    MAGEIROCOPHOBIA = "MAGEIROCOPHOBIA_DESC"
+    MEGALOPHOBIA = "MEGALOPHOBIA_DESC"
+    MELANOPHOBIA = "MELANOPHOBIA_DESC"
+    MICROPHOBIA = "MICROPHOBIA_DESC"
+    MYSOPHOBIA = "MYSOPHOBIA_DESC"
+    NECROPHOBIA = "NECROPHOBIA_DESC"
+    NOCTIPHOBIA = "NOCTIPHOBIA_DESC"
+    NOSOCOMEPHOBIA = "NOSOCOMEPHOBIA_DESC"
+    NYCTOPHOBIA = "NYCTOPHOBIA_DESC"
+    OBESOPHOBIA = "OBESOPHOBIA_DESC"
+    OCTOPHOBIA = "OCTOPHOBIA_DESC"
+    OMBROPHOBIA = "OMBROPHOBIA_DESC"
+    OPHIDIOPHOBIA = "OPHIDIOPHOBIA_DESC"
+    ORNITHOPHOBIA = "ORNITHOPHOBIA_DESC"
+    PAPYROPHOBIA = "PAPYROPHOBIA_DESC"
+    PATHOPHOBIA = "PATHOPHOBIA_DESC"
+    PEDOPHOBIA = "PEDOPHOBIA_DESC"
+    PHILEMATOPHOBIA = "PHILEMATOPHOBIA_DESC"
+    PHILOPHOBIA = "PHILOPHOBIA_DESC"
+    PHOBOPHOBIA = "PHOBOPHOBIA_DESC"
+    PODOPHOBIA = "PODOPHOBIA_DESC"
+    PORPHYROPHOBIA = "PORPHYROPHOBIA_DESC"
+    PTERIDOPHOBIA = "PTERIDOPHOBIA_DESC"
+    PTEROMERHANOPHOBIA = "PTEROMERHANOPHOBIA_DESC"
+    PYROPHOBIA = "PYROPHOBIA_DESC"
+    SAMHAINOPHOBIA = "SAMHAINOPHOBIA_DESC"
+    SCOLIONOPHOBIA = "SCOLIONOPHOBIA_DESC"
+    SCOPTOPHOBIA = "SCOPTOPHOBIA_DESC"
+    SELENOPHOBIA = "SELENOPHOBIA_DESC"
+    SOCIOPHOBIA = "SOCIOPHOBIA_DESC"
+    SOMNIPHOBIA = "SOMNIPHOBIA_DESC"
+    TACHOPHOBIA = "TACHOPHOBIA_DESC"
+    TECHNOPHOBIA = "TECHNOPHOBIA_DESC"
+    TONITROPHOBIA = "TONITROPHOBIA_DESC"
+    TRYPANOPHOBIA = "TRYPANOPHOBIA_DESC"
+    TRYPOPHOBIA = "TRYPOPHOBIA_DESC"
+    VENUSTRAPHOBIA = "VENUSTRAPHOBIA_DESC"
+    VERMINOPHOBIA = "VERMINOPHOBIA_DESC"
+    WICCAPHOBIA = "WICCAPHOBIA_DESC"
+    XENOPHOBIA = "XENOPHOBIA_DESC"
+    ZOOPHOBIA = "ZOOPHOBIA_DESC"
+
+
+class FearTypes(Enum):
+    """
+    Fear types
+    """
+    PEOPLE_RELATED_TO_TRAUMA_AND_PUNISHMENT = "PEOPLE_RELATED_TO_TRAUMA_AND_PUNISHMENT"
+    PAST_LIFE_TRAUMA = "PAST_LIFE_TRAUMA"
+    INNOCENT_STIMULUS = "INNOCENT_STIMULUS"
+    LOWER_SPIRITUAL_WORLD = "LOWER_SPIRITUAL_WORLD"
+    SPIRITUAL_WORLD = "SPIRITUAL_WORLD"
+    OBSESSION_AND_POSSESSION = "OBSESSION_AND_POSSESSION"
+    LACK_OF_ENERGY = "LACK_OF_ENERGY"
+    ABANDONMENT = "ABANDONMENT"
+    SEPARATION_AND_LOVE = "SEPARATION_AND_LOVE"
+    BODILY_HURT_AND_DISEASE = "BODILY_HURT_AND_DISEASE"
+    DISEASE = "DISEASE"
+    SEXUAL_ABUSE_AND_TRAUMA = "SEXUAL_ABUSE_AND_TRAUMA"
+    GENITAL_SECRETION = "GENITAL_SECRETION"
+
+
+class Fear(object):
+    """A type of fear
+    """
+
+    def __init__(self, name_enum: FearNames, desc_enum: FearDescriptions,
+                 type_enum: FearTypes) -> None:
+        """
+        Initialize
+        :param name_enum: The name enum
+        :param desc_enum: The description enum
+        :param type_enum: The type enum
+        :return: Nothing
+        """
+        self.name_enum: FearNames = name_enum
+        self.desc_enum: FearDescriptions = desc_enum
+        self.type_enum: FearTypes = type_enum
+
+    def __eq__(self, other: 'Fear') -> bool:
+        """
+        :param other: Another instance
+        :return: True if we are equal to other, else False
+        """
+        return self.name_enum == other.name_enum
+
+
+# TODO(joel): add all of the types and phobias that are in the hebrew list but not here
+FEARS: List[Fear] = [
+    Fear(name_enum=FearNames.ACHLUOPHOBIA,
+         desc_enum=FearDescriptions.ACHLUOPHOBIA),
+    Fear(name_enum=FearNames.ACROPHOBIA,
+         desc_enum=FearDescriptions.ACROPHOBIA),
+    Fear(name_enum=FearNames.AEROPHOBIA,
+         desc_enum=FearDescriptions.AEROPHOBIA),
+    Fear(name_enum=FearNames.ALGOPHOBIA,
+         desc_enum=FearDescriptions.ALGOPHOBIA),
+    Fear(name_enum=FearNames.AGORAPHOBIA,
+         desc_enum=FearDescriptions.AGORAPHOBIA),
+    Fear(name_enum=FearNames.AICHMOPHOBIA,
+         desc_enum=FearDescriptions.AICHMOPHOBIA),
+    Fear(name_enum=FearNames.AMAXOPHOBIA,
+         desc_enum=FearDescriptions.AMAXOPHOBIA),
+    Fear(name_enum=FearNames.ANDROPHOBIA,
+         desc_enum=FearDescriptions.ANDROPHOBIA),
+    Fear(name_enum=FearNames.ANGINOPHOBIA,
+         desc_enum=FearDescriptions.ANGINOPHOBIA),
+    Fear(name_enum=FearNames.ANTHROPHOBIA,
+         desc_enum=FearDescriptions.ANTHROPHOBIA),
+    Fear(name_enum=FearNames.ANTHROPOPHOBIA,
+         desc_enum=FearDescriptions.ANTHROPOPHOBIA),
+    Fear(name_enum=FearNames.APHENPHOSMPHOBIA,
+         desc_enum=FearDescriptions.APHENPHOSMPHOBIA),
+    Fear(name_enum=FearNames.ARACHIBUTYROPHOBIA,
+         desc_enum=FearDescriptions.ARACHIBUTYROPHOBIA),
+    Fear(name_enum=FearNames.ARACHNOPHOBIA,
+         desc_enum=FearDescriptions.ARACHNOPHOBIA),
+    Fear(name_enum=FearNames.ARITHMOPHOBIA,
+         desc_enum=FearDescriptions.ARITHMOPHOBIA),
+    Fear(name_enum=FearNames.ASTRAPHOBIA,
+         desc_enum=FearDescriptions.ASTRAPHOBIA),
+    Fear(name_enum=FearNames.ATAXOPHOBIA,
+         desc_enum=FearDescriptions.ATAXOPHOBIA),
+    Fear(name_enum=FearNames.ATELOPHOBIA,
+         desc_enum=FearDescriptions.ATELOPHOBIA),
+    Fear(name_enum=FearNames.ATYCHIPHOBIA,
+         desc_enum=FearDescriptions.ATYCHIPHOBIA),
+    Fear(name_enum=FearNames.AUTOMATONOPHOBIA,
+         desc_enum=FearDescriptions.AUTOMATONOPHOBIA),
+    Fear(name_enum=FearNames.AUTOPHOBIA,
+         desc_enum=FearDescriptions.AUTOPHOBIA),
+    Fear(name_enum=FearNames.BACTERIOPHOBIA,
+         desc_enum=FearDescriptions.BACTERIOPHOBIA),
+    Fear(name_enum=FearNames.BAROPHOBIA,
+         desc_enum=FearDescriptions.BAROPHOBIA),
+    Fear(name_enum=FearNames.BATHMOPHOBIA,
+         desc_enum=FearDescriptions.BATHMOPHOBIA),
+    Fear(name_enum=FearNames.BATRACHOPHOBIA,
+         desc_enum=FearDescriptions.BATRACHOPHOBIA),
+    Fear(name_enum=FearNames.BELONEPHOBIA,
+         desc_enum=FearDescriptions.BELONEPHOBIA),
+    Fear(name_enum=FearNames.BIBLIOPHOBIA,
+         desc_enum=FearDescriptions.BIBLIOPHOBIA),
+    Fear(name_enum=FearNames.BOTANOPHOBIA,
+         desc_enum=FearDescriptions.BOTANOPHOBIA),
+    Fear(name_enum=FearNames.CACOPHOBIA,
+         desc_enum=FearDescriptions.CACOPHOBIA,
+         type_enum=FearTypes.GENITAL_SECRETION),
+    Fear(name_enum=FearNames.CATAGELOPHOBIA,
+         desc_enum=FearDescriptions.CATAGELOPHOBIA),
+    Fear(name_enum=FearNames.CATOPTROPHOBIA,
+         desc_enum=FearDescriptions.CATOPTROPHOBIA),
+    Fear(name_enum=FearNames.CHIONOPHOBIA,
+         desc_enum=FearDescriptions.CHIONOPHOBIA),
+    Fear(name_enum=FearNames.CHROMOPHOBIA,
+         desc_enum=FearDescriptions.CHROMOPHOBIA),
+    Fear(name_enum=FearNames.CHRONOMENTROPHOBIA,
+         desc_enum=FearDescriptions.CHRONOMENTROPHOBIA),
+    Fear(name_enum=FearNames.CHRONOPHOBIA,
+         desc_enum=FearDescriptions.CHRONOPHOBIA),
+    Fear(name_enum=FearNames.CLAUSTROPHOBIA,
+         desc_enum=FearDescriptions.CLAUSTROPHOBIA),
+    Fear(name_enum=FearNames.COULROPHOBIA,
+         desc_enum=FearDescriptions.COULROPHOBIA),
+    Fear(name_enum=FearNames.CYBERPHOBIA,
+         desc_enum=FearDescriptions.CYBERPHOBIA),
+    Fear(name_enum=FearNames.CYNOPHOBIA,
+         desc_enum=FearDescriptions.CYNOPHOBIA),
+    Fear(name_enum=FearNames.DENDROPHOBIA,
+         desc_enum=FearDescriptions.DENDROPHOBIA),
+    Fear(name_enum=FearNames.DENTOPHOBIA,
+         desc_enum=FearDescriptions.DENTOPHOBIA),
+    Fear(name_enum=FearNames.DOMATOPHOBIA,
+         desc_enum=FearDescriptions.DOMATOPHOBIA),
+    Fear(name_enum=FearNames.DYSTYCHIPHOBIA,
+         desc_enum=FearDescriptions.DYSTYCHIPHOBIA),
+    Fear(name_enum=FearNames.ECOPHOBIA,
+         desc_enum=FearDescriptions.ECOPHOBIA),
+    Fear(name_enum=FearNames.ELUROPHOBIA,
+         desc_enum=FearDescriptions.ELUROPHOBIA),
+    Fear(name_enum=FearNames.ENTOMOPHOBIA,
+         desc_enum=FearDescriptions.ENTOMOPHOBIA),
+    Fear(name_enum=FearNames.EPHEBIPHOBIA,
+         desc_enum=FearDescriptions.EPHEBIPHOBIA),
+    Fear(name_enum=FearNames.EQUINOPHOBIA,
+         desc_enum=FearDescriptions.EQUINOPHOBIA),
+    Fear(name_enum=FearNames.GAMOPHOBIA,
+         desc_enum=FearDescriptions.GAMOPHOBIA),
+    Fear(name_enum=FearNames.GENUPHOBIA,
+         desc_enum=FearDescriptions.GENUPHOBIA),
+    Fear(name_enum=FearNames.GLOSSOPHOBIA,
+         desc_enum=FearDescriptions.GLOSSOPHOBIA),
+    Fear(name_enum=FearNames.GYNOPHOBIA,
+         desc_enum=FearDescriptions.GYNOPHOBIA),
+    Fear(name_enum=FearNames.HAPHEPHOBIA,
+         desc_enum=FearDescriptions.HAPHEPHOBIA),
+    Fear(name_enum=FearNames.HELIOPHOBIA,
+         desc_enum=FearDescriptions.HELIOPHOBIA),
+    Fear(name_enum=FearNames.HEMOPHOBIA,
+         desc_enum=FearDescriptions.HEMOPHOBIA),
+    Fear(name_enum=FearNames.HERPETOPHOBIA,
+         desc_enum=FearDescriptions.HERPETOPHOBIA),
+    Fear(name_enum=FearNames.HIPPOPOTOMONSTROSESQUIPEDALIOPHOBIA,
+         desc_enum=FearDescriptions.HIPPOPOTOMONSTROSESQUIPEDALIOPHOBIA),
+    Fear(name_enum=FearNames.HYDROPHOBIA,
+         desc_enum=FearDescriptions.HYDROPHOBIA),
+    Fear(name_enum=FearNames.HYPOCHONDRIA,
+         desc_enum=FearDescriptions.HYPOCHONDRIA),
+    Fear(name_enum=FearNames.IATROPHOBIA,
+         desc_enum=FearDescriptions.IATROPHOBIA),
+    Fear(name_enum=FearNames.INSECTOPHOBIA,
+         desc_enum=FearDescriptions.INSECTOPHOBIA),
+    Fear(name_enum=FearNames.KOINONIPHOBIA,
+         desc_enum=FearDescriptions.KOINONIPHOBIA),
+    Fear(name_enum=FearNames.KOUMPOUNOPHOBIA,
+         desc_enum=FearDescriptions.KOUMPOUNOPHOBIA),
+    Fear(name_enum=FearNames.LEUKOPHOBIA,
+         desc_enum=FearDescriptions.LEUKOPHOBIA),
+    Fear(name_enum=FearNames.LILAPSOPHOBIA,
+         desc_enum=FearDescriptions.LILAPSOPHOBIA),
+    Fear(name_enum=FearNames.LOCKIOPHOBIA,
+         desc_enum=FearDescriptions.LOCKIOPHOBIA),
+    Fear(name_enum=FearNames.MAGEIROCOPHOBIA,
+         desc_enum=FearDescriptions.MAGEIROCOPHOBIA),
+    Fear(name_enum=FearNames.MEGALOPHOBIA,
+         desc_enum=FearDescriptions.MEGALOPHOBIA),
+    Fear(name_enum=FearNames.MELANOPHOBIA,
+         desc_enum=FearDescriptions.MELANOPHOBIA),
+    Fear(name_enum=FearNames.MICROPHOBIA,
+         desc_enum=FearDescriptions.MICROPHOBIA),
+    Fear(name_enum=FearNames.MYSOPHOBIA,
+         desc_enum=FearDescriptions.MYSOPHOBIA),
+    Fear(name_enum=FearNames.NECROPHOBIA,
+         desc_enum=FearDescriptions.NECROPHOBIA),
+    Fear(name_enum=FearNames.NOCTIPHOBIA,
+         desc_enum=FearDescriptions.NOCTIPHOBIA),
+    Fear(name_enum=FearNames.NOSOCOMEPHOBIA,
+         desc_enum=FearDescriptions.NOSOCOMEPHOBIA),
+    Fear(name_enum=FearNames.NYCTOPHOBIA,
+         desc_enum=FearDescriptions.NYCTOPHOBIA),
+    Fear(name_enum=FearNames.OBESOPHOBIA,
+         desc_enum=FearDescriptions.OBESOPHOBIA),
+    Fear(name_enum=FearNames.OCTOPHOBIA,
+         desc_enum=FearDescriptions.OCTOPHOBIA),
+    Fear(name_enum=FearNames.OMBROPHOBIA,
+         desc_enum=FearDescriptions.OMBROPHOBIA),
+    Fear(name_enum=FearNames.OPHIDIOPHOBIA,
+         desc_enum=FearDescriptions.OPHIDIOPHOBIA),
+    Fear(name_enum=FearNames.ORNITHOPHOBIA,
+         desc_enum=FearDescriptions.ORNITHOPHOBIA),
+    Fear(name_enum=FearNames.PAPYROPHOBIA,
+         desc_enum=FearDescriptions.PAPYROPHOBIA),
+    Fear(name_enum=FearNames.PATHOPHOBIA,
+         desc_enum=FearDescriptions.PATHOPHOBIA),
+    Fear(name_enum=FearNames.PEDOPHOBIA,
+         desc_enum=FearDescriptions.PEDOPHOBIA),
+    Fear(name_enum=FearNames.PHILEMATOPHOBIA,
+         desc_enum=FearDescriptions.PHILEMATOPHOBIA),
+    Fear(name_enum=FearNames.PHILOPHOBIA,
+         desc_enum=FearDescriptions.PHILOPHOBIA),
+    Fear(name_enum=FearNames.PHOBOPHOBIA,
+         desc_enum=FearDescriptions.PHOBOPHOBIA),
+    Fear(name_enum=FearNames.PODOPHOBIA,
+         desc_enum=FearDescriptions.PODOPHOBIA),
+    Fear(name_enum=FearNames.PORPHYROPHOBIA,
+         desc_enum=FearDescriptions.PORPHYROPHOBIA),
+    Fear(name_enum=FearNames.PTERIDOPHOBIA,
+         desc_enum=FearDescriptions.PTERIDOPHOBIA),
+    Fear(name_enum=FearNames.PTEROMERHANOPHOBIA,
+         desc_enum=FearDescriptions.PTEROMERHANOPHOBIA),
+    Fear(name_enum=FearNames.PYROPHOBIA,
+         desc_enum=FearDescriptions.PYROPHOBIA),
+    Fear(name_enum=FearNames.SAMHAINOPHOBIA,
+         desc_enum=FearDescriptions.SAMHAINOPHOBIA),
+    Fear(name_enum=FearNames.SCOLIONOPHOBIA,
+         desc_enum=FearDescriptions.SCOLIONOPHOBIA),
+    Fear(name_enum=FearNames.SCOPTOPHOBIA,
+         desc_enum=FearDescriptions.SCOPTOPHOBIA),
+    Fear(name_enum=FearNames.SELENOPHOBIA,
+         desc_enum=FearDescriptions.SELENOPHOBIA),
+    Fear(name_enum=FearNames.SOCIOPHOBIA,
+         desc_enum=FearDescriptions.SOCIOPHOBIA),
+    Fear(name_enum=FearNames.SOMNIPHOBIA,
+         desc_enum=FearDescriptions.SOMNIPHOBIA),
+    Fear(name_enum=FearNames.TACHOPHOBIA,
+         desc_enum=FearDescriptions.TACHOPHOBIA),
+    Fear(name_enum=FearNames.TECHNOPHOBIA,
+         desc_enum=FearDescriptions.TECHNOPHOBIA),
+    Fear(name_enum=FearNames.TONITROPHOBIA,
+         desc_enum=FearDescriptions.TONITROPHOBIA),
+    Fear(name_enum=FearNames.TRYPANOPHOBIA,
+         desc_enum=FearDescriptions.TRYPANOPHOBIA),
+    Fear(name_enum=FearNames.TRYPOPHOBIA,
+         desc_enum=FearDescriptions.TRYPOPHOBIA),
+    Fear(name_enum=FearNames.VENUSTRAPHOBIA,
+         desc_enum=FearDescriptions.VENUSTRAPHOBIA),
+    Fear(name_enum=FearNames.VERMINOPHOBIA,
+         desc_enum=FearDescriptions.VERMINOPHOBIA),
+    Fear(name_enum=FearNames.WICCAPHOBIA,
+         desc_enum=FearDescriptions.WICCAPHOBIA),
+    Fear(name_enum=FearNames.XENOPHOBIA,
+         desc_enum=FearDescriptions.XENOPHOBIA),
+    Fear(name_enum=FearNames.ZOOPHOBIA,
+         desc_enum=FearDescriptions.ZOOPHOBIA),
+]
+"""All of the fears
+"""

@@ -5,9 +5,9 @@ class Languages(Enum):
     """
     Supported allowed_languages names
     """
+    ARAB = "ARAB"
     ENGLISH = "ENGLISH"
     HEBREW = "HEBREW"
-    ARAB = "ARAB"
     ITALIAN = "ITALIAN"
 
     DEFAULT = ENGLISH

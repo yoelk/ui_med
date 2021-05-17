@@ -10,7 +10,7 @@ package.name = ui_med
 package.domain = org.ui_med
 
 # (str) Source code where the main.py live
-source.dir = ./src
+source.dir = ./src/ui_med
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = py,png,jpg,kv,atlas

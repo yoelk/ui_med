@@ -6,9 +6,9 @@ from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 
-from src.app_base import ViewCfg, get_app
-from src.model.enums import Orientations
-from src.model.languages import Texts, to_str
+from ui_med.app_base import ViewCfg, get_app
+from ui_med.model.enums import Orientations
+from ui_med.model.languages import Texts, to_str
 
 
 class EditTextFieldLayout(BoxLayout):

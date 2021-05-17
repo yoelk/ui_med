@@ -1,7 +1,8 @@
 from typing import List, Optional
 from uuid import UUID, uuid4
 
-from src.model.enums import Languages
+from ui_med.data.fears import Fear
+from ui_med.model.enums import Languages
 
 
 class FullName(object):
@@ -28,23 +29,29 @@ class FullName(object):
         """
         return f"{self.first_names} {self.last_names}"
 
+    def __eq__(self, other: 'FullName') -> bool:
+        """
+        :param other: Another instance
+        :return: True if we are equal to other, else False
+        """
+        return self.language == other.language \
+               and self.first_names == other.first_names \
+               and self.last_names == other.last_names
+
 
 class Person(object):
     """
     A person
     """
 
-    def __init__(self, names: Optional[List[FullName]] = None) -> None:
+    def __init__(self) -> None:
         """
         Initialize
-        :param names: The person's names
         :return: Nothing
         """
         self.uuid: UUID = uuid4()
-        self.names: List[FullName] = names if names else []
-        languages_with_names: List[Languages] = self.languages_with_names
-        assert len(languages_with_names) == len(set(languages_with_names)), \
-            f"More than one name in the same language: {self.names}"
+        self.names: List[FullName] = []
+        self.fears: List[Fear] = []
 
     @property
     def languages_with_names(self) -> List[Languages]:
@@ -65,14 +72,19 @@ class Person(object):
         :param language: The asked language
         :return: The name in the requested language
         """
-        ret_name: FullName = FullName(language=Languages.DEFAULT, first_names="No Name",
-                                      last_names="")
+        ret_name: Optional[FullName] = None
+
         for name in self.names:
             if name.language is language:
                 return name
 
             elif name.language == Languages.DEFAULT:
                 ret_name = name
+
+        if ret_name is None:
+            ret_name = self.names[0] if self.names \
+                else FullName(language=Languages.DEFAULT, first_names="No Name",
+                              last_names="")
 
         return ret_name
 
