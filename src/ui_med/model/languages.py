@@ -128,6 +128,11 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
+    FearDescriptions.AUTOMYSOPHOBIA: {
+        Languages.ENGLISH: "Fear of being dirty",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
     FearDescriptions.AUTOPHOBIA: {
         Languages.ENGLISH: "Fear of being alone",
         Languages.HEBREW: None,
@@ -368,6 +373,11 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
+    FearDescriptions.MENOPHOBIA: {
+        Languages.ENGLISH: "Fear of Menstrual Blood",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
     FearDescriptions.MELANOPHOBIA: {
         Languages.ENGLISH: "Fear of the color black",
         Languages.HEBREW: None,
@@ -433,6 +443,11 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
+    FearDescriptions.PARURESIS: {
+        Languages.ENGLISH: "Fear of urinating in public",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
     FearDescriptions.PATHOPHOBIA: {
         Languages.ENGLISH: "Fear of disease",
         Languages.HEBREW: None,
@@ -495,6 +510,11 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.ITALIAN: None, },
     FearDescriptions.SCOPTOPHOBIA: {
         Languages.ENGLISH: "Fear of being stared at",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    FearDescriptions.SCYPHOPHOBIA: {
+        Languages.ENGLISH: "Fear of jellyfish",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -661,6 +681,11 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.ITALIAN: None, },
     FearNames.AUTOMATONOPHOBIA: {
         Languages.ENGLISH: "Automatonophobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    FearNames.AUTOMYSOPHOBIA: {
+        Languages.ENGLISH: "Automysophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -904,6 +929,11 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
+    FearNames.MENOPHOBIA: {
+        Languages.ENGLISH: "Menophobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
     FearNames.MELANOPHOBIA: {
         Languages.ENGLISH: "Melanophobia",
         Languages.HEBREW: None,
@@ -969,6 +999,11 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
+    FearNames.PARURESIS: {
+        Languages.ENGLISH: "Paruresis",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
     FearNames.PATHOPHOBIA: {
         Languages.ENGLISH: "Pathophobia",
         Languages.HEBREW: None,
@@ -1031,6 +1066,11 @@ LANGUAGE_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.ITALIAN: None, },
     FearNames.SCOPTOPHOBIA: {
         Languages.ENGLISH: "Scoptophobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    FearNames.SCYPHOPHOBIA: {
+        Languages.ENGLISH: "Scyphophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
