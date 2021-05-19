@@ -1,7 +1,6 @@
 from typing import List, Optional
 from uuid import UUID, uuid4
 
-from ui_med.data.phobias import Fear
 from ui_med.model.enums import Languages
 
 

@@ -6,9 +6,9 @@ from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 
-from ui_med.app_base import ViewCfg, get_app
+from ui_med.app_base import ViewCfg
 from ui_med.model.enums import Orientations
-from ui_med.model.languages import Texts, to_str
+from ui_med.model.languages import to_str
 
 
 class EditTextFieldLayout(BoxLayout):
@@ -16,7 +16,7 @@ class EditTextFieldLayout(BoxLayout):
     A layout for editing a single text field
     """
 
-    def __init__(self, is_editable: bool, field_name: Enum,
+    def __init__(self, is_editable: bool, field_name: str,
                  field_value: Optional[str] = None, **kwargs) -> None:
         """
         Initialize

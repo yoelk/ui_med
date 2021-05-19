@@ -1,14 +1,20 @@
+import os
 from functools import partial
 from typing import Any, List, Optional, Union
 
+import ui_med
 from kivy.core.window import Window
 from kivy.modules import inspector
 from kivy.storage.dictstore import DictStore
 
 from ui_med.app_base import AppBase, get_logger
+from ui_med.data import get_data_resource
+from ui_med.data.data_extractors.phobias_extractor import PhobiasExtractor
+import ui_med.data.resources
 from ui_med.model.db import DB_STORAGE_FILENAME, DbKeys
 from ui_med.model.enums import Languages
 from ui_med.model.people import FullName, Person
+from ui_med.model.phobias import ALL_PHOBIAS
 from ui_med.views.people import EditNameLayout, EditPersonLayout, ManagePeopleLayout
 
 
@@ -23,7 +29,15 @@ class UiMedApp(AppBase):
         :return: Nothing
         """
         super().__init__(**kwargs)
+        self.init_static_data()
         self.init_db()
+
+    def init_static_data(self) -> None:
+        """
+        Initialize static data
+        :return: Nothing
+        """
+        PhobiasExtractor.extract(phobias_file_path=get_data_resource("phobias.txt"))
 
     # noinspection PyAttributeOutsideInit
     def init_db(self) -> None:
