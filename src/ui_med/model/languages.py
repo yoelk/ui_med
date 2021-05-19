@@ -5,6 +5,7 @@ from ui_med.model.enums import Languages
 
 
 # TODO(joel): Encapsulate this file's contents in a class
+# TODO(joel): Automatically fill translations from google-translate or something like that
 
 class Texts(object):
     """
