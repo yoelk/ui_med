@@ -1,8 +1,312 @@
-from enum import Enum
+from enum import Enum, auto
 from typing import List, Optional
 
 
+# TODO(joel): create phobias lists, with reference to duplications and parent phobias
+#  gather their language dicts into a single one in language.py
+
+class PlantPhobias(Enum):
+    AGROSTOPHOBIA = auto()
+    ANTHOPHOBIA = auto()
+    BOTANOPHOBIA = auto()
+    CITAROPHOBIA = auto()
+    DENDROPHOBIA = auto()
+    DISTLEPHOBIA = auto()
+    DOGWOODPHOBIA = auto()
+    DRUSOPHOBIA = auto()
+    GRASARTOPHOBIA = auto()
+    KACTOSOPHOBIA = auto()
+    PEFKOPHOBIA = auto()
+    PHYLLOPHOBIA = auto()
+    MAPLELEAFAPHOBIA = auto()
+    PTERIDOPHOBIA = auto()
+    VIRIDITAPHOBIA = auto()
+
+
+class MicroorganismPhobias(Enum):
+    ANOPHELIPHOBIA = auto()
+    BACILLOPHOBIA = auto()
+    BACTERIOPHOBIA = auto()
+    CHOLEROPHOBIA = auto()
+    EBOLAPHOBIA = auto()
+    MICROBIOPHOBIA = auto()
+    VERMINOPHOBIA = auto()
+    VIROPHOBIA = auto()
+
+
+class BodyPhobias(Enum):
+Aftiphobia – fear of ears
+Agkonaphobia – fear of elbows
+Anatomophobia – is the fear of the human body
+Antikheirphobia – fear of thumbs
+Binastrophobia – fear of big brains
+Bromidrosiphobia – fear of body odors (branch of osmophobia)
+Cardiophobia – fear of the heart
+Carpophobia – fear of wrists
+Cartilogenophobia – fear of bones
+Chaetophobia – fear of hair
+Cheilophobia – fear of lips
+Chirophobia – fear of hands
+Coprophobia – fear of feces
+Corporiphobia – fear of ones body
+Cryohemophobia – fear of frozen blood
+Dakruphobia – fear of tears
+Dakulophobia – fear of fingers
+Dermatophobia – fear of skin
+Digitusphobia – fear of toes
+Enkefalophobia – fear of brains
+Eurotophobia – fear of female genitalia
+Geniphobia – fear of chins
+Genuphobia – fear of knees
+Glossaphobia – fear of tongues
+Gonatophobia – fear of knees
+Halitophobia – fear of bad breath (branch of osmophobia)
+Hidrophobia – fear of sweat
+Kefaliphobia – fear of heads
+Kolpophobia – fear of genitals
+Kypselidaphobia – fear of earwax
+Mammophobia – fear of mammary glands
+Mytiphobia – fear of noses
+Maschaliphobia – fear of underarms
+Mastrophobia – fear of breasts
+Nakusophobia – fear of boogers
+Namizuphobia – fear of snot
+Nefrophobia – fear of kidneys
+Nevophobia – fear of moles on skin
+Paruresis – fear of urinating in the presence of others
+Pnevmonaphobia – fear of lungs
+Odontophobia – fear of teeth
+Ommetaphobia – fear of eyes
+Omphalophobia – fear of belly buttons
+Onuxophobia – fear of fingernails and toenails
+Osmophobia – fear of odors
+Parasitophobia – fear of parasites
+Parthenophobia – fear of virgins
+Phallophobia – fear of willies
+Pharyphobia – fear of pharynx
+Pnevmonaphobia – fear of lungs
+Podophobia – fear of feet
+Pogonophobia – fear of beards
+Proctophobia – fear of rectums
+Prosopophobia – fear of faces
+Pugophobia – fear of buttocks
+Queunliskanphobia – fear of saliva
+Rhytiphobia – fear of wrinkles
+Stomaphobia – fear of mouths
+Sinistrophobia - fear of left handedness
+Stomachphobia – fear of stomachs
+Thelephobia - fear of nipples
+Urophobia – fear of urine
+Venephobia - fear of veins
+
+
 class FearNames(Enum):
+    """
+    Fear names
+    """
+Acarophobia – fear of ticks and mites (Branch of Zoophobia)
+Acinonyxphobia – fear of cheetahs (branch of zoophobia)
+Aerozoophobia – fear of flying animals (branch of zoophobia)
+Aetophobia – fear of eagles (branch of zoophobia and aerozoophobia)
+Agerozoophobia –fear of farm animals (Branch of zoophobia and domestievzoophobia)
+Agrizoophobia – fear of wild animals (Branch of zoophobia)
+Ailurophobia – fear of cats (Branch of zoophobia)
+Aligatoraphobia – fear of alligators (branch of zoophobia)
+Alkiphobia – fear of moose (Branch of zoophobia)
+Ankylosaurophobia – fear of Ankylosaurs (Branch of zoophobia)
+Anopheliphobia – fear of Mosquitos (branch of zoophobia and aerozoophobia)
+Arachnophobia – fear of spiders (Branch of zoophobia)
+Arkoudaphobia – fear of bears (branch of zoophobia)
+Astakophobia – fear of lobsters (branch of zoophobia)
+Asteriaphobia – fear of starfish (Brnach of zoophobia)
+Bakaliarophobia – fear of cod (branch of zoophobia)
+Batrachophobia – fear of amphibians (branch of zoophobia)
+Bettaphobia – fear of bettas (branch of zoophobia)
+Bloodhoundphobia – fear of bloodhounds (branch of zoophobia)
+Bluebirdphobia – fear of bluebirds (branch of zoophobia and aerozoophobia)
+Bovinophobia – fear of cattle (branch of zoophoiba and agerozoohobia)
+Brontosaurusphobia – fear of brontosauruses (branch of zoophobia)
+Bufonophobia – fear of toads (branch of batrachophobia & zoophobia)
+Bulldogphobia – fear of bulldogs (branch of zoophobia and cynophobia)
+Caballiophobia – fear of ponies (branch of zoophobia and agerozoophobia)
+Capraphobia – fear of goats (branch of zoophobia and agerozoophobia)
+Chapodiphobia – fear of octopi (branch of zoophobia)
+Chauliophobia – fear of viperfish (branch of zoophobia)
+Cheliphobia – fear of eels (branch of zoophobia)
+Chelonaphobia – fear of turtles (branch of herpetophobia & zoophobia)
+Chihuahuaphobia – fear of chihuahuas (branch of zoophobia)
+Chimpatsiphobia – fear of chimpanzees (branch of zoophobia)
+Chinchillaphobia – fear of chinchillas (branch of zoophobia)
+Chipmunkphobia – fear of chipmunks (branch of zoophobia)
+Chiroptophobia – fear of bats (branch of zoophobia and aerozoophobia)
+Chrysopsarophobia – fear of goldfish (branch of zoophobia)
+Coccinellidaephobia – fear of ladybugs (branch of zoophobia)
+Cockophobia – fear of chickens (branch of zoophobia and Agerozoophobia)
+Coyotephobia – fear of coyotes (branch of zoophobia)
+Crappiephobia – fear of crappies (branch of zoophobia)
+Cynophobia – fear of dogs (branch of zoophobia)
+Cyprinodon diabolisphobia – fear of devil holespupfish (branch of zoophobia)
+Deinophobia – fear of dinosaurs (branch of zoophobia)
+Delfiniphobia – fear of dolphins (branch of zoophobia)
+Didelphiphobia – fear of opossums (branch of zoophobia)
+Digkophobia – fear of dingoes (branch of cynophobia & zoophobia)
+Dobermanphobia – fear of doberman pinschers (branch of zoophobia and cynophobia)
+Dodophobia – fear of dodoes (branch of zoophobia)
+Domestozoophobia – fear of domestic animals (branch of zoophobia)
+Dragoferophobia – fear of dragonflies (branch of zoophobia)
+Elafiphobia – fear of deer (branch of zoophobia)
+Emuphobia – fear of emus (branch of zoophobia)
+Entomophobia – fear of insects (branch of zoophobia and aerozoophobia)
+Equinophobia – fear of horses (branch of zoophobia)
+Falainaphobia – fear of whales (branch of zoophobia and agerozoophobia)
+Fennecaphobia – fear of foxes (branch of zoophobia)
+Fimsophobia – fear of gorillas (branch of zoophobia)
+Flamingophobia – fear of flamingoes (branch of zoophobia and aerozoophobia)
+Gaidouriphobia – fear of donkeys (branch of zoophobia and agerozoophobia)
+Galeophobia – fear of sharks
+Garidaphobia – fear of shrimp (branch of zoophobia)
+Gatakiphobia – fear of kittens (branch of zoophobia)
+Gibbonphobia – fear of gibbons (branch of zoophobia)
+Goldenretrieverphobia – fear of Golden Retrievers (branch of cynophobia & zoophobia)
+Hadrosaurphobia – fear of hadrosaurs (branch of zoophobia)
+Hamsterphobia – fear of hamsters (branch of zoophobia)
+Herpetophobia – fear of reptiles (branch of zoophobia)
+Hippophobia – fear of horses (branch of zoophobia and agerozoophobia)
+Hippopotamophobia – fear of hippopotamuses (branch of zoophobia)
+Hominidphobia – fear of humans and great apes (hominids) (branch of zoophobia)
+Hominoidphobia – fear of humans and apes (hominoids) (branch of zoophobia)
+Iagouarophobia – fear of jaguars (branch of zoophobia)
+Ichthyosaurphobia – fear of ichthyosaurs (branch of deinophobia & zoophobia)
+Isopterophobia – fear of termites (branch of entomophobia & zoophobia)
+Indikochoiridiophobia – fear of guinea pigs (branch of zoophobia)
+Kagkourophobia – fear of kangaroos (branch of zoophobia)
+Kamilaphobia – fear of camels (branch of zoophobia)
+Kamilopardaliphobia – fear of giraffes (branch of zoophobia)
+Kanariniphobia – fear of canaries (branch of zoophobia and aerozoophobia)
+Kanmengphobia – fear of guard dogs (branch of zoophobia)
+Kastoraphobia – fear of beavers (branch of zoophobia)
+Katsaridaphobia – fear of cockroaches (branch of entomophobia & zoophobia)
+Kavouriphobia – fear of crabs (branch of zoophobia)
+Khenphobia – fear of geese (branch of zoophobia and aerozoophobia)
+Kogiotphobia – fear of coyotes (branch of zoophobia)
+Kolimpriphobia – fear of hummingbirds (branch of zoophobia and aerozoophobia)
+Kotsyfiphobia – fear of blackbirds (branch of zoophobia and aerozoophobia)
+Krokodeilophobia – fear of crocodiles (branch of zoophobia)
+Kyknophobia – fear of swans (branch of zoophobia and aerozoophobia)
+Lemurphobia – fear of lemurs (branch of zoophobia)
+Lepidopterophobia – fear of butterflies (branch of zoophobia and aerozoophobia)
+Lepidoptophobia – fear of flying insects (branch of aerozoophobia & zoophobia)
+Leopardaliphobia – fear of leopards (branch of zoophobia)
+Leophobia, Liontariphobia – fear of lions (branch of zoophobia)
+Llamaphobia – fear of llamas (branch of zoophobia)
+Lupophobia – fear of wolves (branch of agrizoophobia & zoophobia)
+Lutraphobia – fear of otters (branch of zoophobia)
+Mammothphobia – fear of mammoths (branch of zoophobia)
+Mavrogatphobia – fear of black cats (branch of felinophobia & zoophobia)
+Medousaphobia – fear of jellyfish (branch of zoophobia)
+Mefitidaphobia – fear of skunks (branch of zoophobia)
+Mahidolamistakophobia – fear of mahi mahi (branch of zoophobia)
+Melissaphobia – fear of bees (branch of entomophobia & zoophobia and aerozoophobia)
+Mephitophobia – fear of skunks (again, branch of zoophobia)
+Metazoibphobia – fear of humans and animals (metazoibs) (branch of zoophobia)
+Agrostophobia – fear of grass (branch of boranophobia)
+Anthophobia – fear of flowers (branch of botanophobia)
+Botanophobia – fear of plants (branch of pantophobia)
+Citarophobia – fear of citrus (branch of botanophobia)
+Dendrophobia – fear of trees (branch of Botanophobia)
+Distlephobia – fear of thistles (branch of botanopgobia)
+Dogwoodphobia - fear of dogwood trees (branch of dendrophobia)
+Drusophobia - fear of oak trees (branch of dendrophobia)
+Grasartophobia – fear of tumbleweeds (branch of botanophobia)
+Kactosophobia - fear of cacti (branch of botanophobia)
+Pefkophobia - fear of pine trees (branch of dendrophobia)
+Phyllophobia – fear of leaves (branch of botanophobia)
+Mapleleafaphobia - fear of maple leaves (branch of Phyllophobia)
+Pteridophobia – fear of ferns (branch of botanophobia)
+Viriditaphobia - fear of weeds (branch of botanophobia)
+Anopheliphobia – fear of malaria (branch of micobiophobia)
+bacillophobia – fear of bacillus (branch of microbiophobia)
+Bacteriophobia – fear of bacteria (branch of microbiophobia)
+Cholerophobia – fear of Vibreo cholerae (the bacteria that causes cholera) (branch of microbiophobia)
+EbolaPhobia – fear of the Ebola Virus (branch of virophobia)
+Microbiophobia – fear of micro-organisms (branch of pantophobia)
+Verminophobia – fear of germs (branch of microbiophobia)
+Virophobia – fear of viruses (not the ones on computers) (branch of microbiophobia)
+Aftiphobia – fear of ears
+Agkonaphobia – fear of elbows
+Anatomophobia – is the fear of the human body
+Antikheirphobia – fear of thumbs
+Binastrophobia – fear of big brains
+Bromidrosiphobia – fear of body odors (branch of osmophobia)
+Cardiophobia – fear of the heart
+Carpophobia – fear of wrists
+Cartilogenophobia – fear of bones
+Chaetophobia – fear of hair
+Cheilophobia – fear of lips
+Chirophobia – fear of hands
+Coprophobia – fear of feces
+Corporiphobia – fear of ones body
+Cryohemophobia – fear of frozen blood
+Dakruphobia – fear of tears
+Dakulophobia – fear of fingers
+Dermatophobia – fear of skin
+Digitusphobia – fear of toes
+Enkefalophobia – fear of brains
+Eurotophobia – fear of female genitalia
+Geniphobia – fear of chins
+Genuphobia – fear of knees
+Glossaphobia – fear of tongues
+Gonatophobia – fear of knees
+Halitophobia – fear of bad breath (branch of osmophobia)
+Hidrophobia – fear of sweat
+Kefaliphobia – fear of heads
+Kolpophobia – fear of genitals
+Kypselidaphobia – fear of earwax
+Mammophobia – fear of mammary glands
+Mytiphobia – fear of noses
+Maschaliphobia – fear of underarms
+Mastrophobia – fear of breasts
+Nakusophobia – fear of boogers
+Namizuphobia – fear of snot
+Nefrophobia – fear of kidneys
+Nevophobia – fear of moles on skin
+Paruresis – fear of urinating in the presence of others
+Pnevmonaphobia – fear of lungs
+Odontophobia – fear of teeth
+Ommetaphobia – fear of eyes
+Omphalophobia – fear of belly buttons
+Onuxophobia – fear of fingernails and toenails
+Osmophobia – fear of odors
+Parasitophobia – fear of parasites
+Parthenophobia – fear of virgins
+Phallophobia – fear of willies
+Pharyphobia – fear of pharynx
+Pnevmonaphobia – fear of lungs
+Podophobia – fear of feet
+Pogonophobia – fear of beards
+Proctophobia – fear of rectums
+Prosopophobia – fear of faces
+Pugophobia – fear of buttocks
+Queunliskanphobia – fear of saliva
+Rhytiphobia – fear of wrinkles
+Stomaphobia – fear of mouths
+Sinistrophobia - fear of left handedness
+Stomachphobia – fear of stomachs
+Thelephobia - fear of nipples
+Urophobia – fear of urine
+Venephobia - fear of veins
+
+
+
+
+
+
+
+
+
+
+
+class FearNames2(Enum):
     """
     Fear names
     """
@@ -86,9 +390,12 @@ class FearNames(Enum):
     OBESOPHOBIA = "OBESOPHOBIA_NAME"
     OCTOPHOBIA = "OCTOPHOBIA_NAME"
     OMBROPHOBIA = "OMBROPHOBIA_NAME"
+    OMPHALOPHOBIA = "OMPHALOPHOBIA_NAME"
     OPHIDIOPHOBIA = "OPHIDIOPHOBIA_NAME"
     ORNITHOPHOBIA = "ORNITHOPHOBIA_NAME"
     PAPYROPHOBIA = "PAPYROPHOBIA_NAME"
+    PARAPHOBIA = "PARAPHOBIA_NAME"
+    PARTHENOPHOBIA = "PARTHENOPHOBIA_NAME"
     PARURESIS = "PARURESIS_NAME"
     PATHOPHOBIA = "PATHOPHOBIA_NAME"
     PEDOPHOBIA = "PEDOPHOBIA_NAME"
@@ -99,6 +406,7 @@ class FearNames(Enum):
     PORPHYROPHOBIA = "PORPHYROPHOBIA_NAME"
     PTERIDOPHOBIA = "PTERIDOPHOBIA_NAME"
     PTEROMERHANOPHOBIA = "PTEROMERHANOPHOBIA_NAME"
+    PUEROPHOBIA = "PUEROPHOBIA_NAME"
     PYROPHOBIA = "PYROPHOBIA_NAME"
     SAMHAINOPHOBIA = "SAMHAINOPHOBIA_NAME"
     SCOLIONOPHOBIA = "SCOLIONOPHOBIA_NAME"
@@ -203,9 +511,12 @@ class FearDescriptions(Enum):
     OBESOPHOBIA = "OBESOPHOBIA_DESC"
     OCTOPHOBIA = "OCTOPHOBIA_DESC"
     OMBROPHOBIA = "OMBROPHOBIA_DESC"
+    OMPHALOPHOBIA = "OMPHALOPHOBIA_DESC"
     OPHIDIOPHOBIA = "OPHIDIOPHOBIA_DESC"
     ORNITHOPHOBIA = "ORNITHOPHOBIA_DESC"
     PAPYROPHOBIA = "PAPYROPHOBIA_DESC"
+    PARAPHOBIA = "PARAPHOBIA_DESC"
+    PARTHENOPHOBIA = "PARTHENOPHOBIA_DESC"
     PARURESIS = "PARURESIS_DESC"
     PATHOPHOBIA = "PATHOPHOBIA_DESC"
     PEDOPHOBIA = "PEDOPHOBIA_DESC"
@@ -216,6 +527,7 @@ class FearDescriptions(Enum):
     PORPHYROPHOBIA = "PORPHYROPHOBIA_DESC"
     PTERIDOPHOBIA = "PTERIDOPHOBIA_DESC"
     PTEROMERHANOPHOBIA = "PTEROMERHANOPHOBIA_DESC"
+    PUEROPHOBIA = "PUEROPHOBIA_DESC"
     PYROPHOBIA = "PYROPHOBIA_DESC"
     SAMHAINOPHOBIA = "SAMHAINOPHOBIA_DESC"
     SCOLIONOPHOBIA = "SCOLIONOPHOBIA_DESC"
@@ -446,12 +758,21 @@ FEARS: List[Fear] = [
          desc_enum=FearDescriptions.OCTOPHOBIA),
     Fear(name_enum=FearNames.OMBROPHOBIA,
          desc_enum=FearDescriptions.OMBROPHOBIA),
+    Fear(name_enum=FearNames.OMPHALOPHOBIA,
+         desc_enum=FearDescriptions.OMPHALOPHOBIA,
+         type_enum=FearTypes.SEXUAL_ABUSE_AND_TRAUMA),
     Fear(name_enum=FearNames.OPHIDIOPHOBIA,
          desc_enum=FearDescriptions.OPHIDIOPHOBIA),
     Fear(name_enum=FearNames.ORNITHOPHOBIA,
          desc_enum=FearDescriptions.ORNITHOPHOBIA),
     Fear(name_enum=FearNames.PAPYROPHOBIA,
          desc_enum=FearDescriptions.PAPYROPHOBIA),
+    Fear(name_enum=FearNames.PARAPHOBIA,
+         desc_enum=FearDescriptions.PARAPHOBIA,
+         type_enum=FearTypes.SEXUAL_ABUSE_AND_TRAUMA),
+    Fear(name_enum=FearNames.PARTHENOPHOBIA,
+         desc_enum=FearDescriptions.PARTHENOPHOBIA,
+         type_enum=FearTypes.SEXUAL_ABUSE_AND_TRAUMA),
     Fear(name_enum=FearNames.PARURESIS,
          desc_enum=FearDescriptions.PARURESIS,
          type_enum=FearTypes.GENITAL_SECRETION),
@@ -473,6 +794,9 @@ FEARS: List[Fear] = [
          desc_enum=FearDescriptions.PTERIDOPHOBIA),
     Fear(name_enum=FearNames.PTEROMERHANOPHOBIA,
          desc_enum=FearDescriptions.PTEROMERHANOPHOBIA),
+    Fear(name_enum=FearNames.PUEROPHOBIA,
+         desc_enum=FearDescriptions.PUEROPHOBIA,
+         type_enum=FearTypes.SEXUAL_ABUSE_AND_TRAUMA),
     Fear(name_enum=FearNames.PYROPHOBIA,
          desc_enum=FearDescriptions.PYROPHOBIA),
     Fear(name_enum=FearNames.SAMHAINOPHOBIA,
@@ -511,5 +835,5 @@ FEARS: List[Fear] = [
     Fear(name_enum=FearNames.ZOOPHOBIA,
          desc_enum=FearDescriptions.ZOOPHOBIA),
 ]
-"""All of the fears
+"""All of the phobias
 """

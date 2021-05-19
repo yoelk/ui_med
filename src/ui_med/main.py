@@ -83,7 +83,7 @@ class UiMedApp(AppBase):
                 on_close=partial(self.view_edit_person, person)))
 
     def view_add_person_fear(self, person: Person, *args) -> None:
-        # TODO(joel): implement choice view for fears, with a search box
+        # TODO(joel): implement choice view for phobias, with a search box
         pass
 
     def model_put_person(self, person: Person, *args) -> None:

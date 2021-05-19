@@ -7,7 +7,7 @@ from kivy.uix.label import Label
 from kivy.uix.spinner import Spinner
 
 from ui_med.app_base import ViewCfg, get_app
-from ui_med.data.fears import Fear
+from ui_med.data.phobias import Fear
 from ui_med.model.languages import Texts, to_str
 from ui_med.model.enums import Languages, Orientations
 from ui_med.model.people import FullName, Person
