@@ -161,3 +161,9 @@ if __name__ == '__main__':
     if cur_filename is not None:
         write_phobias_python_file(filename=cur_filename, entry_lines=entry_lines)
         cur_filename = None
+
+# TODO(joel):
+#  - Create classes for each phobia
+#  - Make connections between phobias and their parents / synonims
+#  - Take care of duplicate entries from different files
+#  - Concentrate all of the strings' dictionaries in a single place
