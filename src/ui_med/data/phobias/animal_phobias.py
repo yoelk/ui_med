@@ -6,7 +6,7 @@ from ui_med.model.enums import Languages
 
 class AnimalPhobias(Enum):
     """
-    Animal phobias
+    Animal Phobias Names
     """
     ACAROPHOBIA = auto()
     ACINONYXPHOBIA = auto()
@@ -49,7 +49,7 @@ class AnimalPhobias(Enum):
     COYOTEPHOBIA = auto()
     CRAPPIEPHOBIA = auto()
     CYNOPHOBIA = auto()
-    CYPRINODON = auto()
+    CYPRINODON_DIABOLISPHOBIA = auto()
     DEINOPHOBIA = auto()
     DELFINIPHOBIA = auto()
     DIDELPHIPHOBIA = auto()
@@ -116,7 +116,8 @@ class AnimalPhobias(Enum):
     METAZOIBPHOBIA = auto()
 
 
-AnimalPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+ANIMAL_PHOBIAS_NAMES_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     AnimalPhobias.ACAROPHOBIA: {
         Languages.ENGLISH: "Acarophobia",
         Languages.HEBREW: None,
@@ -322,8 +323,8 @@ AnimalPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    AnimalPhobias.CYPRINODON: {
-        Languages.ENGLISH: "Cyprinodon",
+    AnimalPhobias.CYPRINODON_DIABOLISPHOBIA: {
+        Languages.ENGLISH: "Cyprinodon Diabolisphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -652,7 +653,7 @@ AnimalPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
 
 class AnimalPhobiasDescriptions(Enum):
     """
-    Animal phobias descriptions
+    Animal Phobias Descriptions
     """
     ACAROPHOBIA = auto()
     ACINONYXPHOBIA = auto()
@@ -695,7 +696,7 @@ class AnimalPhobiasDescriptions(Enum):
     COYOTEPHOBIA = auto()
     CRAPPIEPHOBIA = auto()
     CYNOPHOBIA = auto()
-    CYPRINODON = auto()
+    CYPRINODON_DIABOLISPHOBIA = auto()
     DEINOPHOBIA = auto()
     DELFINIPHOBIA = auto()
     DIDELPHIPHOBIA = auto()
@@ -748,6 +749,7 @@ class AnimalPhobiasDescriptions(Enum):
     LEPIDOPTOPHOBIA = auto()
     LEOPARDALIPHOBIA = auto()
     LEOPHOBIA = auto()
+    LIONTARIPHOBIA = auto()
     LLAMAPHOBIA = auto()
     LUPOPHOBIA = auto()
     LUTRAPHOBIA = auto()
@@ -761,9 +763,10 @@ class AnimalPhobiasDescriptions(Enum):
     METAZOIBPHOBIA = auto()
 
 
-AnimalPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+ANIMAL_PHOBIAS_DESCRIPTIONS_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     AnimalPhobiasDescriptions.ACAROPHOBIA: {
-        Languages.ENGLISH: "Fear of ticks and mites (Branch of Zoophobia)",
+        Languages.ENGLISH: "Fear of ticks and mites (branch of zoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -783,17 +786,17 @@ AnimalPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = 
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.AGEROZOOPHOBIA: {
-        Languages.ENGLISH: "Fear of farm animals (Branch of zoophobia and domestievzoophobia)",
+        Languages.ENGLISH: "Fear of farm animals (branch of zoophobia and domestievzoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.AGRIZOOPHOBIA: {
-        Languages.ENGLISH: "Fear of wild animals (Branch of zoophobia)",
+        Languages.ENGLISH: "Fear of wild animals (branch of zoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.AILUROPHOBIA: {
-        Languages.ENGLISH: "Fear of cats (Branch of zoophobia)",
+        Languages.ENGLISH: "Fear of cats (branch of zoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -803,22 +806,22 @@ AnimalPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = 
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.ALKIPHOBIA: {
-        Languages.ENGLISH: "Fear of moose (Branch of zoophobia)",
+        Languages.ENGLISH: "Fear of moose (branch of zoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.ANKYLOSAUROPHOBIA: {
-        Languages.ENGLISH: "Fear of Ankylosaurs (Branch of zoophobia)",
+        Languages.ENGLISH: "Fear of ankylosaurs (branch of zoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.ANOPHELIPHOBIA: {
-        Languages.ENGLISH: "Fear of Mosquitos (branch of zoophobia and aerozoophobia)",
+        Languages.ENGLISH: "Fear of mosquitos (branch of zoophobia and aerozoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.ARACHNOPHOBIA: {
-        Languages.ENGLISH: "Fear of spiders (Branch of zoophobia)",
+        Languages.ENGLISH: "Fear of spiders (branch of zoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -833,7 +836,7 @@ AnimalPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = 
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.ASTERIAPHOBIA: {
-        Languages.ENGLISH: "Fear of starfish (Brnach of zoophobia)",
+        Languages.ENGLISH: "Fear of starfish (brnach of zoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -948,7 +951,7 @@ AnimalPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = 
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.COCKOPHOBIA: {
-        Languages.ENGLISH: "Fear of chickens (branch of zoophobia and Agerozoophobia)",
+        Languages.ENGLISH: "Fear of chickens (branch of zoophobia and agerozoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -967,8 +970,8 @@ AnimalPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = 
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    AnimalPhobiasDescriptions.CYPRINODON: {
-        Languages.ENGLISH: "abolisphobia – Fear of devil holespupfish (branch of zoophobia)",
+    AnimalPhobiasDescriptions.CYPRINODON_DIABOLISPHOBIA: {
+        Languages.ENGLISH: "Fear of devil holespupfish (branch of zoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -1078,7 +1081,7 @@ AnimalPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = 
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.GOLDENRETRIEVERPHOBIA: {
-        Languages.ENGLISH: "Fear of Golden Retrievers (branch of cynophobia & zoophobia)",
+        Languages.ENGLISH: "Fear of golden retrievers (branch of cynophobia & zoophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -1233,7 +1236,7 @@ AnimalPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = 
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     AnimalPhobiasDescriptions.LIONTARIPHOBIA: {
-        Languages.ENGLISH: "same as Leophobia",
+        Languages.ENGLISH: "Same as leophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },

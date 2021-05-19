@@ -6,7 +6,7 @@ from ui_med.model.enums import Languages
 
 class BodyPhobias(Enum):
     """
-    Body phobias
+    Body Phobias Names
     """
     AFTIPHOBIA = auto()
     AGKONAPHOBIA = auto()
@@ -72,7 +72,8 @@ class BodyPhobias(Enum):
     VENEPHOBIA = auto()
 
 
-BodyPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+BODY_PHOBIAS_NAMES_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     BodyPhobias.AFTIPHOBIA: {
         Languages.ENGLISH: "Aftiphobia",
         Languages.HEBREW: None,
@@ -388,7 +389,7 @@ BodyPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
 
 class BodyPhobiasDescriptions(Enum):
     """
-    Body phobias descriptions
+    Body Phobias Descriptions
     """
     AFTIPHOBIA = auto()
     AGKONAPHOBIA = auto()
@@ -454,314 +455,315 @@ class BodyPhobiasDescriptions(Enum):
     VENEPHOBIA = auto()
 
 
-BodyPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+BODY_PHOBIAS_DESCRIPTIONS_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     BodyPhobiasDescriptions.AFTIPHOBIA: {
-        Languages.ENGLISH: "fear of ears",
+        Languages.ENGLISH: "Fear of ears",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.AGKONAPHOBIA: {
-        Languages.ENGLISH: "fear of elbows",
+        Languages.ENGLISH: "Fear of elbows",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.ANATOMOPHOBIA: {
-        Languages.ENGLISH: "is the fear of the human body",
+        Languages.ENGLISH: "Fear of the human body",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.ANTIKHEIRPHOBIA: {
-        Languages.ENGLISH: "fear of thumbs",
+        Languages.ENGLISH: "Fear of thumbs",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.BINASTROPHOBIA: {
-        Languages.ENGLISH: "fear of big brains",
+        Languages.ENGLISH: "Fear of big brains",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.BROMIDROSIPHOBIA: {
-        Languages.ENGLISH: "fear of body odors (branch of osmophobia)",
+        Languages.ENGLISH: "Fear of body odors (branch of osmophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.CARDIOPHOBIA: {
-        Languages.ENGLISH: "fear of the heart",
+        Languages.ENGLISH: "Fear of the heart",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.CARPOPHOBIA: {
-        Languages.ENGLISH: "fear of wrists",
+        Languages.ENGLISH: "Fear of wrists",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.CARTILOGENOPHOBIA: {
-        Languages.ENGLISH: "fear of bones",
+        Languages.ENGLISH: "Fear of bones",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.CHAETOPHOBIA: {
-        Languages.ENGLISH: "fear of hair",
+        Languages.ENGLISH: "Fear of hair",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.CHEILOPHOBIA: {
-        Languages.ENGLISH: "fear of lips",
+        Languages.ENGLISH: "Fear of lips",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.CHIROPHOBIA: {
-        Languages.ENGLISH: "fear of hands",
+        Languages.ENGLISH: "Fear of hands",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.COPROPHOBIA: {
-        Languages.ENGLISH: "fear of feces",
+        Languages.ENGLISH: "Fear of feces",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.CORPORIPHOBIA: {
-        Languages.ENGLISH: "fear of ones body",
+        Languages.ENGLISH: "Fear of ones body",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.CRYOHEMOPHOBIA: {
-        Languages.ENGLISH: "fear of frozen blood",
+        Languages.ENGLISH: "Fear of frozen blood",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.DAKRUPHOBIA: {
-        Languages.ENGLISH: "fear of tears",
+        Languages.ENGLISH: "Fear of tears",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.DAKULOPHOBIA: {
-        Languages.ENGLISH: "fear of fingers",
+        Languages.ENGLISH: "Fear of fingers",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.DERMATOPHOBIA: {
-        Languages.ENGLISH: "fear of skin",
+        Languages.ENGLISH: "Fear of skin",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.DIGITUSPHOBIA: {
-        Languages.ENGLISH: "fear of toes",
+        Languages.ENGLISH: "Fear of toes",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.ENKEFALOPHOBIA: {
-        Languages.ENGLISH: "fear of brains",
+        Languages.ENGLISH: "Fear of brains",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.EUROTOPHOBIA: {
-        Languages.ENGLISH: "fear of female genitalia",
+        Languages.ENGLISH: "Fear of female genitalia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.GENIPHOBIA: {
-        Languages.ENGLISH: "fear of chins",
+        Languages.ENGLISH: "Fear of chins",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.GENUPHOBIA: {
-        Languages.ENGLISH: "fear of knees",
+        Languages.ENGLISH: "Fear of knees",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.GLOSSAPHOBIA: {
-        Languages.ENGLISH: "fear of tongues",
+        Languages.ENGLISH: "Fear of tongues",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.GONATOPHOBIA: {
-        Languages.ENGLISH: "fear of knees",
+        Languages.ENGLISH: "Fear of knees",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.HALITOPHOBIA: {
-        Languages.ENGLISH: "fear of bad breath (branch of osmophobia)",
+        Languages.ENGLISH: "Fear of bad breath (branch of osmophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.HIDROPHOBIA: {
-        Languages.ENGLISH: "fear of sweat",
+        Languages.ENGLISH: "Fear of sweat",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.KEFALIPHOBIA: {
-        Languages.ENGLISH: "fear of heads",
+        Languages.ENGLISH: "Fear of heads",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.KOLPOPHOBIA: {
-        Languages.ENGLISH: "fear of genitals",
+        Languages.ENGLISH: "Fear of genitals",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.KYPSELIDAPHOBIA: {
-        Languages.ENGLISH: "fear of earwax",
+        Languages.ENGLISH: "Fear of earwax",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.MAMMOPHOBIA: {
-        Languages.ENGLISH: "fear of mammary glands",
+        Languages.ENGLISH: "Fear of mammary glands",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.MYTIPHOBIA: {
-        Languages.ENGLISH: "fear of noses",
+        Languages.ENGLISH: "Fear of noses",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.MASCHALIPHOBIA: {
-        Languages.ENGLISH: "fear of underarms",
+        Languages.ENGLISH: "Fear of underarms",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.MASTROPHOBIA: {
-        Languages.ENGLISH: "fear of breasts",
+        Languages.ENGLISH: "Fear of breasts",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.NAKUSOPHOBIA: {
-        Languages.ENGLISH: "fear of boogers",
+        Languages.ENGLISH: "Fear of boogers",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.NAMIZUPHOBIA: {
-        Languages.ENGLISH: "fear of snot",
+        Languages.ENGLISH: "Fear of snot",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.NEFROPHOBIA: {
-        Languages.ENGLISH: "fear of kidneys",
+        Languages.ENGLISH: "Fear of kidneys",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.NEVOPHOBIA: {
-        Languages.ENGLISH: "fear of moles on skin",
+        Languages.ENGLISH: "Fear of moles on skin",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PARURESIS: {
-        Languages.ENGLISH: "fear of urinating in the presence of others",
+        Languages.ENGLISH: "Fear of urinating in the presence of others",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PNEVMONAPHOBIA: {
-        Languages.ENGLISH: "fear of lungs",
+        Languages.ENGLISH: "Fear of lungs",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.ODONTOPHOBIA: {
-        Languages.ENGLISH: "fear of teeth",
+        Languages.ENGLISH: "Fear of teeth",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.OMMETAPHOBIA: {
-        Languages.ENGLISH: "fear of eyes",
+        Languages.ENGLISH: "Fear of eyes",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.OMPHALOPHOBIA: {
-        Languages.ENGLISH: "fear of belly buttons",
+        Languages.ENGLISH: "Fear of belly buttons",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.ONUXOPHOBIA: {
-        Languages.ENGLISH: "fear of fingernails and toenails",
+        Languages.ENGLISH: "Fear of fingernails and toenails",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.OSMOPHOBIA: {
-        Languages.ENGLISH: "fear of odors",
+        Languages.ENGLISH: "Fear of odors",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PARASITOPHOBIA: {
-        Languages.ENGLISH: "fear of parasites",
+        Languages.ENGLISH: "Fear of parasites",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PARTHENOPHOBIA: {
-        Languages.ENGLISH: "fear of virgins",
+        Languages.ENGLISH: "Fear of virgins",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PHALLOPHOBIA: {
-        Languages.ENGLISH: "fear of willies",
+        Languages.ENGLISH: "Fear of willies",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PHARYPHOBIA: {
-        Languages.ENGLISH: "fear of pharynx",
+        Languages.ENGLISH: "Fear of pharynx",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PODOPHOBIA: {
-        Languages.ENGLISH: "fear of feet",
+        Languages.ENGLISH: "Fear of feet",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.POGONOPHOBIA: {
-        Languages.ENGLISH: "fear of beards",
+        Languages.ENGLISH: "Fear of beards",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PROCTOPHOBIA: {
-        Languages.ENGLISH: "fear of rectums",
+        Languages.ENGLISH: "Fear of rectums",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PROSOPOPHOBIA: {
-        Languages.ENGLISH: "fear of faces",
+        Languages.ENGLISH: "Fear of faces",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.PUGOPHOBIA: {
-        Languages.ENGLISH: "fear of buttocks",
+        Languages.ENGLISH: "Fear of buttocks",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.QUEUNLISKANPHOBIA: {
-        Languages.ENGLISH: "fear of saliva",
+        Languages.ENGLISH: "Fear of saliva",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.RHYTIPHOBIA: {
-        Languages.ENGLISH: "fear of wrinkles",
+        Languages.ENGLISH: "Fear of wrinkles",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.STOMAPHOBIA: {
-        Languages.ENGLISH: "fear of mouths",
+        Languages.ENGLISH: "Fear of mouths",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.SINISTROPHOBIA: {
-        Languages.ENGLISH: "fear of left handedness",
+        Languages.ENGLISH: "Fear of left handedness",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.STOMACHPHOBIA: {
-        Languages.ENGLISH: "fear of stomachs",
+        Languages.ENGLISH: "Fear of stomachs",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.THELEPHOBIA: {
-        Languages.ENGLISH: "fear of nipples",
+        Languages.ENGLISH: "Fear of nipples",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.UROPHOBIA: {
-        Languages.ENGLISH: "fear of urine",
+        Languages.ENGLISH: "Fear of urine",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     BodyPhobiasDescriptions.VENEPHOBIA: {
-        Languages.ENGLISH: "fear of veins",
+        Languages.ENGLISH: "Fear of veins",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },

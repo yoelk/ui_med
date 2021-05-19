@@ -4,9 +4,9 @@ from typing import Dict, Optional
 from ui_med.model.enums import Languages
 
 
-class PersonnelAndKinsPhobias(Enum):
+class PersonnelAndKinPhobias(Enum):
     """
-    Personnel and Kins phobias
+    Personnel And Kin Phobias Names
     """
     AEROSYNODOPHOBIA = auto()
     AFENTIKOPHOBIA = auto()
@@ -84,6 +84,7 @@ class PersonnelAndKinsPhobias(Enum):
     PATROPHOBIA = auto()
     PATRUUSPHOBIA = auto()
     PENTHERAPHOBIA = auto()
+    NOVERCAPHOBIA = auto()
     PEREGRINOPHOBIA = auto()
     PIBLIPHOBIA = auto()
     PILOTOPHOBIA = auto()
@@ -129,598 +130,604 @@ class PersonnelAndKinsPhobias(Enum):
     ZUMUPHOBIA = auto()
 
 
-PersonnelAndKinsPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
-    PersonnelAndKinsPhobias.AEROSYNODOPHOBIA: {
+PERSONNEL_AND_KIN_PHOBIAS_NAMES_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
+    PersonnelAndKinPhobias.AEROSYNODOPHOBIA: {
         Languages.ENGLISH: "Aerosynodophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.AFENTIKOPHOBIA: {
+    PersonnelAndKinPhobias.AFENTIKOPHOBIA: {
         Languages.ENGLISH: "Afentikophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ALLECTOMAPHOBIA: {
+    PersonnelAndKinPhobias.ALLECTOMAPHOBIA: {
         Languages.ENGLISH: "Allectomaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.AMANSOPHOBIA: {
+    PersonnelAndKinPhobias.AMANSOPHOBIA: {
         Languages.ENGLISH: "Amansophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.AMICOPHOBIA: {
+    PersonnelAndKinPhobias.AMICOPHOBIA: {
         Languages.ENGLISH: "Amicophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.AMITAPHOBIA: {
+    PersonnelAndKinPhobias.AMITAPHOBIA: {
         Languages.ENGLISH: "Amitaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ANDROGYNOPHOBIA: {
+    PersonnelAndKinPhobias.ANDROGYNOPHOBIA: {
         Languages.ENGLISH: "Androgynophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.AGOROCORITSOPHOBIA: {
+    PersonnelAndKinPhobias.AGOROCORITSOPHOBIA: {
         Languages.ENGLISH: "Agorocoritsophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ANEPSIAPHOBIA: {
+    PersonnelAndKinPhobias.ANEPSIAPHOBIA: {
         Languages.ENGLISH: "Anepsiaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ANIPSIOPHOBIA: {
+    PersonnelAndKinPhobias.ANIPSIOPHOBIA: {
         Languages.ENGLISH: "Anipsiophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ASFALEIASKOPOPHOBIA: {
+    PersonnelAndKinPhobias.ASFALEIASKOPOPHOBIA: {
         Languages.ENGLISH: "Asfaleiaskopophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ASTYNOMIAPHOBIA: {
+    PersonnelAndKinPhobias.ASTYNOMIAPHOBIA: {
         Languages.ENGLISH: "Astynomiaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.AUTOPOLITIPHOBIA: {
+    PersonnelAndKinPhobias.AUTOPOLITIPHOBIA: {
         Languages.ENGLISH: "Autopolitiphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.AVUNCROPHOBIA: {
+    PersonnelAndKinPhobias.AVUNCROPHOBIA: {
         Languages.ENGLISH: "Avuncrophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.AVUNCULUSPHOBIA: {
+    PersonnelAndKinPhobias.AVUNCULUSPHOBIA: {
         Languages.ENGLISH: "Avunculusphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.BARTENDERPHOBIA: {
+    PersonnelAndKinPhobias.BARTENDERPHOBIA: {
         Languages.ENGLISH: "Bartenderphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.BUFUPHOBIA: {
+    PersonnelAndKinPhobias.BUFUPHOBIA: {
         Languages.ENGLISH: "Bufuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.BUMUPHOBIA: {
+    PersonnelAndKinPhobias.BUMUPHOBIA: {
         Languages.ENGLISH: "Bumuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.CHEFROGOPHOBIA: {
+    PersonnelAndKinPhobias.CHEFROGOPHOBIA: {
         Languages.ENGLISH: "Chefrogophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.CHOPLARYOPHOBIA: {
+    PersonnelAndKinPhobias.CHOPLARYOPHOBIA: {
         Languages.ENGLISH: "Choplaryophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.COMMUPHOBIA: {
+    PersonnelAndKinPhobias.COMMUPHOBIA: {
         Languages.ENGLISH: "Commuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.COREPHOBIA: {
+    PersonnelAndKinPhobias.COREPHOBIA: {
         Languages.ENGLISH: "Corephobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.KOREPHOBIA: {
+    PersonnelAndKinPhobias.KOREPHOBIA: {
         Languages.ENGLISH: "Korephobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.COTSABAPHOBIA: {
+    PersonnelAndKinPhobias.COTSABAPHOBIA: {
         Languages.ENGLISH: "Cotsabaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.COULROPHOBIA: {
+    PersonnelAndKinPhobias.COULROPHOBIA: {
         Languages.ENGLISH: "Coulrophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.CRACKHEADPHOBIA: {
+    PersonnelAndKinPhobias.CRACKHEADPHOBIA: {
         Languages.ENGLISH: "Crackheadphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.CUTSHOPHOBIA: {
+    PersonnelAndKinPhobias.CUTSHOPHOBIA: {
         Languages.ENGLISH: "Cutshophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.DENTOPHOBIA: {
+    PersonnelAndKinPhobias.DENTOPHOBIA: {
         Languages.ENGLISH: "Dentophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.DENTOHYGIENOPHOBIA: {
+    PersonnelAndKinPhobias.DENTOHYGIENOPHOBIA: {
         Languages.ENGLISH: "Dentohygienophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.DOZUJAPHOBIA: {
+    PersonnelAndKinPhobias.DOZUJAPHOBIA: {
         Languages.ENGLISH: "Dozujaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.DUMASAPHOBIA: {
+    PersonnelAndKinPhobias.DUMASAPHOBIA: {
         Languages.ENGLISH: "Dumasaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.EPISCOPHOBIA: {
+    PersonnelAndKinPhobias.EPISCOPHOBIA: {
         Languages.ENGLISH: "Episcophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.FIBLIPHOBIA: {
+    PersonnelAndKinPhobias.FIBLIPHOBIA: {
         Languages.ENGLISH: "Fibliphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.FRATROPHOBIA: {
+    PersonnelAndKinPhobias.FRATROPHOBIA: {
         Languages.ENGLISH: "Fratrophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.FONIASOPHOBIA: {
+    PersonnelAndKinPhobias.FONIASOPHOBIA: {
         Languages.ENGLISH: "Foniasophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.GEITOPHOBIA: {
+    PersonnelAndKinPhobias.GEITOPHOBIA: {
         Languages.ENGLISH: "Geitophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.GIAGIAPHOBIA: {
+    PersonnelAndKinPhobias.GIAGIAPHOBIA: {
         Languages.ENGLISH: "Giagiaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.GONEAPHOBIA: {
+    PersonnelAndKinPhobias.GONEAPHOBIA: {
         Languages.ENGLISH: "Goneaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.GUFUPHOBIA: {
+    PersonnelAndKinPhobias.GUFUPHOBIA: {
         Languages.ENGLISH: "Gufuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.GUMUPHOBIA: {
+    PersonnelAndKinPhobias.GUMUPHOBIA: {
         Languages.ENGLISH: "Gumuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.HAGIOPHOBIA: {
+    PersonnelAndKinPhobias.HAGIOPHOBIA: {
         Languages.ENGLISH: "Hagiophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.HEROPHOBIA: {
+    PersonnelAndKinPhobias.HEROPHOBIA: {
         Languages.ENGLISH: "Herophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.HIEROPHOBIA: {
+    PersonnelAndKinPhobias.HIEROPHOBIA: {
         Languages.ENGLISH: "Hierophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.HOBOPHOBIA: {
+    PersonnelAndKinPhobias.HOBOPHOBIA: {
         Languages.ENGLISH: "Hobophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.HOMILOPHOBIA: {
+    PersonnelAndKinPhobias.HOMILOPHOBIA: {
         Languages.ENGLISH: "Homilophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.HUNLIJIANGPHOBIA: {
+    PersonnelAndKinPhobias.HUNLIJIANGPHOBIA: {
         Languages.ENGLISH: "Hunlijiangphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.IATROPHOBIA: {
+    PersonnelAndKinPhobias.IATROPHOBIA: {
         Languages.ENGLISH: "Iatrophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.DOCTORPHOBIA: {
+    PersonnelAndKinPhobias.DOCTORPHOBIA: {
         Languages.ENGLISH: "Doctorphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.JESUSOPHOBIA: {
+    PersonnelAndKinPhobias.JESUSOPHOBIA: {
         Languages.ENGLISH: "Jesusophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.JINMUPHOBIA: {
+    PersonnelAndKinPhobias.JINMUPHOBIA: {
         Languages.ENGLISH: "Jinmuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.JIUFUPHOBIA: {
+    PersonnelAndKinPhobias.JIUFUPHOBIA: {
         Languages.ENGLISH: "Jiufuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.KYRIACLAUSOPHOBIA: {
+    PersonnelAndKinPhobias.KYRIACLAUSOPHOBIA: {
         Languages.ENGLISH: "Kyriaclausophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.LITICAPHOBIA: {
+    PersonnelAndKinPhobias.LITICAPHOBIA: {
         Languages.ENGLISH: "Liticaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.LUSUOPHOBIA: {
+    PersonnelAndKinPhobias.LUSUOPHOBIA: {
         Languages.ENGLISH: "Lusuophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.MALEFICIPHOBIA: {
+    PersonnelAndKinPhobias.MALEFICIPHOBIA: {
         Languages.ENGLISH: "Maleficiphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.MATERTERAPHOBIA: {
+    PersonnelAndKinPhobias.MATERTERAPHOBIA: {
         Languages.ENGLISH: "Materteraphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.MATERTROPHOBIA: {
+    PersonnelAndKinPhobias.MATERTROPHOBIA: {
         Languages.ENGLISH: "Matertrophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.MATROPHOBIA: {
+    PersonnelAndKinPhobias.MATROPHOBIA: {
         Languages.ENGLISH: "Matrophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.MIBLIPHOBIA: {
+    PersonnelAndKinPhobias.MIBLIPHOBIA: {
         Languages.ENGLISH: "Mibliphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.MONGOLIPHOBIA: {
+    PersonnelAndKinPhobias.MONGOLIPHOBIA: {
         Languages.ENGLISH: "Mongoliphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.MONARCHIPHOBIA: {
+    PersonnelAndKinPhobias.MONARCHIPHOBIA: {
         Languages.ENGLISH: "Monarchiphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.NEFAROPHOBIA: {
+    PersonnelAndKinPhobias.NEFAROPHOBIA: {
         Languages.ENGLISH: "Nefarophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.NIBLIPHOBIA: {
+    PersonnelAndKinPhobias.NIBLIPHOBIA: {
         Languages.ENGLISH: "Nibliphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.NOSOKOMPHOBIA: {
+    PersonnelAndKinPhobias.NOSOKOMPHOBIA: {
         Languages.ENGLISH: "Nosokomphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ODIGOLEOFOREIOUPHOBIA: {
-        Languages.ENGLISH: "Odigoleoforeiouphobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ODIGOTAXIPHOBIA: {
-        Languages.ENGLISH: "Odigotaxiphobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ORTHODONTOPHOBIA: {
-        Languages.ENGLISH: "Orthodontophobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PAPAPHOBIA: {
-        Languages.ENGLISH: "Papaphobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PAPPOUDEPHOBIA: {
-        Languages.ENGLISH: "Pappoudephobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PAPPOUSOPHOBIA: {
-        Languages.ENGLISH: "Pappousophobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PARAMEDIPHOBIA: {
-        Languages.ENGLISH: "Paramediphobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PASCHAKOUNEPHOBIA: {
-        Languages.ENGLISH: "Paschakounephobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PATROPHOBIA: {
-        Languages.ENGLISH: "Patrophobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PATRUUSPHOBIA: {
-        Languages.ENGLISH: "Patruusphobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PENTHERAPHOBIA: {
-        Languages.ENGLISH: "Pentheraphobia",
-        Languages.HEBREW: None,
-        Languages.ARAB: None,
-        Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.NOVERCAPHOBIA: {
+    PersonnelAndKinPhobias.NOVERCAPHOBIA: {
         Languages.ENGLISH: "Novercaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PEREGRINOPHOBIA: {
+    PersonnelAndKinPhobias.ODIGOLEOFOREIOUPHOBIA: {
+        Languages.ENGLISH: "Odigoleoforeiouphobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.ODIGOTAXIPHOBIA: {
+        Languages.ENGLISH: "Odigotaxiphobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.ORTHODONTOPHOBIA: {
+        Languages.ENGLISH: "Orthodontophobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.PAPAPHOBIA: {
+        Languages.ENGLISH: "Papaphobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.PAPPOUDEPHOBIA: {
+        Languages.ENGLISH: "Pappoudephobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.PAPPOUSOPHOBIA: {
+        Languages.ENGLISH: "Pappousophobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.PARAMEDIPHOBIA: {
+        Languages.ENGLISH: "Paramediphobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.PASCHAKOUNEPHOBIA: {
+        Languages.ENGLISH: "Paschakounephobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.PATROPHOBIA: {
+        Languages.ENGLISH: "Patrophobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.PATRUUSPHOBIA: {
+        Languages.ENGLISH: "Patruusphobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.PENTHERAPHOBIA: {
+        Languages.ENGLISH: "Pentheraphobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.NOVERCAPHOBIA: {
+        Languages.ENGLISH: "Novercaphobia",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobias.PEREGRINOPHOBIA: {
         Languages.ENGLISH: "Peregrinophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PIBLIPHOBIA: {
+    PersonnelAndKinPhobias.PIBLIPHOBIA: {
         Languages.ENGLISH: "Pibliphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PILOTOPHOBIA: {
+    PersonnelAndKinPhobias.PILOTOPHOBIA: {
         Languages.ENGLISH: "Pilotophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.POLITICOPHOBIA: {
+    PersonnelAndKinPhobias.POLITICOPHOBIA: {
         Languages.ENGLISH: "Politicophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.POLITIPHOBIA: {
+    PersonnelAndKinPhobias.POLITIPHOBIA: {
         Languages.ENGLISH: "Politiphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PREFECIPHOBIA: {
+    PersonnelAndKinPhobias.PREFECIPHOBIA: {
         Languages.ENGLISH: "Prefeciphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PRESIPHOBIA: {
+    PersonnelAndKinPhobias.PRESIPHOBIA: {
         Languages.ENGLISH: "Presiphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PRIGKIPAPHOBIA: {
+    PersonnelAndKinPhobias.PRIGKIPAPHOBIA: {
         Languages.ENGLISH: "Prigkipaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.PYROSVESTISPHOBIA: {
+    PersonnelAndKinPhobias.PYROSVESTISPHOBIA: {
         Languages.ENGLISH: "Pyrosvestisphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.REGNATOPHOBIA: {
+    PersonnelAndKinPhobias.REGNATOPHOBIA: {
         Languages.ENGLISH: "Regnatophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.REGNOPHOBIA: {
+    PersonnelAndKinPhobias.REGNOPHOBIA: {
         Languages.ENGLISH: "Regnophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.RIBLIPHOBIA: {
+    PersonnelAndKinPhobias.RIBLIPHOBIA: {
         Languages.ENGLISH: "Ribliphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.RUDOLPHOPHOBIA: {
+    PersonnelAndKinPhobias.RUDOLPHOPHOBIA: {
         Languages.ENGLISH: "Rudolphophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SANTAPHOBIA: {
+    PersonnelAndKinPhobias.SANTAPHOBIA: {
         Languages.ENGLISH: "Santaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SCOPOPHOBIA: {
+    PersonnelAndKinPhobias.SCOPOPHOBIA: {
         Languages.ENGLISH: "Scopophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SERVITORPHOBIA: {
+    PersonnelAndKinPhobias.SERVITORPHOBIA: {
         Languages.ENGLISH: "Servitorphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SCELEROPHOBIA: {
+    PersonnelAndKinPhobias.SCELEROPHOBIA: {
         Languages.ENGLISH: "Scelerophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SCHULKAMOPHOBIA: {
+    PersonnelAndKinPhobias.SCHULKAMOPHOBIA: {
         Languages.ENGLISH: "Schulkamophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SIBLIPHOBIA: {
+    PersonnelAndKinPhobias.SIBLIPHOBIA: {
         Languages.ENGLISH: "Sibliphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SOCERAPHOBIA: {
+    PersonnelAndKinPhobias.SOCERAPHOBIA: {
         Languages.ENGLISH: "Soceraphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SOCIOPHOBIA: {
+    PersonnelAndKinPhobias.SOCIOPHOBIA: {
         Languages.ENGLISH: "Sociophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SOROROPHOBIA: {
+    PersonnelAndKinPhobias.SOROROPHOBIA: {
         Languages.ENGLISH: "Sororophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SPOUDASTOPHOBIA: {
+    PersonnelAndKinPhobias.SPOUDASTOPHOBIA: {
         Languages.ENGLISH: "Spoudastophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SPOUSOPHOBIA: {
+    PersonnelAndKinPhobias.SPOUSOPHOBIA: {
         Languages.ENGLISH: "Spousophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SYMMATHITOPHOBIA: {
+    PersonnelAndKinPhobias.SYMMATHITOPHOBIA: {
         Languages.ENGLISH: "Symmathitophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SYNERGATIPHOBIA: {
+    PersonnelAndKinPhobias.SYNERGATIPHOBIA: {
         Languages.ENGLISH: "Synergatiphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.SYNGENESOPHOBIA: {
+    PersonnelAndKinPhobias.SYNGENESOPHOBIA: {
         Languages.ENGLISH: "Syngenesophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.TAMIAPHOBIA: {
+    PersonnelAndKinPhobias.TAMIAPHOBIA: {
         Languages.ENGLISH: "Tamiaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.THEISTOPHOBIA: {
+    PersonnelAndKinPhobias.THEISTOPHOBIA: {
         Languages.ENGLISH: "Theistophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.TYRANNOPHOBIA: {
+    PersonnelAndKinPhobias.TYRANNOPHOBIA: {
         Languages.ENGLISH: "Tyrannophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.VITRICOPHOBIA: {
+    PersonnelAndKinPhobias.VITRICOPHOBIA: {
         Languages.ENGLISH: "Vitricophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.VASILIAPHOBIA: {
+    PersonnelAndKinPhobias.VASILIAPHOBIA: {
         Languages.ENGLISH: "Vasiliaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.VASILISSAPHOBIA: {
+    PersonnelAndKinPhobias.VASILISSAPHOBIA: {
         Languages.ENGLISH: "Vasilissaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.VASILOPOULAPHOBIA: {
+    PersonnelAndKinPhobias.VASILOPOULAPHOBIA: {
         Languages.ENGLISH: "Vasilopoulaphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.WAIFUPHOBIA: {
+    PersonnelAndKinPhobias.WAIFUPHOBIA: {
         Languages.ENGLISH: "Waifuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.WAIZUPHOBIA: {
+    PersonnelAndKinPhobias.WAIZUPHOBIA: {
         Languages.ENGLISH: "Waizuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.WUNEPHOBIA: {
+    PersonnelAndKinPhobias.WUNEPHOBIA: {
         Languages.ENGLISH: "Wunephobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.XADERFOPHOBIA: {
+    PersonnelAndKinPhobias.XADERFOPHOBIA: {
         Languages.ENGLISH: "Xaderfophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.XENOPHOBIA: {
+    PersonnelAndKinPhobias.XENOPHOBIA: {
         Languages.ENGLISH: "Xenophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.YIFUPHOBIA: {
+    PersonnelAndKinPhobias.YIFUPHOBIA: {
         Languages.ENGLISH: "Yifuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.YIMUPHOBIA: {
+    PersonnelAndKinPhobias.YIMUPHOBIA: {
         Languages.ENGLISH: "Yimuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ZUFUPHOBIA: {
+    PersonnelAndKinPhobias.ZUFUPHOBIA: {
         Languages.ENGLISH: "Zufuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobias.ZUMUPHOBIA: {
+    PersonnelAndKinPhobias.ZUMUPHOBIA: {
         Languages.ENGLISH: "Zumuphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
@@ -728,9 +735,9 @@ PersonnelAndKinsPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
 }
 
 
-class PersonnelAndKinsPhobiasDescriptions(Enum):
+class PersonnelAndKinPhobiasDescriptions(Enum):
     """
-    Personnel and Kins phobias descriptions
+    Personnel And Kin Phobias Descriptions
     """
     AEROSYNODOPHOBIA = auto()
     AFENTIKOPHOBIA = auto()
@@ -796,6 +803,7 @@ class PersonnelAndKinsPhobiasDescriptions(Enum):
     NEFAROPHOBIA = auto()
     NIBLIPHOBIA = auto()
     NOSOKOMPHOBIA = auto()
+    NOVERCAPHOBIA = auto()
     ODIGOLEOFOREIOUPHOBIA = auto()
     ODIGOTAXIPHOBIA = auto()
     ORTHODONTOPHOBIA = auto()
@@ -853,600 +861,605 @@ class PersonnelAndKinsPhobiasDescriptions(Enum):
     ZUMUPHOBIA = auto()
 
 
-PersonnelAndKinsPhobiasDescriptions_STRINGS: Dict[
+PERSONNEL_AND_KIN_PHOBIAS_DESCRIPTIONS_LANGUAGE_STRINGS: Dict[
     Enum, Dict[Languages, Optional[str]]] = {
-    PersonnelAndKinsPhobiasDescriptions.AEROSYNODOPHOBIA: {
-        Languages.ENGLISH: "fear of flight attendants",
+    PersonnelAndKinPhobiasDescriptions.AEROSYNODOPHOBIA: {
+        Languages.ENGLISH: "Fear of flight attendants",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.AFENTIKOPHOBIA: {
-        Languages.ENGLISH: "fear of your supervisor",
+    PersonnelAndKinPhobiasDescriptions.AFENTIKOPHOBIA: {
+        Languages.ENGLISH: "Fear of your supervisor",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ALLECTOMAPHOBIA: {
-        Languages.ENGLISH: "fear of collectors",
+    PersonnelAndKinPhobiasDescriptions.ALLECTOMAPHOBIA: {
+        Languages.ENGLISH: "Fear of collectors",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.AMANSOPHOBIA: {
-        Languages.ENGLISH: "fear of your boyfriend or girlfriend",
+    PersonnelAndKinPhobiasDescriptions.AMANSOPHOBIA: {
+        Languages.ENGLISH: "Fear of your boyfriend or girlfriend",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.AMICOPHOBIA: {
-        Languages.ENGLISH: "fear of your friend",
+    PersonnelAndKinPhobiasDescriptions.AMICOPHOBIA: {
+        Languages.ENGLISH: "Fear of your friend",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.AMITAPHOBIA: {
-        Languages.ENGLISH: "fear of your paternal aunt",
+    PersonnelAndKinPhobiasDescriptions.AMITAPHOBIA: {
+        Languages.ENGLISH: "Fear of your paternal aunt",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ANDROGYNOPHOBIA: {
-        Languages.ENGLISH: "fear of tomboys",
+    PersonnelAndKinPhobiasDescriptions.ANDROGYNOPHOBIA: {
+        Languages.ENGLISH: "Fear of tomboys",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.AGOROCORITSOPHOBIA: {
-        Languages.ENGLISH: "same as Androgynophobia",
+    PersonnelAndKinPhobiasDescriptions.AGOROCORITSOPHOBIA: {
+        Languages.ENGLISH: "Same as androgynophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ANEPSIAPHOBIA: {
-        Languages.ENGLISH: "fear of your niece",
+    PersonnelAndKinPhobiasDescriptions.ANEPSIAPHOBIA: {
+        Languages.ENGLISH: "Fear of your niece",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ANIPSIOPHOBIA: {
-        Languages.ENGLISH: "fear of your nephew",
+    PersonnelAndKinPhobiasDescriptions.ANIPSIOPHOBIA: {
+        Languages.ENGLISH: "Fear of your nephew",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ASFALEIASKOPOPHOBIA: {
-        Languages.ENGLISH: "fear of security guards",
+    PersonnelAndKinPhobiasDescriptions.ASFALEIASKOPOPHOBIA: {
+        Languages.ENGLISH: "Fear of security guards",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ASTYNOMIAPHOBIA: {
-        Languages.ENGLISH: "fear of police",
+    PersonnelAndKinPhobiasDescriptions.ASTYNOMIAPHOBIA: {
+        Languages.ENGLISH: "Fear of police",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.AUTOPOLITIPHOBIA: {
-        Languages.ENGLISH: "fear of car salespeople",
+    PersonnelAndKinPhobiasDescriptions.AUTOPOLITIPHOBIA: {
+        Languages.ENGLISH: "Fear of car salespeople",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.AVUNCROPHOBIA: {
-        Languages.ENGLISH: "fear of your uncle",
+    PersonnelAndKinPhobiasDescriptions.AVUNCROPHOBIA: {
+        Languages.ENGLISH: "Fear of your uncle",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.AVUNCULUSPHOBIA: {
-        Languages.ENGLISH: "fear of your maternal uncle",
+    PersonnelAndKinPhobiasDescriptions.AVUNCULUSPHOBIA: {
+        Languages.ENGLISH: "Fear of your maternal uncle",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.BARTENDERPHOBIA: {
-        Languages.ENGLISH: "fear of bartenders",
+    PersonnelAndKinPhobiasDescriptions.BARTENDERPHOBIA: {
+        Languages.ENGLISH: "Fear of bartenders",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.BUFUPHOBIA: {
-        Languages.ENGLISH: "fear of your uncle that is your father's brother",
+    PersonnelAndKinPhobiasDescriptions.BUFUPHOBIA: {
+        Languages.ENGLISH: "Fear of your uncle that is your father's brother",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.BUMUPHOBIA: {
-        Languages.ENGLISH: "fear of your aunt that is your father's sister-in-law",
+    PersonnelAndKinPhobiasDescriptions.BUMUPHOBIA: {
+        Languages.ENGLISH: "Fear of your aunt that is your father's sister-in-law",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.CHEFROGOPHOBIA: {
-        Languages.ENGLISH: "fear of cafeteria chefs",
+    PersonnelAndKinPhobiasDescriptions.CHEFROGOPHOBIA: {
+        Languages.ENGLISH: "Fear of cafeteria chefs",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.CHOPLARYOPHOBIA: {
-        Languages.ENGLISH: "fear of lumberjacks",
+    PersonnelAndKinPhobiasDescriptions.CHOPLARYOPHOBIA: {
+        Languages.ENGLISH: "Fear of lumberjacks",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.COMMUPHOBIA: {
-        Languages.ENGLISH: "fear of communists",
+    PersonnelAndKinPhobiasDescriptions.COMMUPHOBIA: {
+        Languages.ENGLISH: "Fear of communists",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.COREPHOBIA: {
-        Languages.ENGLISH: "orephobia – fear of having female offspring",
+    PersonnelAndKinPhobiasDescriptions.COREPHOBIA: {
+        Languages.ENGLISH: "Fear of having female offspring",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.KOREPHOBIA: {
-        Languages.ENGLISH: "same as Corephobia",
+    PersonnelAndKinPhobiasDescriptions.KOREPHOBIA: {
+        Languages.ENGLISH: "Same as corephobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.COTSABAPHOBIA: {
-        Languages.ENGLISH: "fear of Mascots",
+    PersonnelAndKinPhobiasDescriptions.COTSABAPHOBIA: {
+        Languages.ENGLISH: "Fear of mascots",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.COULROPHOBIA: {
-        Languages.ENGLISH: "fear of clowns (branch of automophobia)",
+    PersonnelAndKinPhobiasDescriptions.COULROPHOBIA: {
+        Languages.ENGLISH: "Fear of clowns (branch of automophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.CRACKHEADPHOBIA: {
-        Languages.ENGLISH: "fear of crack heads",
+    PersonnelAndKinPhobiasDescriptions.CRACKHEADPHOBIA: {
+        Languages.ENGLISH: "Fear of crack heads",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.CUTSHOPHOBIA: {
-        Languages.ENGLISH: "fear of edgy people",
+    PersonnelAndKinPhobiasDescriptions.CUTSHOPHOBIA: {
+        Languages.ENGLISH: "Fear of edgy people",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.DENTOPHOBIA: {
-        Languages.ENGLISH: "fear of dentists",
+    PersonnelAndKinPhobiasDescriptions.DENTOPHOBIA: {
+        Languages.ENGLISH: "Fear of dentists",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.DENTOHYGIENOPHOBIA: {
-        Languages.ENGLISH: "fear of dental hygienists",
+    PersonnelAndKinPhobiasDescriptions.DENTOHYGIENOPHOBIA: {
+        Languages.ENGLISH: "Fear of dental hygienists",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.DOZUJAPHOBIA: {
-        Languages.ENGLISH: "fear of your boss",
+    PersonnelAndKinPhobiasDescriptions.DOZUJAPHOBIA: {
+        Languages.ENGLISH: "Fear of your boss",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.DUMASAPHOBIA: {
-        Languages.ENGLISH: "fear of stupid people",
+    PersonnelAndKinPhobiasDescriptions.DUMASAPHOBIA: {
+        Languages.ENGLISH: "Fear of stupid people",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.EPISCOPHOBIA: {
-        Languages.ENGLISH: "fear of bishops",
+    PersonnelAndKinPhobiasDescriptions.EPISCOPHOBIA: {
+        Languages.ENGLISH: "Fear of bishops",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.FIBLIPHOBIA: {
-        Languages.ENGLISH: "fear of your paternal aunt or uncle",
+    PersonnelAndKinPhobiasDescriptions.FIBLIPHOBIA: {
+        Languages.ENGLISH: "Fear of your paternal aunt or uncle",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.FRATROPHOBIA: {
-        Languages.ENGLISH: "fear of your brother",
+    PersonnelAndKinPhobiasDescriptions.FRATROPHOBIA: {
+        Languages.ENGLISH: "Fear of your brother",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.FONIASOPHOBIA: {
-        Languages.ENGLISH: "fear of murderers or serial killers",
+    PersonnelAndKinPhobiasDescriptions.FONIASOPHOBIA: {
+        Languages.ENGLISH: "Fear of murderers or serial killers",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.GEITOPHOBIA: {
-        Languages.ENGLISH: "fear of your neighbor",
+    PersonnelAndKinPhobiasDescriptions.GEITOPHOBIA: {
+        Languages.ENGLISH: "Fear of your neighbor",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.GIAGIAPHOBIA: {
-        Languages.ENGLISH: "fear of your grandmother",
+    PersonnelAndKinPhobiasDescriptions.GIAGIAPHOBIA: {
+        Languages.ENGLISH: "Fear of your grandmother",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.GONEAPHOBIA: {
-        Languages.ENGLISH: "fear of your parents",
+    PersonnelAndKinPhobiasDescriptions.GONEAPHOBIA: {
+        Languages.ENGLISH: "Fear of your parents",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.GUFUPHOBIA: {
-        Languages.ENGLISH: "fear of your uncle that is your father's brother-in-law",
+    PersonnelAndKinPhobiasDescriptions.GUFUPHOBIA: {
+        Languages.ENGLISH: "Fear of your uncle that is your father's brother-in-law",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.GUMUPHOBIA: {
-        Languages.ENGLISH: "fear of your aunt that is your father's sister",
+    PersonnelAndKinPhobiasDescriptions.GUMUPHOBIA: {
+        Languages.ENGLISH: "Fear of your aunt that is your father's sister",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.HAGIOPHOBIA: {
-        Languages.ENGLISH: "fear of saints",
+    PersonnelAndKinPhobiasDescriptions.HAGIOPHOBIA: {
+        Languages.ENGLISH: "Fear of saints",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.HEROPHOBIA: {
-        Languages.ENGLISH: "fear of heroes",
+    PersonnelAndKinPhobiasDescriptions.HEROPHOBIA: {
+        Languages.ENGLISH: "Fear of heroes",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.HIEROPHOBIA: {
-        Languages.ENGLISH: "fear of priests",
+    PersonnelAndKinPhobiasDescriptions.HIEROPHOBIA: {
+        Languages.ENGLISH: "Fear of priests",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.HOBOPHOBIA: {
-        Languages.ENGLISH: "fear of bums or beggars",
+    PersonnelAndKinPhobiasDescriptions.HOBOPHOBIA: {
+        Languages.ENGLISH: "Fear of bums or beggars",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.HOMILOPHOBIA: {
-        Languages.ENGLISH: "fear of sermons",
+    PersonnelAndKinPhobiasDescriptions.HOMILOPHOBIA: {
+        Languages.ENGLISH: "Fear of sermons",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.HUNLIJIANGPHOBIA: {
-        Languages.ENGLISH: "fear of wedding speakers",
+    PersonnelAndKinPhobiasDescriptions.HUNLIJIANGPHOBIA: {
+        Languages.ENGLISH: "Fear of wedding speakers",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.IATROPHOBIA: {
-        Languages.ENGLISH: "fear of doctors or physicians",
+    PersonnelAndKinPhobiasDescriptions.IATROPHOBIA: {
+        Languages.ENGLISH: "Fear of doctors or physicians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.DOCTORPHOBIA: {
-        Languages.ENGLISH: "same as IATROPHOBIA",
+    PersonnelAndKinPhobiasDescriptions.DOCTORPHOBIA: {
+        Languages.ENGLISH: "Same as iatrophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.JESUSOPHOBIA: {
-        Languages.ENGLISH: "fear of Jesus",
+    PersonnelAndKinPhobiasDescriptions.JESUSOPHOBIA: {
+        Languages.ENGLISH: "Fear of jesus",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.JINMUPHOBIA: {
-        Languages.ENGLISH: "fear of your aunt that is your mother's sister-in-law",
+    PersonnelAndKinPhobiasDescriptions.JINMUPHOBIA: {
+        Languages.ENGLISH: "Fear of your aunt that is your mother's sister-in-law",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.JIUFUPHOBIA: {
-        Languages.ENGLISH: "fear of your uncle that is your mother's brother",
+    PersonnelAndKinPhobiasDescriptions.JIUFUPHOBIA: {
+        Languages.ENGLISH: "Fear of your uncle that is your mother's brother",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.KYRIACLAUSOPHOBIA: {
-        Languages.ENGLISH: "fear of Mrs. Claus",
+    PersonnelAndKinPhobiasDescriptions.KYRIACLAUSOPHOBIA: {
+        Languages.ENGLISH: "Fear of mrs. claus",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.LITICAPHOBIA: {
-        Languages.ENGLISH: "fear of lawsuits",
+    PersonnelAndKinPhobiasDescriptions.LITICAPHOBIA: {
+        Languages.ENGLISH: "Fear of lawsuits",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.LUSUOPHOBIA: {
-        Languages.ENGLISH: "fear of your teacher",
+    PersonnelAndKinPhobiasDescriptions.LUSUOPHOBIA: {
+        Languages.ENGLISH: "Fear of your teacher",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.MALEFICIPHOBIA: {
-        Languages.ENGLISH: "fear of malefactors",
+    PersonnelAndKinPhobiasDescriptions.MALEFICIPHOBIA: {
+        Languages.ENGLISH: "Fear of malefactors",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.MATERTERAPHOBIA: {
-        Languages.ENGLISH: "fear of your maternal aunt",
+    PersonnelAndKinPhobiasDescriptions.MATERTERAPHOBIA: {
+        Languages.ENGLISH: "Fear of your maternal aunt",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.MATERTROPHOBIA: {
-        Languages.ENGLISH: "fear of your aunt",
+    PersonnelAndKinPhobiasDescriptions.MATERTROPHOBIA: {
+        Languages.ENGLISH: "Fear of your aunt",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.MATROPHOBIA: {
-        Languages.ENGLISH: "fear of your mother",
+    PersonnelAndKinPhobiasDescriptions.MATROPHOBIA: {
+        Languages.ENGLISH: "Fear of your mother",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.MIBLIPHOBIA: {
-        Languages.ENGLISH: "fear of your maternal aunt or uncle",
+    PersonnelAndKinPhobiasDescriptions.MIBLIPHOBIA: {
+        Languages.ENGLISH: "Fear of your maternal aunt or uncle",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.MONGOLIPHOBIA: {
-        Languages.ENGLISH: "fear of people with Down Syndrome",
+    PersonnelAndKinPhobiasDescriptions.MONGOLIPHOBIA: {
+        Languages.ENGLISH: "Fear of people with down syndrome",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.MONARCHIPHOBIA: {
-        Languages.ENGLISH: "fear of monarchs",
+    PersonnelAndKinPhobiasDescriptions.MONARCHIPHOBIA: {
+        Languages.ENGLISH: "Fear of monarchs",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.NEFAROPHOBIA: {
-        Languages.ENGLISH: "fear of villains",
+    PersonnelAndKinPhobiasDescriptions.NEFAROPHOBIA: {
+        Languages.ENGLISH: "Fear of villains",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.NIBLIPHOBIA: {
-        Languages.ENGLISH: "fear of your niece or nephew",
+    PersonnelAndKinPhobiasDescriptions.NIBLIPHOBIA: {
+        Languages.ENGLISH: "Fear of your niece or nephew",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.NOSOKOMPHOBIA: {
-        Languages.ENGLISH: "fear of nurses",
+    PersonnelAndKinPhobiasDescriptions.NOSOKOMPHOBIA: {
+        Languages.ENGLISH: "Fear of nurses",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ODIGOLEOFOREIOUPHOBIA: {
-        Languages.ENGLISH: "fear of bus drivers",
+    PersonnelAndKinPhobiasDescriptions.NOVERCAPHOBIA: {
+        Languages.ENGLISH: "Fear of your stepmother",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ODIGOTAXIPHOBIA: {
-        Languages.ENGLISH: "fear of taxicab drivers",
+    PersonnelAndKinPhobiasDescriptions.ODIGOLEOFOREIOUPHOBIA: {
+        Languages.ENGLISH: "Fear of bus drivers",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ORTHODONTOPHOBIA: {
-        Languages.ENGLISH: "fear of orthodontists",
+    PersonnelAndKinPhobiasDescriptions.ODIGOTAXIPHOBIA: {
+        Languages.ENGLISH: "Fear of taxicab drivers",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PAPAPHOBIA: {
-        Languages.ENGLISH: "fear of the Pope",
+    PersonnelAndKinPhobiasDescriptions.ORTHODONTOPHOBIA: {
+        Languages.ENGLISH: "Fear of orthodontists",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PAPPOUDEPHOBIA: {
-        Languages.ENGLISH: "fear of your grandparents",
+    PersonnelAndKinPhobiasDescriptions.PAPAPHOBIA: {
+        Languages.ENGLISH: "Fear of the pope",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PAPPOUSOPHOBIA: {
-        Languages.ENGLISH: "fear of your grandfather",
+    PersonnelAndKinPhobiasDescriptions.PAPPOUDEPHOBIA: {
+        Languages.ENGLISH: "Fear of your grandparents",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PARAMEDIPHOBIA: {
-        Languages.ENGLISH: "fear of paramedics",
+    PersonnelAndKinPhobiasDescriptions.PAPPOUSOPHOBIA: {
+        Languages.ENGLISH: "Fear of your grandfather",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PASCHAKOUNEPHOBIA: {
-        Languages.ENGLISH: "fear of the Easter Bunny (branch leporiphobia & paschaphobia)",
+    PersonnelAndKinPhobiasDescriptions.PARAMEDIPHOBIA: {
+        Languages.ENGLISH: "Fear of paramedics",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PATROPHOBIA: {
-        Languages.ENGLISH: "fear of your father",
+    PersonnelAndKinPhobiasDescriptions.PASCHAKOUNEPHOBIA: {
+        Languages.ENGLISH: "Fear of the easter bunny (branch leporiphobia & paschaphobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PATRUUSPHOBIA: {
-        Languages.ENGLISH: "fear of your paternal uncle",
+    PersonnelAndKinPhobiasDescriptions.PATROPHOBIA: {
+        Languages.ENGLISH: "Fear of your father",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PENTHERAPHOBIA: {
-        Languages.ENGLISH: "fear of mother-in-law",
+    PersonnelAndKinPhobiasDescriptions.PATRUUSPHOBIA: {
+        Languages.ENGLISH: "Fear of your paternal uncle",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.NOVERCAPHOBIA: {
-        Languages.ENGLISH: "same as Pentheraphobia",
+    PersonnelAndKinPhobiasDescriptions.PENTHERAPHOBIA: {
+        Languages.ENGLISH: "Fear of mother-in-law",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PEREGRINOPHOBIA: {
-        Languages.ENGLISH: "fear of strangers",
+    PersonnelAndKinPhobiasDescriptions.NOVERCAPHOBIA: {
+        Languages.ENGLISH: "Same as pentheraphobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PIBLIPHOBIA: {
-        Languages.ENGLISH: "fear of your aunt or uncle",
+    PersonnelAndKinPhobiasDescriptions.PEREGRINOPHOBIA: {
+        Languages.ENGLISH: "Fear of strangers",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PILOTOPHOBIA: {
-        Languages.ENGLISH: "fear of aircraft pilots",
+    PersonnelAndKinPhobiasDescriptions.PIBLIPHOBIA: {
+        Languages.ENGLISH: "Fear of your aunt or uncle",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.POLITICOPHOBIA: {
-        Languages.ENGLISH: "fear of politicians",
+    PersonnelAndKinPhobiasDescriptions.PILOTOPHOBIA: {
+        Languages.ENGLISH: "Fear of aircraft pilots",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.POLITIPHOBIA: {
-        Languages.ENGLISH: "fear of salespeople",
+    PersonnelAndKinPhobiasDescriptions.POLITICOPHOBIA: {
+        Languages.ENGLISH: "Fear of politicians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PREFECIPHOBIA: {
-        Languages.ENGLISH: "fear of the governor",
+    PersonnelAndKinPhobiasDescriptions.POLITIPHOBIA: {
+        Languages.ENGLISH: "Fear of salespeople",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PRESIPHOBIA: {
-        Languages.ENGLISH: "fear of the president",
+    PersonnelAndKinPhobiasDescriptions.PREFECIPHOBIA: {
+        Languages.ENGLISH: "Fear of the governor",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PRIGKIPAPHOBIA: {
-        Languages.ENGLISH: "fear of princes",
+    PersonnelAndKinPhobiasDescriptions.PRESIPHOBIA: {
+        Languages.ENGLISH: "Fear of the president",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.PYROSVESTISPHOBIA: {
-        Languages.ENGLISH: "fear of firefighters",
+    PersonnelAndKinPhobiasDescriptions.PRIGKIPAPHOBIA: {
+        Languages.ENGLISH: "Fear of princes",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.REGNATOPHOBIA: {
-        Languages.ENGLISH: "fear of the ruler",
+    PersonnelAndKinPhobiasDescriptions.PYROSVESTISPHOBIA: {
+        Languages.ENGLISH: "Fear of firefighters",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.REGNOPHOBIA: {
-        Languages.ENGLISH: "fear of the monarch",
+    PersonnelAndKinPhobiasDescriptions.REGNATOPHOBIA: {
+        Languages.ENGLISH: "Fear of the ruler",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.RIBLIPHOBIA: {
-        Languages.ENGLISH: "fear of your niece, nephew, aunt or uncle",
+    PersonnelAndKinPhobiasDescriptions.REGNOPHOBIA: {
+        Languages.ENGLISH: "Fear of the monarch",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.RUDOLPHOPHOBIA: {
-        Languages.ENGLISH: "fear of Rudolph the Red-Nosed Reindeer (branch of christougenniatikophobia)",
+    PersonnelAndKinPhobiasDescriptions.RIBLIPHOBIA: {
+        Languages.ENGLISH: "Fear of your niece, nephew, aunt or uncle",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SANTAPHOBIA: {
-        Languages.ENGLISH: "fear of Santa Claus (branch of christougenniatikophobia)",
+    PersonnelAndKinPhobiasDescriptions.RUDOLPHOPHOBIA: {
+        Languages.ENGLISH: "Fear of rudolph the red-nosed reindeer (branch of christougenniatikophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SCOPOPHOBIA: {
-        Languages.ENGLISH: "fear of people staring at you",
+    PersonnelAndKinPhobiasDescriptions.SANTAPHOBIA: {
+        Languages.ENGLISH: "Fear of santa claus (branch of christougenniatikophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SERVITORPHOBIA: {
-        Languages.ENGLISH: "fear of waiters and waitresses",
+    PersonnelAndKinPhobiasDescriptions.SCOPOPHOBIA: {
+        Languages.ENGLISH: "Fear of people staring at you",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SCELEROPHOBIA: {
-        Languages.ENGLISH: "fear of criminals",
+    PersonnelAndKinPhobiasDescriptions.SERVITORPHOBIA: {
+        Languages.ENGLISH: "Fear of waiters and waitresses",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SCHULKAMOPHOBIA: {
-        Languages.ENGLISH: "fear of your schoolmate",
+    PersonnelAndKinPhobiasDescriptions.SCELEROPHOBIA: {
+        Languages.ENGLISH: "Fear of criminals",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SIBLIPHOBIA: {
-        Languages.ENGLISH: "fear of your sibling",
+    PersonnelAndKinPhobiasDescriptions.SCHULKAMOPHOBIA: {
+        Languages.ENGLISH: "Fear of your schoolmate",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SOCERAPHOBIA: {
-        Languages.ENGLISH: "fear of parents-in-law",
+    PersonnelAndKinPhobiasDescriptions.SIBLIPHOBIA: {
+        Languages.ENGLISH: "Fear of your sibling",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SOCIOPHOBIA: {
-        Languages.ENGLISH: "fear of society or people in general",
+    PersonnelAndKinPhobiasDescriptions.SOCERAPHOBIA: {
+        Languages.ENGLISH: "Fear of parents-in-law",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SOROROPHOBIA: {
-        Languages.ENGLISH: "fear of your sister",
+    PersonnelAndKinPhobiasDescriptions.SOCIOPHOBIA: {
+        Languages.ENGLISH: "Fear of society or people in general",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SPOUDASTOPHOBIA: {
-        Languages.ENGLISH: "fear of your student",
+    PersonnelAndKinPhobiasDescriptions.SOROROPHOBIA: {
+        Languages.ENGLISH: "Fear of your sister",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SPOUSOPHOBIA: {
-        Languages.ENGLISH: "fear of your spouse",
+    PersonnelAndKinPhobiasDescriptions.SPOUDASTOPHOBIA: {
+        Languages.ENGLISH: "Fear of your student",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SYMMATHITOPHOBIA: {
-        Languages.ENGLISH: "fear of your classmate",
+    PersonnelAndKinPhobiasDescriptions.SPOUSOPHOBIA: {
+        Languages.ENGLISH: "Fear of your spouse",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SYNERGATIPHOBIA: {
-        Languages.ENGLISH: "fear of your coworker",
+    PersonnelAndKinPhobiasDescriptions.SYMMATHITOPHOBIA: {
+        Languages.ENGLISH: "Fear of your classmate",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.SYNGENESOPHOBIA: {
-        Languages.ENGLISH: "fear of relatives",
+    PersonnelAndKinPhobiasDescriptions.SYNERGATIPHOBIA: {
+        Languages.ENGLISH: "Fear of your coworker",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.TAMIAPHOBIA: {
-        Languages.ENGLISH: "fear of cashiers",
+    PersonnelAndKinPhobiasDescriptions.SYNGENESOPHOBIA: {
+        Languages.ENGLISH: "Fear of relatives",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.THEISTOPHOBIA: {
-        Languages.ENGLISH: "fear of theists",
+    PersonnelAndKinPhobiasDescriptions.TAMIAPHOBIA: {
+        Languages.ENGLISH: "Fear of cashiers",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.TYRANNOPHOBIA: {
-        Languages.ENGLISH: "fear of tyrants",
+    PersonnelAndKinPhobiasDescriptions.THEISTOPHOBIA: {
+        Languages.ENGLISH: "Fear of theists",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.VITRICOPHOBIA: {
-        Languages.ENGLISH: "fear of stepfather",
+    PersonnelAndKinPhobiasDescriptions.TYRANNOPHOBIA: {
+        Languages.ENGLISH: "Fear of tyrants",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.VASILIAPHOBIA: {
-        Languages.ENGLISH: "fear of kings",
+    PersonnelAndKinPhobiasDescriptions.VITRICOPHOBIA: {
+        Languages.ENGLISH: "Fear of stepfather",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.VASILISSAPHOBIA: {
-        Languages.ENGLISH: "fear of queens",
+    PersonnelAndKinPhobiasDescriptions.VASILIAPHOBIA: {
+        Languages.ENGLISH: "Fear of kings",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.VASILOPOULAPHOBIA: {
-        Languages.ENGLISH: "fear of princesses",
+    PersonnelAndKinPhobiasDescriptions.VASILISSAPHOBIA: {
+        Languages.ENGLISH: "Fear of queens",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.WAIFUPHOBIA: {
-        Languages.ENGLISH: "fear of your maternal grandfather",
+    PersonnelAndKinPhobiasDescriptions.VASILOPOULAPHOBIA: {
+        Languages.ENGLISH: "Fear of princesses",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.WAIZUPHOBIA: {
-        Languages.ENGLISH: "fear of your maternal grandmother",
+    PersonnelAndKinPhobiasDescriptions.WAIFUPHOBIA: {
+        Languages.ENGLISH: "Fear of your maternal grandfather",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.WUNEPHOBIA: {
-        Languages.ENGLISH: "fear of crazy people",
+    PersonnelAndKinPhobiasDescriptions.WAIZUPHOBIA: {
+        Languages.ENGLISH: "Fear of your maternal grandmother",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.XADERFOPHOBIA: {
-        Languages.ENGLISH: "fear of your cousin",
+    PersonnelAndKinPhobiasDescriptions.WUNEPHOBIA: {
+        Languages.ENGLISH: "Fear of crazy people",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.XENOPHOBIA: {
-        Languages.ENGLISH: "fear of foreigners",
+    PersonnelAndKinPhobiasDescriptions.XADERFOPHOBIA: {
+        Languages.ENGLISH: "Fear of your cousin",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.YIFUPHOBIA: {
-        Languages.ENGLISH: "fear of your uncle that is your mother's brother-in-law",
+    PersonnelAndKinPhobiasDescriptions.XENOPHOBIA: {
+        Languages.ENGLISH: "Fear of foreigners",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.YIMUPHOBIA: {
-        Languages.ENGLISH: "fear of your aunt that is your mother's sister",
+    PersonnelAndKinPhobiasDescriptions.YIFUPHOBIA: {
+        Languages.ENGLISH: "Fear of your uncle that is your mother's brother-in-law",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ZUFUPHOBIA: {
-        Languages.ENGLISH: "fear of your paternal grandfather",
+    PersonnelAndKinPhobiasDescriptions.YIMUPHOBIA: {
+        Languages.ENGLISH: "Fear of your aunt that is your mother's sister",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PersonnelAndKinsPhobiasDescriptions.ZUMUPHOBIA: {
-        Languages.ENGLISH: "fear of your paternal grandmother",
+    PersonnelAndKinPhobiasDescriptions.ZUFUPHOBIA: {
+        Languages.ENGLISH: "Fear of your paternal grandfather",
+        Languages.HEBREW: None,
+        Languages.ARAB: None,
+        Languages.ITALIAN: None, },
+    PersonnelAndKinPhobiasDescriptions.ZUMUPHOBIA: {
+        Languages.ENGLISH: "Fear of your paternal grandmother",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },

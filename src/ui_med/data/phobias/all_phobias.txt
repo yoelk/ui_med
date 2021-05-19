@@ -1,0 +1,2718 @@
+animal_phobias.py
+Acarophobia - Fear of ticks and mites (Branch of Zoophobia)
+Acinonyxphobia - Fear of cheetahs (branch of zoophobia)
+Aerozoophobia - Fear of flying animals (branch of zoophobia)
+Aetophobia - Fear of eagles (branch of zoophobia and aerozoophobia)
+Agerozoophobia - Fear of farm animals (Branch of zoophobia and domestievzoophobia)
+Agrizoophobia - Fear of wild animals (Branch of zoophobia)
+Ailurophobia - Fear of cats (Branch of zoophobia)
+Aligatoraphobia - Fear of alligators (branch of zoophobia)
+Alkiphobia - Fear of moose (Branch of zoophobia)
+Ankylosaurophobia - Fear of Ankylosaurs (Branch of zoophobia)
+Anopheliphobia - Fear of Mosquitos (branch of zoophobia and aerozoophobia)
+Arachnophobia - Fear of spiders (Branch of zoophobia)
+Arkoudaphobia - Fear of bears (branch of zoophobia)
+Astakophobia - Fear of lobsters (branch of zoophobia)
+Asteriaphobia - Fear of starfish (Brnach of zoophobia)
+Bakaliarophobia - Fear of cod (branch of zoophobia)
+Batrachophobia - Fear of amphibians (branch of zoophobia)
+Bettaphobia - Fear of bettas (branch of zoophobia)
+Bloodhoundphobia - Fear of bloodhounds (branch of zoophobia)
+Bluebirdphobia - Fear of bluebirds (branch of zoophobia and aerozoophobia)
+Bovinophobia - Fear of cattle (branch of zoophoiba and agerozoohobia)
+Brontosaurusphobia - Fear of brontosauruses (branch of zoophobia)
+Bufonophobia - Fear of toads (branch of batrachophobia & zoophobia)
+Bulldogphobia - Fear of bulldogs (branch of zoophobia and cynophobia)
+Caballiophobia - Fear of ponies (branch of zoophobia and agerozoophobia)
+Capraphobia - Fear of goats (branch of zoophobia and agerozoophobia)
+Chapodiphobia - Fear of octopi (branch of zoophobia)
+Chauliophobia - Fear of viperfish (branch of zoophobia)
+Cheliphobia - Fear of eels (branch of zoophobia)
+Chelonaphobia - Fear of turtles (branch of herpetophobia & zoophobia)
+Chihuahuaphobia - Fear of chihuahuas (branch of zoophobia)
+Chimpatsiphobia - Fear of chimpanzees (branch of zoophobia)
+Chinchillaphobia - Fear of chinchillas (branch of zoophobia)
+Chipmunkphobia - Fear of chipmunks (branch of zoophobia)
+Chiroptophobia - Fear of bats (branch of zoophobia and aerozoophobia)
+Chrysopsarophobia - Fear of goldfish (branch of zoophobia)
+Coccinellidaephobia - Fear of ladybugs (branch of zoophobia)
+Cockophobia - Fear of chickens (branch of zoophobia and Agerozoophobia)
+Coyotephobia - Fear of coyotes (branch of zoophobia)
+Crappiephobia - Fear of crappies (branch of zoophobia)
+Cynophobia - Fear of dogs (branch of zoophobia)
+Cyprinodon diabolisphobia - Fear of devil holespupfish (branch of zoophobia)
+Deinophobia - Fear of dinosaurs (branch of zoophobia)
+Delfiniphobia - Fear of dolphins (branch of zoophobia)
+Didelphiphobia - Fear of opossums (branch of zoophobia)
+Digkophobia - Fear of dingoes (branch of cynophobia & zoophobia)
+Dobermanphobia - Fear of doberman pinschers (branch of zoophobia and cynophobia)
+Dodophobia - Fear of dodoes (branch of zoophobia)
+Domestozoophobia - Fear of domestic animals (branch of zoophobia)
+Dragoferophobia - Fear of dragonflies (branch of zoophobia)
+Elafiphobia - Fear of deer (branch of zoophobia)
+Emuphobia - Fear of emus (branch of zoophobia)
+Entomophobia - Fear of insects (branch of zoophobia and aerozoophobia)
+Equinophobia - Fear of horses (branch of zoophobia)
+Falainaphobia - Fear of whales (branch of zoophobia and agerozoophobia)
+Fennecaphobia - Fear of foxes (branch of zoophobia)
+Fimsophobia - Fear of gorillas (branch of zoophobia)
+Flamingophobia - Fear of flamingoes (branch of zoophobia and aerozoophobia)
+Gaidouriphobia - Fear of donkeys (branch of zoophobia and agerozoophobia)
+Galeophobia - Fear of sharks
+Garidaphobia - Fear of shrimp (branch of zoophobia)
+Gatakiphobia - Fear of kittens (branch of zoophobia)
+Gibbonphobia - Fear of gibbons (branch of zoophobia)
+Goldenretrieverphobia - Fear of Golden Retrievers (branch of cynophobia & zoophobia)
+Hadrosaurphobia - Fear of hadrosaurs (branch of zoophobia)
+Hamsterphobia - Fear of hamsters (branch of zoophobia)
+Herpetophobia - Fear of reptiles (branch of zoophobia)
+Hippophobia - Fear of horses (branch of zoophobia and agerozoophobia)
+Hippopotamophobia - Fear of hippopotamuses (branch of zoophobia)
+Hominidphobia - Fear of humans and great apes (hominids) (branch of zoophobia)
+Hominoidphobia - Fear of humans and apes (hominoids) (branch of zoophobia)
+Iagouarophobia - Fear of jaguars (branch of zoophobia)
+Ichthyosaurphobia - Fear of ichthyosaurs (branch of deinophobia & zoophobia)
+Isopterophobia - Fear of termites (branch of entomophobia & zoophobia)
+Indikochoiridiophobia - Fear of guinea pigs (branch of zoophobia)
+Kagkourophobia - Fear of kangaroos (branch of zoophobia)
+Kamilaphobia - Fear of camels (branch of zoophobia)
+Kamilopardaliphobia - Fear of giraffes (branch of zoophobia)
+Kanariniphobia - Fear of canaries (branch of zoophobia and aerozoophobia)
+Kanmengphobia - Fear of guard dogs (branch of zoophobia)
+Kastoraphobia - Fear of beavers (branch of zoophobia)
+Katsaridaphobia - Fear of cockroaches (branch of entomophobia & zoophobia)
+Kavouriphobia - Fear of crabs (branch of zoophobia)
+Khenphobia - Fear of geese (branch of zoophobia and aerozoophobia)
+Kogiotphobia - Fear of coyotes (branch of zoophobia)
+Kolimpriphobia - Fear of hummingbirds (branch of zoophobia and aerozoophobia)
+Kotsyfiphobia - Fear of blackbirds (branch of zoophobia and aerozoophobia)
+Krokodeilophobia - Fear of crocodiles (branch of zoophobia)
+Kyknophobia - Fear of swans (branch of zoophobia and aerozoophobia)
+Lemurphobia - Fear of lemurs (branch of zoophobia)
+Lepidopterophobia - Fear of butterflies (branch of zoophobia and aerozoophobia)
+Lepidoptophobia - Fear of flying insects (branch of aerozoophobia & zoophobia)
+Leopardaliphobia - Fear of leopards (branch of zoophobia)
+Leophobia - Fear of lions (branch of zoophobia)
+Liontariphobia - same as Leophobia
+Llamaphobia - Fear of llamas (branch of zoophobia)
+Lupophobia - Fear of wolves (branch of agrizoophobia & zoophobia)
+Lutraphobia - Fear of otters (branch of zoophobia)
+Mammothphobia - Fear of mammoths (branch of zoophobia)
+Mavrogatphobia - Fear of black cats (branch of felinophobia & zoophobia)
+Medousaphobia - Fear of jellyfish (branch of zoophobia)
+Mefitidaphobia - Fear of skunks (branch of zoophobia)
+Mahidolamistakophobia - Fear of mahi mahi (branch of zoophobia)
+Melissaphobia - Fear of bees (branch of entomophobia & zoophobia and aerozoophobia)
+Mephitophobia - Fear of skunks (again, branch of zoophobia)
+Metazoibphobia - Fear of humans and animals (metazoibs) (branch of zoophobia)
+
+plant_phobias.py
+Agrostophobia - Fear of grass (branch of boranophobia)
+Anthophobia - Fear of flowers (branch of botanophobia)
+Botanophobia - Fear of plants (branch of pantophobia)
+Citarophobia - Fear of citrus (branch of botanophobia)
+'Dendrophobia - Fear of trees (branch of Botanophobia)
+Distlephobia - Fear of thistles (branch of botanopgobia)
+Dogwoodphobia - Fear of dogwood trees (branch of dendrophobia)
+Drusophobia - Fear of oak trees (branch of dendrophobia)
+Grasartophobia - Fear of tumbleweeds (branch of botanophobia)
+Kactosophobia - Fear of cacti (branch of botanophobia)
+Pefkophobia - Fear of pine trees (branch of dendrophobia)
+Phyllophobia - Fear of leaves (branch of botanophobia)
+Mapleleafaphobia - Fear of maple leaves (branch of Phyllophobia)
+Pteridophobia - Fear of ferns (branch of botanophobia)
+Viriditaphobia - Fear of weeds (branch of botanophobia)
+
+microorganism_phobias.py
+Anopheliphobia - Fear of malaria (branch of micobiophobia)
+bacillophobia - Fear of bacillus (branch of microbiophobia)
+Bacteriophobia - Fear of bacteria (branch of microbiophobia)
+Cholerophobia - Fear of Vibreo cholerae (the bacteria that causes cholera) (branch of microbiophobia)
+Ebolaphobia - Fear of the Ebola Virus (branch of virophobia)
+Microbiophobia - Fear of micro-organisms (branch of pantophobia)
+Verminophobia - Fear of germs (branch of microbiophobia)
+Virophobia - Fear of viruses (not the ones on computers) (branch of microbiophobia)
+
+body_phobias.py
+Aftiphobia - Fear of ears
+Agkonaphobia - Fear of elbows
+Anatomophobia - Fear of the human body
+Antikheirphobia - Fear of thumbs
+Binastrophobia - Fear of big brains
+Bromidrosiphobia - Fear of body odors (branch of osmophobia)
+Cardiophobia - Fear of the heart
+Carpophobia - Fear of wrists
+Cartilogenophobia - Fear of bones
+Chaetophobia - Fear of hair
+Cheilophobia - Fear of lips
+Chirophobia - Fear of hands
+Coprophobia - Fear of feces
+Corporiphobia - Fear of ones body
+Cryohemophobia - Fear of frozen blood
+Dakruphobia - Fear of tears
+Dakulophobia - Fear of fingers
+Dermatophobia - Fear of skin
+Digitusphobia - Fear of toes
+Enkefalophobia - Fear of brains
+Eurotophobia - Fear of female genitalia
+Geniphobia - Fear of chins
+Genuphobia - Fear of knees
+Glossaphobia - Fear of tongues
+Gonatophobia - Fear of knees
+Halitophobia - Fear of bad breath (branch of osmophobia)
+Hidrophobia - Fear of sweat
+Kefaliphobia - Fear of heads
+Kolpophobia - Fear of genitals
+Kypselidaphobia - Fear of earwax
+Mammophobia - Fear of mammary glands
+Mytiphobia - Fear of noses
+Maschaliphobia - Fear of underarms
+Mastrophobia - Fear of breasts
+Nakusophobia - Fear of boogers
+Namizuphobia - Fear of snot
+Nefrophobia - Fear of kidneys
+Nevophobia - Fear of moles on skin
+Paruresis - Fear of urinating in the presence of others
+Pnevmonaphobia - Fear of lungs
+Odontophobia - Fear of teeth
+Ommetaphobia - Fear of eyes
+Omphalophobia - Fear of belly buttons
+Onuxophobia - Fear of fingernails and toenails
+Osmophobia - Fear of odors
+Parasitophobia - Fear of parasites
+Parthenophobia - Fear of virgins
+Phallophobia - Fear of willies
+Pharyphobia - Fear of pharynx
+Podophobia - Fear of feet
+Pogonophobia - Fear of beards
+Proctophobia - Fear of rectums
+Prosopophobia - Fear of faces
+Pugophobia - Fear of buttocks
+Queunliskanphobia - Fear of saliva
+Rhytiphobia - Fear of wrinkles
+Stomaphobia - Fear of mouths
+Sinistrophobia - Fear of left handedness
+Stomachphobia - Fear of stomachs
+Thelephobia - Fear of nipples
+Urophobia - Fear of urine
+Venephobia - Fear of veins
+
+people_phobias.py
+Androphobia - Fear of men (branch of anthropophobia)
+Anthropariophobia - Fear of short people (branch of anthropophobia)
+Anthropophobia - Fear of people (branch of pantophobia)
+Anthropophagososphobia - Fear of cannibals (branch of Anthropophobia)
+Anthrozoophobia - Fear of furries (Branch of anthropophobia)
+Aphobia - Fear of asexuals (branch of anthropophobia)
+Apotemnophobia - Fear of amputees (branch of anthropophobia)
+Basquephobia - Fear of the basque (branch of anthropophobia)
+Biphobia - Fear of bisexuality or bisexuals (branch of anthropophobia)
+Blancophobia - Fear of white people (branch of anthropophobia)
+Bronyphobia - Fear of bronies.
+Cacomorphobia - Fear of overweight people (branch of anthropophobia)
+Caecophobia - Fear of blind people (satellite of surdocaecophobia) & (branch of anthropophobia)
+Caligynephobia - Fear of beautiful women and hot girls (branch of anthropophobia & gynophobia & puellaphobia)
+Venustraphobia - same as Caligynephobia
+Ephebiphobia - Fear of teenagers and young people (branch of anthropophobia)
+Epsilokorasiophobia - Fear of e-girls (female quivalent of epsilopaiphobia) &(branch of anthropophobia)
+Epsilopaiphobia - Fear of e-boys (male equivalent of epsilokorasiophobia) & (branch of anthropophobia)
+Gerontophobia - Fear of elderly people (branch of anthropophobia)
+Gigantasophobia - Fear of tall people (branch of anthropophobia)
+Gingerphobia - Fear of orange-haired people (branch of anthropophobia)
+Gynophobia - Fear of women (branch of anthropophobia)
+Hebephobia - Fear of preteens (branch of anthropophobia)
+Heterophobia - Fear of heterosexuality or heterosexuals (branch of anthropophobia)
+Homophobia - Fear of homosexuality or homosexuals (branch of anthropophobia)
+Karkinophobia - Fear of cancer
+Lesbophobia - Fear of lesbians (branch of homophobia)
+Infantophobia - Fear of babies (branch of anthropophobia & ephebiphobia)
+Macilentophobia - Fear of skinny people (branch of anthropophobia)
+Macilentopuellaphobia - Fear of skinny girls/women (branch of anthropophobia & macilentophobia
+Macilentogynophobia - same as Macilentopuellaphobia
+Nipiophobia - Fear of toddlers (branch of anthropophobia)
+Otherkinphobia - Fear of otherkin
+Parthenophobia - Fear of young girls (branch of anthropophobia)
+Pedophobia - Fear of children (branch of anthropophobia
+Peladophobia - Fear of bald people (branch of anthropophobia)
+Puellaphobia - Fear of girls (branch of anthropophobia)
+Puerophobia - Fear of boys (branch of anthropophobia)
+Sexualsphobia - Fear of sexuals (branch of anthropophobia)
+Surdocaecophobia - Fear of deafblind people (branch of anthropophobia)
+Surdophobia - Fear of deaf people (satellite of surdocaecophobia) & (branch of anthropophobia)
+Teleiophobia - Fear of adults (branch of anthropophobia)
+Therianphobia - Fear of therians
+Transracephobia - Fear of transrace people
+Transphobia - Fear of transgender people (branch of anthropophobia)
+Transvestitephobia - Fear of transvestite pople (branch of anthropophobia)
+Zhoxiphobia - Fear of children ages 6-to-10-years-old
+
+personnel_and_kin_phobias.py
+Aerosynodophobia - Fear of flight attendants
+Afentikophobia - Fear of your supervisor
+Allectomaphobia - Fear of collectors
+Amansophobia - Fear of your boyfriend or girlfriend
+Amicophobia - Fear of your friend
+Amitaphobia - Fear of your paternal aunt
+Androgynophobia - Fear of tomboys
+Agorocoritsophobia - same as Androgynophobia
+Anepsiaphobia - Fear of your niece
+Anipsiophobia - Fear of your nephew
+Asfaleiaskopophobia - Fear of security guards
+Astynomiaphobia - Fear of police
+Autopolitiphobia - Fear of car salespeople
+Avuncrophobia - Fear of your uncle
+Avunculusphobia - Fear of your maternal uncle
+Bartenderphobia - Fear of bartenders
+Bufuphobia - Fear of your uncle that is your father's brother
+Bumuphobia - Fear of your aunt that is your father's sister-in-law
+Chefrogophobia - Fear of cafeteria chefs
+Choplaryophobia - Fear of lumberjacks
+Commuphobia - Fear of communists
+Corephobia - Fear of having female offspring
+Korephobia - same as Corephobia
+Cotsabaphobia - Fear of Mascots
+Coulrophobia - Fear of clowns (branch of automophobia)
+Crackheadphobia - Fear of crack heads
+Cutshophobia - Fear of edgy people
+Dentophobia - Fear of dentists
+Dentohygienophobia - Fear of dental hygienists
+Dozujaphobia - Fear of your boss
+Dumasaphobia - Fear of stupid people
+Episcophobia - Fear of bishops
+Fibliphobia - Fear of your paternal aunt or uncle
+Fratrophobia - Fear of your brother
+Foniasophobia - Fear of murderers or serial killers
+Geitophobia - Fear of your neighbor
+Giagiaphobia - Fear of your grandmother
+Goneaphobia - Fear of your parents
+Gufuphobia - Fear of your uncle that is your father's brother-in-law
+Gumuphobia - Fear of your aunt that is your father's sister
+Hagiophobia - Fear of saints
+Herophobia - Fear of heroes
+Hierophobia - Fear of priests
+Hobophobia - Fear of bums or beggars
+Homilophobia - Fear of sermons
+Hunlijiangphobia - Fear of wedding speakers
+Iatrophobia - Fear of doctors or physicians
+Doctorphobia - same as Iatrophobia
+Jesusophobia - Fear of Jesus
+Jinmuphobia - Fear of your aunt that is your mother's sister-in-law
+Jiufuphobia - Fear of your uncle that is your mother's brother
+Kyriaclausophobia - Fear of Mrs. Claus
+Liticaphobia - Fear of lawsuits
+Lusuophobia - Fear of your teacher
+Maleficiphobia - Fear of malefactors
+Materteraphobia - Fear of your maternal aunt
+Matertrophobia - Fear of your aunt
+Matrophobia - Fear of your mother
+Mibliphobia - Fear of your maternal aunt or uncle
+Mongoliphobia - Fear of people with Down Syndrome
+Monarchiphobia - Fear of monarchs
+Nefarophobia - Fear of villains
+Nibliphobia - Fear of your niece or nephew
+Nosokomphobia - Fear of nurses
+Novercaphobia - Fear of your stepmother
+Odigoleoforeiouphobia - Fear of bus drivers
+Odigotaxiphobia - Fear of taxicab drivers
+Orthodontophobia - Fear of orthodontists
+Papaphobia - Fear of the Pope
+Pappoudephobia - Fear of your grandparents
+Pappousophobia - Fear of your grandfather
+Paramediphobia - Fear of paramedics
+Paschakounephobia - Fear of the Easter Bunny (branch leporiphobia & paschaphobia)
+Patrophobia - Fear of your father
+Patruusphobia - Fear of your paternal uncle
+Pentheraphobia - Fear of mother-in-law
+Novercaphobia - same as Pentheraphobia
+Peregrinophobia - Fear of strangers
+Pibliphobia - Fear of your aunt or uncle
+Pilotophobia - Fear of aircraft pilots
+Politicophobia - Fear of politicians
+Politiphobia - Fear of salespeople
+Prefeciphobia - Fear of the governor
+Presiphobia - Fear of the president
+Prigkipaphobia - Fear of princes
+Pyrosvestisphobia - Fear of firefighters
+Regnatophobia - Fear of the ruler
+Regnophobia - Fear of the monarch
+Ribliphobia - Fear of your niece, nephew, aunt or uncle
+Rudolphophobia - Fear of Rudolph the Red-Nosed Reindeer (branch of christougenniatikophobia)
+Santaphobia - Fear of Santa Claus (branch of christougenniatikophobia)
+Scopophobia - Fear of people staring at you
+Servitorphobia - Fear of waiters and waitresses
+Scelerophobia - Fear of criminals
+Schulkamophobia - Fear of your schoolmate
+Sibliphobia - Fear of your sibling
+Soceraphobia - Fear of parents-in-law
+Sociophobia - Fear of society or people in general
+Sororophobia - Fear of your sister
+Spoudastophobia - Fear of your student
+Spousophobia - Fear of your spouse
+Symmathitophobia - Fear of your classmate
+Synergatiphobia - Fear of your coworker
+Syngenesophobia - Fear of relatives
+Tamiaphobia - Fear of cashiers
+Theistophobia - Fear of theists
+Tyrannophobia - Fear of tyrants
+Vitricophobia - Fear of stepfather
+Vasiliaphobia - Fear of kings
+Vasilissaphobia - Fear of queens
+Vasilopoulaphobia - Fear of princesses
+Waifuphobia - Fear of your maternal grandfather
+Waizuphobia - Fear of your maternal grandmother
+Wunephobia - Fear of crazy people
+Xaderfophobia - Fear of your cousin
+Xenophobia - Fear of foreigners
+Yifuphobia - Fear of your uncle that is your mother's brother-in-law
+Yimuphobia - Fear of your aunt that is your mother's sister
+Zufuphobia - Fear of your paternal grandfather
+Zumuphobia - Fear of your paternal grandmother
+
+names_and_specific_people_phobias.py
+Abbasiphobia - Fear of the name Abbasi
+Adriassophobia - Fear of the name Adrian
+Alastairphobia - Fear of anyone names Alastair
+Alekphobia - Fear of the name Aleksander
+Alishaphobia - Fear of the name Alisha
+Beskaheintrecliphobia - Fear of Duncan Hines
+Bidenphobia - Fear of Joe Biden
+Bobigerphobia - Fear of Bob Iger
+Bushophobia - Fear of H. W. Bush
+Christonymophobia - Fear of certain usernames
+Churchillphobia - Fear of Winston Churchill
+Conneryophobia - Fear of Sean Connery
+Danielphobia - Fear of anyone named Daniel
+Memephobia - Fear of Donald Trump
+
+demographics_phobias.py
+Afghanistanphobia - Fear of the Afghani
+Afrophobia - Fear of Africans
+Aiguptosophobia - Fear of Egyptians
+Aithiopiaphobia - Fear of Ethiopians
+Alabamaphobia - Fear of Alabamians
+Alaskaphobia - Fear of Alaskans
+Albanophobia - Fear of Albanians
+Americanophobia - Fear of Americans
+Antarcticaphobia - Fear of Antarcticans
+Anglophobia - Fear of the English
+Argentiniphobia - Fear of Argentines
+Arizonaphobia - Fear of Arizonans
+Arkansasphobia - Fear of Arkansans
+Asianophobia - Fear of the Asians
+Basquephobia - Fear of the Basque
+Bietnamophobia - Fear of the Vietnamese
+Bolshephobia - Fear of the Bolsheviks
+Braziliaphobia - Fear of Brazilians
+Californiaphobia - Fear of Californians
+Canaphobia - Fear of Canadians
+Catalanophobia - Fear of the Catalans
+Chukchophobia - Fear of the Chukchi
+Coloradophobia - Fear of Coloradans
+Connecticutphobia - Fear of Connecticuters
+Delawarephobia - Fear of Delawareans
+Dominikanedemocratiakong'kophobia - Fear of the Congolese
+Dutchphobia - Fear of the Dutch
+Europhobia - Fear of the Europeans
+Filipinophobia - Fear of the Filipinos
+Francophobia - Fear of the French
+Gallophobia - same as Francophobia
+Galiophobia - same as Francophobia
+Gagauziphobia - Fear of the Gagauz
+Gentemophobia - Fear of Nations or Countries
+Patriamophobia - same as Gentemophobia
+Germanophobia - Fear of the Germans
+Teutophobia - same as Germanophobia
+Hispanophobia - Fear of Hispanics
+Indianophobia - Fear of Native Americans
+Indophobia - Fear of the Indians or South Asians
+Malayophobia - Fear of Malays
+Mexicanophobia - Fear of the Mexicans
+Negrophobia - Fear of black people or African Americans
+Nipponophobia - Fear of the Japanese
+Japanophobia - same as Nipponophobia
+Nordphobia - Fear of the Norwegians
+Persophobia - Fear of the Persians
+Persianophobia - Fear of the Persians
+Polonophobia - Fear of the Polish
+Qaraqalpaqlarphobia - Fear of the Karakalpaks
+Russophobia - Fear of the Russians
+Sinophobia - Fear of the Chinese
+Chinesophobia - same as Sinophobia
+Tribophobia - Fear of tribes
+Turcophobia - Fear of the Turks
+Ucrainophobia - Fear of the Ukrainians
+Walloonphobia - Fear of the Walloons
+
+religous_phobias.py
+Angelophobia - Fear of angels (branch of theophobia)
+Atheophobia - Fear of atheists (branch of theophobia)
+Biblephobia - Fear of Bibles (branch of theophobia)
+Buddhiphobia - Fear of Buddhuism (branch of theophobia)
+Christianophobia - Fear of the Christians (branch of theophobia)
+Christophobia - Fear of people that hate christian faith (branch of theophobia)
+Ecclesiophobia - Fear of church (branch of theophobia and christianophobia)
+Demonophobia - Fear of demons (branch of theophobia)
+Diabolophobia - Fear of devils (branch of theophobia)
+Fegefphobia - Fear of the word 'hell' (branch of theophobia)
+Godoaphinphobia - Fear of god's number, 555 (branch of theophobia and numerophobia)
+Heliothusiaphobia - Fear of sun sacrifices (branch of theophobia)
+Hinduphobia - Fear of Hinduism (branch of theophobia)
+Islamophobia - Fear of Muslims (branch of theophobia)
+Jesusophobia - Fear of Jesus (branch of theophobia and christianophobia)
+Liosuschristusphobia - same as Jesusophobia
+Judeophobia - Fear of Jews (branch of theophobia)
+Papaphobia - Fear of the Pope (branch of theophobia and christianophobia)
+Ritourgiaphobia - Fear of rituals (branch of theophobia)
+Satanophobia - Fear of Satan (branch of theophobia)
+Spirituphobia - Fear of spiritual things
+Staurophobia - Fear of crosses or the crucifix (branch of theophobia and christianophobia)
+Stygiophobia - Fear of Hell (branch of theophobia)
+Teleophobia - Fear of religious ceremonies (branch of theophobia)
+Theophobia - Fear of religion
+Uranophobia - Fear of Heaven (branch of theophobia)
+
+places_phobias.py
+Aerodromophobia - Fear of airports
+Aerostatiophobia - Fear of gas stations
+Afghanistanphobia - Fear of Afghanistan
+Afrophobia - Fear of Africa
+Agoraphobia - Fear of going out-
+Agyrophobia - Fear of roads
+Aigialophobia - Fear of beaches (branch of agoraphobia)
+Aiguptosophobia - Fear of Egypt
+Aithiopiaphobia - Fear of Ethiopia
+Alabamaphobia - Fear of Alabama
+Alaskaphobia - Fear of Alaska
+Albanophobia - Fear of Albania
+Amerikanophobia - Fear of the United States
+Anatoliphobia - Fear of going east (branch of agoraphobia)
+Estephobia - same as Anatoliphobia
+Anesimagaziphobia - Fear of convenience stores
+Anglophobia - Fear of England
+Antarcticaphobia - Fear of Antarctica
+Apartmentphobia - Fear of apartments
+Arcadephobia - Fear of arcades
+Argentiniphobia - Fear of Argentina
+Arizonaphobia - Fear of Arizona
+Arkansasphobia - Fear of Arkansas
+Asianophobia - Fear of Asia
+Auditoriphobia - Fear of auditorium
+Autokinetodromophobia - Fear of highways and expressways (branch of agoraphobia)
+Bataanphobia - Fear of Bataan
+Berkneaphobia - Fear of Berkner Island
+Bietnamophobia - Fear of Vietnam
+Boitephobia - Fear of clubs
+Braziliaphobia - Fear of Brazil
+Bulacanphobia - Fear of Bulacan
+Cafeteriphobia - Fear of cafeterias
+Californiaphobia - Fear of California (branch of americanophobia)
+Canaphobia - Fear of Canada
+Carcerophobia - Fear of prison
+Castlephobia - Fear of castles
+Cauponaphobia - Fear of going to a restaurant
+Chicagophobia - Fear of Chicago (branch of agoraphobia)
+Chinesophobia - Fear of China
+Cinematophobia - Fear of cinemas (branch of agoraphobia)
+Claustrophobia - Fear of small spaces
+Coimetrophobia - Fear of cemeteries
+Coloradophobia - Fear of Colorado (branch of americanophobia)
+Collegiphobia - Fear of college and university (branch of didaskaleinophobia)
+Concertophobia - Fear of concerts
+Connecticutphobia - Fear of Connecticut
+Continentemophobia - Fear of continents
+Delawarephobia - Fear of Delaware
+Didaskalophobia - Fear of School
+Dimositoilettaphobia - Fear of public bathrooms
+Dimotikophobia - Fear of elementary school (branch of didaskaleinophobia)
+Domatophobia - Fear of houses or being in a house
+Dominikanedemocratiakongkophobia - Fear of the Democratic Republic of the Congo
+Dysiphobia - Fear of going west (branch of agoraphobia)
+Duntophobia - Fear of toolsheds
+Ecclesiophobia - Fear of church
+Eremophobia - Fear of deserts (branch of agoraphobia)
+Ergophobia - Fear of the workplace
+Floridaphobia - Fear of Florida (branch of americanophobia)
+Fundophobia - Fear of farms (branch of agoraphobia)
+Gepedophobia - Fear of playgrounds (branch of agoraphobia)
+Gymnasiphobia - Fear of gymnasiums
+Gusumzophobia - Fear of greenhouses
+Hauntophobia - Fear of haunted houses
+Hawaiiphobia - Fear of Hawaii (branch of americanophobia)
+Hiskophobia - Fear of high school (branch of didaskaleinophobia)
+Hollywoodphobia - Fear of Hollywood (branch of americanophobia)
+Homedepotphobia - Fear of The Home Depot
+Hylophobia - Fear of forests (branch of agoraphobia)
+Hotatsosphobia - Fear of lighthouses
+Iowaphobia - Fear of Iowa (branch of americanophobia)
+Isulaphobia - Fear of islands
+Jollibeephobia - Fear of Jollibee
+Kansasphobia - Fear of Kansas (branch of americanophobia)
+Kentuckyphobia - Fear of Kentucky (branch of americanophobia)
+KFCphobia - Fear of KFC
+Koinoloutrophobia - Fear of public restrooms
+Laboratoryphobia - Fear of laboratories
+Lemmaparcophobia - Fear of going to an amusement park (branch of agoraphobia)
+Librariophobia - Fear of libraries
+Louisianaphobia - Fear of Louisiana (branch of americanophobia)
+Lwuntophobia - Fear of condominiums
+Magazikazoonphobia - Fear of pet stores
+Mainephobia - Fear of Maine (branch of americanophobia)
+Manilaphobia - Fear of Manila
+Massachusettsphobia - Fear of Massachusetts (branch of americanophobia)
+McDonaldsphobia - Fear of McDonald's
+Mercerophobia - Fear of grocery stores
+Miamiphobia - Fear of Miami (branch of americanophobia)
+Michiganphobia - Fear of Michigan (branch of americanophobia)
+Mimamagaziphobia - Fear of department stores
+Minnesotaphobia - Fear of Minnesota (branch of americanophobia)
+Mississippiphobia - Fear of Mississippi (branch of americanophobia)
+Missouriphobia - Fear of Missouri (branch of & americanophobia)
+Mousophobia - Fear of museums
+Mwufaphobia - Fear of old houses
+Mogroonphobia - Fear of sunrooms
+Nevadaphobia - Fear of Nevada (branch of americanophobia)
+Newenglandphobia - Fear of New England (branch of americanophobia)
+Newhampshirephobia - Fear of New Hampshire (branch of americanophobia)
+Newjerseyphobia - Fear of New Jersey (branch of americanophobia)
+Newmexicophobia - Fear of New Mexico (branch of americanophobia)
+Newyorkphobia - Fear of New York (branch of americanophobia)
+Northcarolinaphobia - Fear of North Carolina (branch of americanophobia)
+Northdakotaphobia - Fear of North Dakota (branch of americanophobia)
+Nosocomephobia - Fear of hospitals
+Nostophobia - Fear of returning home
+Noreiophobia - Fear of going north (branch of agoraphobia)
+Nortephobia - same as Noreiophobia
+Notiophobia - Fear of going south (branch of agoraphobia)
+Surphobia - same as Notiophobia
+Notioautodromophobia - Fear of SLEX (branch of agoraphobia)
+Notiopolophobia - Fear of the South Pole (branch of antarticaphobia)
+Nyctohylophobia - Fear of woods in the dark
+Officinaphobia - Fear of shopping
+Ohiophobia - Fear of Ohio (branch of americanophobia)
+Oklahomaphobia - Fear of Oklahoma (branch of americanophobia)
+Orbophobia - Fear of the world (branch of planitiphobia & terraphobia)
+Oregonphobia - Fear of Oregon (branch of americanophobia)
+Orlandophobia - Fear of Orlando (branch of americanophobia)
+Orophobia - Fear of mountains (branch of agoraphobia)
+Akraphobia - same as Orophobia
+Bounophobia - same as Orophobia
+Pallamagliophobia - Fear of shopping mall
+Pwuanphobia - Fear of front yards (branch of agoraphobia)
+Quirinophobia - Fear of Quirino Highway (branch of agoraphobia)
+Scolionophobia - Fear of going to school (branch of didaskaleinophobia)
+Southcarolinaphobia - Fear of South Carolina
+Southdakotaphobia - Fear of South Dakota
+SCTEXphobia - Fear of SCTEX (branch of agoraphobia)
+Starbucksphobia - Fear of Starbucks
+Tallahasseephobia - Fear of Tallahassee, Florida (branch of antarticaphobia)
+Tampaphobia - Fear of Tampa, Florida (branch of americanophobia)
+Tavernaphobia - Fear of bar or tavern
+Coponaphobia - same as Tavernaphobia
+Tennesseephobia - Fear of Tennessee (branch of americanophobia)
+Texasphobia - Fear of Texas (branch of americanophobia)
+Thalassophobia - Fear of the sea or being in the ocean (branch of agoraphobia & aquaphobia)
+Utahphobia - Fear of Utah (branch of americanophobia)
+Virginiaphobia - Fear of Virginia (branch of americanophobia)
+Voreiospolophobia - Fear of the North Pole
+Voreioautodromophobia - Fear of NLEX (branch of agoraphobia)
+Walmartophobia - Fear of Walmart
+Washingtonphobia - Fear of Washington (branch of americanophobia)
+Westvirginiaphobia - Fear of West Virginia (branch of americanophobia)
+Wisconsinphobia - Fear of Wisconsin (branch of americanophobia)
+Wyomingphobia - Fear of Wyoming (branch of americanophobia)
+Ypokatastimaphobia - Fear of banks (branch of americanophobia)
+Zhongophobia - Fear of middle school (branch of didaskaleinophobia)
+Zhoyunphobia - Fear of backyards (branch of agoraphobia)
+Zoolophobia - Fear of zoos (branch of agoraphobia)
+Zumgphobia - Fear of buffets
+
+events_and_actions_phobias.py
+Abductophobia - Fear of abduction
+Ablutophobia - Fear of being wet
+Aboreanisphobia - Fear of feeding goats
+Acatoptrophobia - Fear of seeing your reflection in something else than a mirror
+Accidensophobia - Fear of accidents
+Additionphobia - Fear of doing addition
+Adhaesitophobia - Fear of getting stuck
+Aelosaccophobia - Fear of injury resulting from the unexpected release of a vehicle airbag
+Aerophobia - Fear of flying
+Agoraphobia - Fear of going out
+Agraphobia - Fear of sexual contact
+Agyrophobia - Fear of crossing the road
+Alemercialiceptiophobia - Fear of beer in comercials not being accurate as they are in real life
+Alienabductophobia - Fear of alien abduction (branch of alienophobia and abductophobia)
+Althazagoraphobia - Fear of ignorance
+Ambulophobia - Fear of walking
+Stasiphobia - Fear of standing
+Ammidyphobia - Fear of a loved one leaving you
+Ammophobia - Fear of walking on sand
+Ammosophobia - Fear of standing on sand
+Amychophobia - Fear of being scratched
+Anablephobia - Fear of looking up
+Anagnosmaphobia - Fear of reading
+Analafrophobia - Fear of tripping over something
+Anapodaphobia - Fear of being upsidedown
+Anatidaephobia - Fear of a duck watching you
+Ankylophobia - Fear of a joint being immobile
+Anoixiphobia - Fear of spring
+Anditchophobia - Fear of being on time
+Anuptaphobia - Fear of breaking up
+Apollymophobia - Fear of destruction
+Applogrophinophobia - Fear of being addictted to porn
+Athazagoraphobia - Fear of being forgotten
+Athlimataphobia - Fear of someone whispering
+Atomosophobia - Fear of atomic explosions
+Atychiphobia - Fear of failure
+Kakorrhaphiophobia - Fear of defeat
+Auchloclaustrophobia - Fear of opening closets
+Autodysomophobia - Fear of having stinky feet
+Autovocalphobia - Fear of hear owns voice
+Aviophobia - Fear of flying
+Backtoschoolaphobia - Fear of going back to school
+Baowenphobia - Fear of baby kissing
+Basiphobia - Fear of walking or falling
+Basophobia - Fear of standing/walking erect
+Batophobia - Fear of being close to tall buildings
+Biaphobia - Fear of rules where you cannot eat
+Biochronophobia - Fear of one's biological clock had run down before one has had a chance to adequately replenish the species
+Biophobia - Fear of developing life
+Biotriocularmechanophobia - Fear of having a third cyborg eye attached to you
+Boitanophobia - Fear of being forced to watch competitive male figure skating
+Brownoutphobia - Fear of brownout
+Capillussetisphobia - Fear of having your hair brushed
+Capiophobia - Fear of getting arrested
+Capnophobia - Fear of smoking
+Captophobia - Fear of being caught
+Casadastraphobia - Fear of falling into the sky
+Catagelophobia - Fear of being ridiculed
+Catapedaphobia - Fear of jumping from high and low places
+Catastrophobia - Fear of disasters
+Cathisophobia - Fear of sitting
+Cedeiaphobia - Fear of attending funerals (branch of gamocedeiaphobia)
+Chemophobia - Fear of working with chemicals
+Chololepusuphobia - Fear of dyeing fur of bunnies
+Chorivanthokolymvisiphobia - Fear of being told not to dive past a centain depth mark
+Chorophobia - Fear of dancing
+Chrompadaphobia - Fear of long photo shoots
+Chronaphobia - Fear of seeing colors
+Chronohodophobia - Fear of time travel
+Chronophobia - Fear of time
+Chtypimaphobia - Fear of bumping into someone or something
+Chtypisophobia - Fear of getting bumped by someone
+Cideophobia - Fear of commiting acts of violence or murder
+Cieriphobia - Fear of lunar eclipse
+Clarusphobia - Fear of becoming famous and then losing the fame
+Claudiphobia - Fear of heading out to the place unaware that it is closed
+Climacophobia - Fear of climbing, or of falling downstairs
+Climatophobia - Fear of climate change
+Clinophobia - Fear of going to bed
+Cnidophobia - Fear of getting stung by bees, etc.
+Commuphobia - Fear of communism or becoming a communist
+Contreltophobia - Fear of sexual abuse
+Controversusrogatiophobia - Fear of questionable questions
+Convivophobia - Fear of parties
+Craposandwichophobia - Fear of someone giving you a hamburger full of feces
+Cryochirophobia - Fear of your hands being cold
+Cunniphobia - Fear of performing cunnilingus except for no reason
+Cynolingopugophobia - Fear of a dog licking someones buttocks
+Daknophobia - Fear of being bitten
+Dakrophobia - Fear of crying
+Datalossophobia - Fear of losing your data
+Decannophobia - Fear of turning 10 years old
+Decidophobia - Fear of making decisions
+Deipnophobia - Fear of dinner
+Dekaenneaoraphobia - Fear of 7:00PM
+Dekaeptaoraphobia - Fear of 5:00PM
+Dekaexioraphobia - Fear of 4:00PM
+Dekaoktooraphobia - Fear of 6:00PM
+Dekaoraphobia - Fear of 10:00AM
+Dekapenteoraphobia - Fear of 3:00PM
+Dekatesseraphobia - Fear of 2:00PM
+Dekatriaoraphobia - Fear of 1:00PM
+Dentophobia - Fear of dental procedures
+Deprecorophobia - Fear of curses and being cursed
+Destirpephobia - Fear of finding the item you are looking for but it is out of stock
+Detrectophobia - Fear of mismanagement
+Deuterophobia - Fear of mondays
+Devwahrphobia - Fear of doing homework
+Dimanchophobia - Fear of sundays
+Discontinuaphobia - Fear of your favorite show being discontinued
+Dishabiliophobia - Fear of undressing in front of someone
+Disposophobia - Fear of getting rid of or losing things - sometimes wrongly defined as 'compulsive hoarding'
+Divisionphobia - Fear of doing division
+Dodekaoraphobia - Fear of 12:00PM
+Dolorophobia - Fear of suffering
+Doronophobia - Fear of opening gifts
+Doxophobia - Fear of expressing opinions or of receiving praise
+Duooraphobia - Fear of 2:00 AM
+Earcountophobia - Fear of counting ears
+Eclepoheliophobia - Fear of sun vanishing
+Ecothermophobia - Fear of global warming
+Ehsanophobia - Fear of expending money
+Ekrixiphobia - Fear of explosions
+Emarphobia - Fear of daytime
+Emetophobia - Fear of vomiting
+Encavmaphobia - Fear of getting burned (branch of traumatophobia)
+Enosiophobia - Fear of having committed an unpardonable sin or of criticism
+Epistaxiophobia - Fear of nosebleeds
+Ereuthrophobia - Fear of blushing
+Ergaleophobia - Fear of using tools
+Ergasiophobia - Fear of work or functioning, or a surgeon's fear of operating
+Erratophobia (fear of making mistakes), Errophobia - Fear of getting wrong answers
+Eructophobia - Fear of burping
+Flatuphobia - Fear of farting
+Flipflopuphobia - Fear of being severely beaten by flip flops
+Footballphobia - Fear of football
+Fractophobia - Fear of breaking things
+Fragapanophobia - Fear of birthdays
+Fumusterroremophobia - Fear of smoke alarms (branch of ligyrophobia)
+Gamocedeiaphobia - Fear of commitment and of attending funerals
+Gamophobia - Fear of getting married or commitment
+Gargalaphobia - Fear of being tickled
+Gelotophobia - Fear of being laughed at
+Genophobia - Fear of sex
+Gephyrophobia - Fear of crossing bridges
+Gerascophobia - Fear of growing old or aging
+Glossophobia - Fear of speaking in public or of trying to speak
+Golfphobia - Fear of golf
+Graphophobia - Fear of writing or handwriting
+Grothophobia - Fear of getting punched
+Gronthokopophobia - same as Grothophobia
+Hamartophobia - Fear of sinning
+Haphephobia - Fear of touching things or being touched
+Harpaxophobia - Fear of being robbed
+Hedonophobia - Fear of feeling pleasure
+Hodophobia - Fear of travel
+Honephobia - Fear of eating (or breathing through mouth) when someone has burped or farted near or around them
+Hypnophobia - Fear of sleep
+Igniterroremophobia - Fear of fire alarms (branch of ligyrophobia)
+Incestophobia - Fear of incest
+Ipovlopsychophobia - Fear of having one’s photograph taken
+Jackboxophobia - Fear of objects suddenly popping out of boxes
+Jocophobia - Fear of having fun
+Kakologophobia - Fear of swearing and of hearing swear words
+Kakoneirophobia - Fear of nightmares (branch of oneirophobia)
+Kakophobia - Fear of bad situations
+Kelngophobia - Fear of potlucks
+Kheimonphobia - Fear of winter
+Kleptophobia - Fear of being stolen
+Kinetoptophobia - Fear of movement or motion
+Kopophobia - Fear of fatigue
+Kyphophobia - Fear of stooping
+Kyriakiphobia - Fear of Sundays
+Laliophobia - Fear of speaking
+Latrophobia - Fear of worship
+Lambophobia - Fear of being licked
+Leptophobia - Fear of losing weight
+Liticaphobia - Fear of being sued
+Lockiophobia - Fear of childbirth
+Luposlipophobia - Fear of running around a kitchen table, being pursued by wolves, while wearing fresh socks on a newly waxed floor (innate fear).
+Macrophobia - Fear of long waits
+Mageirocophobia - Fear of cooking
+Mastigophobia - Fear of being punished
+Mathemaphobia - Fear of mathematics
+Medomalacuphobia - Fear of losing an erection (branch of medomalacophobia)
+Medorthophobia - Fear of penis being erected
+Merinthophobia - Fear of being bound or tied up
+Metathesiophobia - Fear of changes
+Midnightphobia - Fear of midnight
+Misvaccinophobia - Fear on missing out on a vaccine
+Mitsophobia - Fear of being commanded/to command
+Monoxeidioanthrakaskisiphobia - Fear of carbon monoxide drills
+Multiplicationphobia - Fear of doing multiplication
+Myoclunusdiagphragmaphobia - Fear of hiccups
+Singultophobia - same as Myoclunusdiagphragmaphobia
+Mysophobia - Fear of being contaminated with dirt or germs
+Natatophobia - Fear of swimming
+Naturophobia - Fear of natural phenomena
+Nomophobia - Fear of being out of mobile phone contact
+Nonamophobia - Fear of blackout
+Naieisaikakophobia - Fear of being bad
+Nucleomituphobia - Fear of nuclear holocaust
+Nyctourinariphobia - Fear of wetting the bed at night
+Obesophobia - Fear of gaining weight
+Oblitophobia - Fear of forgetting
+Dediscophobia - same as Oblitophobia
+Obscursolisphobia - Fear of solar eclipse
+Olympicphobia - Fear of the Olympics
+Oneirogmophobia - Fear of wet dreams (branch of oneirophobia)
+Oneirophobia - Fear of dreams
+Oneiropolimaphobia - Fear of daydreams
+Onomatophobia - Fear of hearing a certain word or of names
+Ophthalmophobia - Fear of being stared at
+Optophobia - Fear of opening one's eyes
+Paintballphobia - Fear of paintball
+Panthophobia - Fear of suffering
+Pantreiaphobia - Fear of attending weddings (branch of gamocedeiaphobia)
+Paralipophobia - Fear of neglecting duty or responsibility
+Paraskevidekatriaphobia - Fear of Friday the 13th (branch of friggatriskaidekaphobia)
+Periculophobia - Fear of taking risks
+Phagophobia - Fear of swallowing or of eating or of being eaten
+Phalacrophobia - Fear of becoming bald
+Pharsaphobia - Fear of pranks
+Philemaphobia - Fear of kissin'
+Phronemophobia - Fear of thinking
+Picnicphobia - Fear of picnics
+Pinchophobia - Fear of being pinched
+Piptophobia - Fear of falling
+Pnigophobia - Fear of being choked
+Pnigerophobia - Fear of being smothered
+Polemophobia - Fear of wars
+Ponophobia - Fear of overworking
+Posthocalyptrophobia - Fear of buying or using condom
+presentationphophobia - Fear of making a presentation on phobias
+Proiphobia - Fear of mornings
+Proschophobia - Fear of preschool
+Pruritophobia - Fear of itches
+Psellismophobia - Fear of stuttering
+Pteronophobia - Fear of being tickled by feathers
+Pungophobia - Fear of getting stabbed
+Puraskisiphobia - Fear of fire drills
+questiophobia - Fear of being asked questions
+Queunliskanphobia - Fear of spitting
+Rhabdophobia - Fear of being severely punished or beaten by a rod, or of being severely criticized. Also fear of magic wands
+Rhypophobia - Fear of defecation
+Rundfuphobia - Fear of listening to the radio
+Sarmassophobia - Fear of love play
+Scopophobia - Fear of being looked at or stared at
+Scriptophobia - Fear of writing in public
+Scythephobia - Fear of cutting grass
+Seismophobia - Fear of earthquakes
+Seismoaskisiphobia - Fear of earthquake drills
+Selaphobia - Fear of light flashes (branch of photophobia)
+Sexophobia - Fear of porns or sexes etc.
+Sientophobia - Fear of apologizing too excessively
+Sifounaskisiphobia - Fear of tornado drills
+Snapophobia - Fear of finger snapping
+Soccerphobia - Fear of soccer
+Sociaphobia - Fear of being judged in public
+Somniphobia - Fear of falling asleep (branch of hyprophobia)
+Sophophobia - Fear of learning
+Staniophobia - Fear of abortion
+Stasihyelophobia - Fear of standing on glass
+Sternutaphobia - Fear of sneezing
+Stubaphobia - Fear of cutting nails
+Subterraneapremortephobia - Fear of being buried alive
+Subtractionphobia - Fear of doing subtraction
+Taphephobia - Fear of being placed in a grave while still alive
+Telephonophobia - Fear of telephones ringing
+Televisiophobia - Fear of watching television
+Telochronophobia - Fear of running out of time, branch of chronophobia (fear of time)
+Tennisphobia - Fear of tennis
+Testophobia - Fear of taking tests
+Thanatophobia - Fear of dying
+Therophobia - Fear of summer
+Thinoporophobia - Fear of autumn
+Tokophobia - Fear of pregnancy
+Tomophobia - Fear of surgical operations
+Tonsurephobia - Fear of getting haircut
+Toxiphobia - Fear of being poisoned
+Traumaphobia - Fear of physical injury
+Traumatophobia - Fear of war
+Tremophobia - Fear of trembling
+Tropophobia - Fear of moving or making changes
+Tsunamiphobia - Fear of tsunamis (branch of cymophobia and seismophobia)
+Tussaphobia - Fear of coughing
+Urinophobia - Fear of urinating
+Victorophobia - Fear of victories
+Vinylphobia - Fear of scratching vinyl surfaces
+Viviaphobia - Fear of licking ice-cream
+Volcanophobia - Fear of volcanic eruptions
+Volleyballphobia - Fear of volleyball
+Wanshangphobia - Fear of evenings
+Xiawuphobia - Fear of afternoons
+
+months_phobias.py
+Bayuephobia - Fear of August
+Chapitgoephobia - Fear of November
+Eryuephobia - Fear of February
+Jiuyuephobia - Fear of September
+Liuyuephobia - Fear of June
+Qiyuephobia - Fear of July
+Sanyuephobia - Fear of March
+Shieryuephobia - Fear of December
+Shiyuephobia - Fear of October
+Siyuephobia - Fear of April
+Wuyuephobia - Fear of May
+Yiyuephobia - Fear of January
+
+holiday_phobias.py
+Christougenniatikophobia - Fear of Christmas (branch of heortophobia)
+Ergasiaemarphobia - Fear of Labor Day (branch of heortophobia)
+Gratiarophobia - Fear of Thanksgiving (branch of heortophobia)
+Heortophobia - Fear of [celebrating events]
+Imeratoupateraphobia - Fear of Father's Day (branch of heortophobia)
+Inastiophobia - Fear of Crackers on the Keyboard day (branch of heortophobia)
+Libertatophobia - Fear of Independence Day (branch of heortophobia)
+Natredemphobia - Fear of Mother's Day (branch of heortophobia)
+Neoannophobia - Fear of New Year (branch of heortophobia)
+Paschaphobia - Fear of Easter (branch of heortophobia)
+Patricophobia - Fear of St. Patrick's (branch of heortophobia)
+Protapriliaphobia - Fear of April Fools' Day (branch of heortophobia)
+Samhainophobia - Fear of Halloween (branch of heortophobia)
+Valentinophobia - Fear of Valentine's (branch of heortophobia)
+carnivalphobia - Fear of fairs or mardi gras festivities (branch of heortophobia)
+
+specific_day_phobias.py
+Alpiphobia - Fear of March 1st
+Alpbirophobia - Fear of March 2nd
+Alpekophobia - Fear of March 3rd
+Alpusophobia - Fear of March 4th
+Alptortphobia - Fear of March 5th
+Alpsikophobia - Fear of March 6th
+
+emotions_phobias.py
+Aiskhunephobia - Fear of shame (branch of animotophobia)
+Anapsychiphobia - Fear of amazement (branch of animotophobia)
+Anchophobia - Fear of anxiety (branch of animotophobia)
+Angrophobia - Fear of anger (branch of animotophobia)
+Iraphobia - same as Angrophobia
+Animotophobia - Fear of having or showing emotions
+Anisychiaphobia - Fear of worry (branch of animotophobia)
+Apogoitefsiphobia - Fear of disappointment (branch of animotophobia)
+Charaphobia - Fear of joy (branch of animotophobia)
+Culpaphobia - Fear of guilt (branch of animotophobia)
+Ekplixiphobia - Fear of surprise (branch of animotophobia)
+Embarrassmentphobia - Fear of embarrassment (branch of animotophobia)
+Endiaferonphobia - Fear of interest (branch of animotophobia)
+Enochlisiphobia - Fear of annoyance (branch of animotophobia)
+Enthousiasmophobia - Fear of enthusiasm (branch of animotophobia)
+Epithymiaphobia - Fear of desire (branch of animotophobia)
+Epliphobia - Fear of hope (branch of animotophobia)
+Erotophobia - Fear of love (branch of animotophobia
+Foedophobia - Fear of disgust (branch of animotophobia)
+Frustrationphobia - Fear of frustration (branch of animotophobia)
+Hormephobia - Fear of shock (branch of animotophobia)
+Horrorphobia - Fear of horror (branch of animotophobia)
+Humiliationphobia - Fear of humiliation (branch of animotophobia)
+Laetophobia - Fear of happiness (branch of animotophobia)
+Lypiphobia - Fear of regret (branch of animotophobia)
+Lyssophobia - Fear of becoming mad (branch of animotophobia)
+Misophobia - Fear of hatred (branch of animotophobia)
+Nostalgiaphobia - Fear of nostalgia (branch of animotophobia)
+Panikophobia - Fear of panic (branch of animotophobia)
+Periergeiaphobia - Fear of curiosity (branch of animotophobia)
+Philophobia - Fear of love, falling in love or being in love: filosphiloerotophobia (branch of animotophobia)
+Plixiphobia - Fear of boredom (branch of animotophobia)
+Thavmaphobia - Fear of wonder (branch of animotophobia)
+Timidophobia - Fear of shyness (branch of animotophobia)
+Pavidophobia - same as Timidophobia
+Tromophobia - Fear of terror (branch of animotophobia)
+Tronicteliponitrianirikssiophobia - Fear of feeling that your body is turned inside out (branch of animotophobia)
+Tristophobia - Fear of sorrow and sadness (branch of animotophobia)
+Maestophobia - same as Tristophobia
+Yperifaneiaphobia - Fear of pride (branch of animotophobia & homophobia)
+Zelophobia - Fear of jealousy (branch of animotophobia)
+
+diseases_and_disorders_phobias.py
+Acarophobia - Fear of itching and Lyme Disease
+Albuminurophobia - Fear of kidney disease (branch of ataxophobia and pathophobia)
+Allergiphobia - Fear of allergies (branch of ataxophobia and pathophobia)
+Alzheimerianuphobia - Fear of alzheimers (branch of ataxophobia and pathophobia)
+Amnesiphobia - Fear of amnesia (Branch of ataxophobias and pathophobia)
+Anaphylaxophobia - Fear of anaphylaxis (branch of pathophobia)
+Angionophobia - Fear of Heart attacks (Branch of ataxophobia and pathophobia)
+Anopheliphobia - Fear of malaria (branch of pathophobia)
+Ataxiophobia - Fear of muscular incoordination (branch of ataxophobia)
+Ataxophobia - Fear of disorders
+Autisticaphobia - Fear of Autistic Spectrum Disorders (branch of ataxophobia) (THIS IS AN IRRATIONAL FEAR)
+Aydehadophobia - Fear of ADHD (branch of ataxophobia)
+Carcinophobia - Fear of cancer (branch of ataxophobia and pathophobia)
+Cholerophobia - Fear of cholera (branch of ataxophobia and pathophobia)
+Coprastasophobia - Fear of constipation (branch of ataxophobia and pathophobia)
+Coronaphobia - Fear of multiple strains of coronavirus (branch of pathophobia)
+Coronophobia - Fear of coronavirus (branch of pathophobia)
+Cypridophobia - Fear of sexually transmitted disease (branch of cyprinophobia)
+Cypriphobia - Fear of prostitutes or venereal disease (branch of cyprianophobia)
+Cyprianophobia - Fear of sex, prostitutes or venereal disease (branch of pathophobia)
+Defacaloesiophobia - Fear of painful bowels movements (branch of pathophobia)
+Dementiaphobia - Fear of dementia (branch of pathophobia)
+Dermatosiophobia - Fear of skin disease (branch of pathophobia)
+Diabetophobia - Fear of diabetes (branch of pathophobia)
+Dyscalculiaphobia - Fear of dyscalculia (branch of ataxophobia and pathophobia)
+Dysgraphiaphobia - Fear of dysgraphia (branch of ataxophobia and pathophobia)
+Dyslexiaphobia - Fear of dyslexia (branch of ataxophobia and pathophobia)
+Ebolaphobia - Fear of Ebola (branch of pathophobia)
+Ectomorphobia - Fear of anorexia (branch of ataxophobia and pathophobia)
+Hydrophobophobia - Fear of rabies (branch of kynophobia and pathophobia)
+Hylephobia - Fear of epilepsy (branch of pathophobia)
+Hyveriphobia - Fear of hyperventilation (branch of ataxophobia)
+Kefalalgiaphobia - Fear of headaches (branch of pathophobia)
+Meningitophobia - Fear of brain disease (branch of pathophobia)
+Monopathophobia - Fear of definite disease (branch of pathophobia)
+Nosomentophobia - Fear of mental illness (branch of pathophobia)
+Nosophobia - Fear of becoming ill (branch of nosemaphobia)
+OCDphobia - Fear of obsessive-compulsive disorder (branch of ataxophobia and pathophobia)
+Pandemophobia - Fear of pandemic
+Pathophobia - Fear of diseases
+Pellagrophobia - Fear of pellagra (branch of pathophobia)
+Phobophobophobia - Fear of developing phobophobia (branch of ataxophobia)
+Pneumonoultramicroscopicsilicovolcanoconiosisocazoiopustropusopusoashiososinhalopotropopopobophobia - Fear of pneumonoultramicroscopicsilicovolcanoconiosis (branch of pathophobia)
+Poliosophobia - Fear of contracting poliomyelitis (branch of pathophobia)
+Pyrexiophobia - Fear of fever
+Rectophobia - Fear of rectal diseases (branch of pathophobia)
+Scabiophobia - Fear of scabies (branch of dermatosiophobia and pathophobia)
+Syphilophobia - Fear of syphilis (branch of pathophobia)
+Tetanophobia - Fear of lockjaw or tetanus (branch of pathophobia)
+Tourettephobia - Fear of Tourette syndrome (branch of ataxophobia, kakologophobia and pathophobia)
+Trichinophobia - Fear of trichinosis (branch of pathophobia)
+Tuberculophobia - Fear of tuberculosis (branch of pathophobia)
+Vaccinophobia - Fear of vaccines (branch of ataxophobia and pathophobia)
+
+things_phobias.py
+Adiafanophobia - Fear of opaque objects
+Advertisementphobia - Fear of advertisements
+Aerosakaphobia - Fear of airbags
+Aichmophobia - Fear of sharp or pointed objects (such as a needle or knife)
+Aircophobia - Fear of air conditioners, branch of syskeviphobia (fear of appliances)
+Airpodaphobia - Fear of airpods
+Alarmophobia - Fear of alarms
+Allodoxaphobia - Fear of different people's opinions
+Altocelarophobia - Fear of high ceilings, branch of celarophobia (fear of ceilings
+Anemistiraphobia - Fear of fans, branch of syskeviphobia (fear of appliances)
+Animaphobia - Fear of souls
+Antanaklophobia - Fear of reflections
+Antennaphobia - Fear of antennae
+Apeirophobia - Fear of infinity or eternity
+Apostasiphobia - Fear of distances
+AppleTVaphobia - Fear of Apple TV
+Aquamechanophobia - Fear of machines that have to involve water (branch of submechanophobia)
+Arachtophobia - Fear of artificial intelligence
+Archeiothikiphobia - Fear of file cabinets
+Armarophobia - Fear of cupboards, branch of epiplaphobia (fear of furnitures)
+Arpaphobia - Fear of harps, branch of gakkiphobia (fear of musical instruments)
+Artemophobia - Fear of art
+Aulophobia - Fear of flutes, branch of gakkiphobia (fear of musical instruments)
+Autokeraphobia - Fear of car horns
+Autoplenophobia - Fear of car washes
+Automatonophobia - Fear of humanoid figures
+Bacophobia - Fear of pizza cutters
+Bahnubophobia - Fear of railroad crossings
+Ballistophobia - Fear of missles and bullets
+Balteusphobia - Fear of belts
+Balticophobia - Fear of photocopiers
+Bandzophobia - Fear of blow torches
+Banmaxianphobia - Fear of crosswalks
+Barophobia - Fear of gravity
+Bassolophobia - Fear of bass instruments
+Bathmophobia - Fear of stairs or steep slopes
+Bathrobephobia - Fear of bath robes
+Batterophobia - Fear of batteries
+Beepophobia - Fear of beeping sounds
+Belonephobia - Fear of pins and needles (branch of aichmophobia)
+Bibliophobia - Fear of books
+Billboardphobia - Fear of billboards
+Bijixphobia - Fear of laptops computers
+Binoculophobia - Fear of binoculars
+Bleimpnophobia - Fear of empty boxes
+Blemensaphobia - Fear of blue table
+Blenderphobia - Fear of blenders
+Blowerpeelphobia - Fear of sex dolls
+Bracesphobia - Fear of dental braces
+Brugnophobia - Fear of icemakers
+Bodenstandophobia - Fear of grandfather clocks
+Bonockophobia - Fear of skeleton keys
+Boogieboardphobia - Fear of boogieboards
+Bowerphobia - Fear of bowers
+Bowphobia - Fear of bows
+Briefshiephobia - Fear of secret documents
+Buhuajiphobia - Fear of walkie-talkies
+Buzzophobia - Fear of buzzing sounds
+Bwaopiphobia - Fear of X-ray machines
+Bwaukphobia - Fear of library books
+Cablephobia - Fear of cables
+Caelophobia - Fear of the sky
+Calculaphobia - Fear of calculators
+Camcorderphobia - Fear of camcorders
+Cameraphobia - Fear of cameras
+Capillussetisphobia - Fear of hairbrushes
+Cassettophobia - Fear of cassette tapes
+Catastolephobia - Fear of repression or repressive culture/countries
+Cathedraphobia - Fear of chairs, branch of epiplaphobia (fear of furnitures)
+Catoptrophobia - Fear of mirrors, branch of oikophobia (fear of home surroundings)
+Celarophobia - Fear of ceilings
+Cenosilicaphobia - Fear of empty glasses
+Charakaphobia - Fear of rulers
+Chartiphobia - Fear of charts
+Chedoangphobia - Fear of driveways
+Chekuxishophobia - Fear of garage sinks
+Chionofysophobia - Fear of snow blowers
+Chloephobia - Fear of newspapers (branch of papyrophobia)
+Chreostikikartaphobia - Fear of debit cards
+Chrometophobia - Fear of money
+Chronomentrophobia - Fear of clocks
+Chufxishophobia - Fear of kitchen sinks
+Cistulaphobia - Fear of cabinets, branch of oikophobia (fear of home surroundings)
+Citharaphobia - Fear of guitars, branch of gakkiphobia (fear of musical instruments)
+Clapperphobia - Fear of the Clapper
+Cleithrophobia - Fear of being trapped, branch of claustrophobia
+Clinephobia - Fear of beds, branch of epiplaphobia (fear of furnitures)
+Cloacaphobia - Fear of sewers
+Cogombophobia - Fear of cardboard boxes
+Colimbophobia - Fear of swimming pools, branch of aquaphobia (fear of water)
+Commercialphobia - Fear of commercials
+Compassphobia - Fear of compasses
+Confettiphobia - Fear of confetti
+Consecotaleophobia - Fear of chopsticks
+Controsoffittophobia - Fear of counter tops  
+Cozampiophobia - Fear of body pillows
+Cranophobia - Fear of helmets
+Cremnophobia - Fear of cliffs
+Crusrumblophobia - Fear of cookie jars
+Cuprolaminophobia - Fear of coins
+Cyberphobia - Fear of computers, branch of syskeviphobia (fear of appliances)
+Cymophobia - Fear of waves or wave-like motions
+Dachoingphobia - Fear of power tools
+Dartboardphobia - Fear of dartboards
+Dartophobia - Fear of darts
+Defenestraphobia - Fear of windows
+Dekanikiphobia - Fear of crutches
+Deleophobia - Fear of erasers
+Dengpaophobia - Fear of light bulbs
+Dentodrapanophobia - Fear of dental drills
+Denturephobia - Fear of dentures
+Dextrophobia - Fear of objects at the right side of the body
+Diafanophobia - Fear of transparent objects
+Dianzifankuiphobia - Fear of electronic feedback
+Diaperphobia - Fear of diapers, branch of vestiphobia (fear of clothing)
+Diaphimisticophobia - Fear of commercials
+Diastimaphobia - Fear of physical space
+Diathlasophobia - Fear of refractions
+Diclebgophobia - Fear of teabags
+Diethnesystimamonadonophobia - Fear of the metric system
+Dikephobia - Fear of justice
+Dimephobia - Fear of dimes
+Dingophobia - Fear of dinging sounds
+Dinophobia - Fear of dizziness or whirlpools
+Dishleprophobia - Fear of dishwashers, branch of syskeviphobia (fear of appliances)
+Dizoangphobia - Fear of electric generators
+Dlitophobia - Fear of gas grills
+Domineatherphobia - Fear of collars that can control people
+Doorbellphobia - Fear of doorbells
+Doraphobia - Fear of fur or skins of animals
+Dorngophobia - Fear of plasma globes
+Doryforikochartiphobia - Fear of satelite maps
+Dottophobia - Fear of dots
+Drapanophobia - Fear of drills
+Drikronphobia - Fear of dark walls
+Drogerphobia - Fear of clothes dryers, branch of syskeviphobia (fear of appliances)
+Dromusephobia - Fear of dropper rides
+Dulunchephobia - Fear of wheelbarrows
+Dumasaphobia - Fear of stupid things
+Dumpsterphobia - Fear of dumpsters
+Duophobia - Fear of pairs
+DVDphobia - Fear of DVDs
+Eapalliophobia - Fear of rugs
+Earmuffphobia - Fear of earmuffs
+Ebulliophobia - Fear of bubbles
+Oikophobia - Fear of home surroundings
+Eiffelturriphobia - Fear of Eiffel Tower, branch of turriphobia (fear of towers)
+Eisoptrophobia - Fear of your own reflection in a mirror
+Electrophobia - Fear of electricity
+Elevatophobia - Fear of elevators
+Elevaphobia - same as Elevatophobia
+Emailphobia - Fear of email
+Energyphobia - Fear of energy
+Enissophobia - Fear of criticism
+Entamaphobia - Fear of doors
+Enydreiophobia - Fear of fishtanks
+Epiplaphobia - Fear of furnitures, branch of oikophobia (fear of home surroundings)
+Epistolaphobia - Fear of epistles
+Epistemophobia - Fear of knowledge
+Ergaleiophobia - Fear of tools
+Erythophobia - Fear of redlights
+Ereuthophobia - same as Erythophobia
+Escalaphobia - Fear of escalators
+Roltraphobia - same as Escalaphobia
+Escalatophobia - same as Escalaphobia
+Esorouchaphobia - Fear of underwear, branch of vestiphobia (fear of clothing)
+Ethismosophobia - Fear of addiction
+Euphobia - Fear of good news
+Eupistophobia - Fear of faith
+Evodiaphobia - Fear of pleasant smell, branch of osmophobia (fear of smells or odors)
+Fadchoongphobia - Fear of power plants
+Fasciolisphobia - Fear of hoses
+Fakelophobia - Fear of envelopes
+Fakosphobia - Fear of flashlights
+Fanariphobia - Fear of traffic lights
+Farasiphobia - Fear of dustpans
+Fenbanphobia - Fear of chalkboards
+Feretrophobia - Fear of caskets
+Ferrophobia - Fear of iron
+Fictophobia - Fear of fiction
+Filicophobia - Fear of filicology
+Filophobia - Fear of wires
+Firehydrantphobia - Fear of fire hydrants
+Flasciphobia - Fear of bottles
+Flitzaniphobia - Fear of cups
+Flitzanisagiouphobia - Fear of teacups
+Focophobia - Fear of fireplaces, branch of oikophobia (fear of home surroundings)
+Fooniphobia - Fear of blow-dryers
+Foremaphobia - Fear of dresses
+Formidophobia - Fear of scarecrows
+Fornaciphobia - Fear of furnaces, branch of syskeviphobia (fear of appliances)
+Forumphobia - Fear of internet forums
+Fossilphobia - Fear of fossils
+Fournophobia - Fear of ovens, branch of syskeviphobia (fear of appliances)
+Foustaphobia - Fear of skirts
+Frachtiphobia - Fear of fences
+Fragmaphobia - Fear of dams
+Frearphobia - Fear of wells
+Frenophobia - Fear of brakes
+Fr%plophobia - Fear of Styrofoam cups
+Fumiphobia - Fear of smoke
+Furngzuphobia - Fear of kitchen tables
+Fwautphobia - Fear of foot massagers
+Fwongiphobia - Fear of public swimming pools
+Fyllofysophobia - Fear of leaf blowers
+Gakkiphobia - Fear of musical instruments  
+Gasgaugephobia - Fear of gas gauges
+Gaspedalphobia - Fear of gas pedals
+Geliophobia - Fear of laughter
+Geraphobia - Fear of metal straws
+Geumaphobia - Fear of taste
+Gatnobphobia - Fear of long hallways
+Gleymophobia - Fear of eyeglasses
+Globophobia - Fear of balloons
+Gl÷ndophobia - Fear of tin cans
+Googlephobia - Fear of search engines
+Gouwuchephobia - Fear of shopping carts
+Grafeiophobia - Fear of desks, branch of epiplaphobia (fear of furnitures)
+Graffitiphobia - Fear of graffiti
+Grammatosimophobia - Fear of postal stamps
+Grandslamwichphobia - Fear of grand slamwich
+Gr?sophobia - Fear of circular saws
+Gyaliailiouphobia - Fear of sunglasses
+G4gophobia - Fear of air horns
+Hagiophobia - Fear of holy things
+Handcuffphobia - Fear of handcuffs
+Headlightphobia - Fear of headlights
+Headphonophobia - Fear of headphones
+Hearingaidphobia - Fear of hearing aids
+Hedgetrophobia - Fear of hedge trimmers
+Heizgephobia - Fear of heaters, branch of syskeviphobia (fear of appliances)
+Heresyphobia - Fear of challenges to official doctrine or of radical deviation
+Hereiophobia - same as Heresyphobia
+Herpetophobia - Fear of creepy, crawly things
+Hibernicaphobia - Fear of carpets, branch of oikophobia (fear of home surroundings)
+Hierophobia - Fear of sacred thin
+Hleguphobia - Fear of black lights
+Hmoshgophobia - Fear of laundry
+Hnirshunphobia - Fear of dirty dishes
+Hockeyphobia - Fear of hockey
+Hoplophobia - Fear of weapons, specifically firearms
+Hosephobia - Fear of hoses
+Hrongyophobia - Fear of lava lamps
+Humorphobia - Fear of humor
+Hyelophobia - Fear of glass
+Hygrophobia - Fear of liquids, dampness, or moisture
+Hylephobia - Fear of materialism
+Hypengyophobia - Fear of responsibility
+H8pophobia - Fear of flamethrowers
+Iconophobia - Fear of icons
+Ideophobia - Fear of intellect
+Imerologiophobia - Fear of calendars
+Intercomphobia - Fear of intercoms
+Internetphobia - Fear of the internet
+Jijingphobia - Fear of car alarms
+Jukeboxophobia - Fear of jukeboxes
+Julelophobia - Fear of Christmas lights
+J9dobphobia - Fear of hot tubs
+Kafetiphobia - Fear of coffeemakers, branch of syskeviphobia (fear of appliance
+Kalathiphobia - Fear of baskets
+Kaltsaphobia - Fear of socks, branch of vestiphobia (fear of clothing)
+Kamarakiphobia - Fear of closets
+Kampanaphobia - Fear of bells
+Kanayaphobia - Fear of chainsaws
+Kapelaphobia - Fear of hats, branch of vestiphobia (fear of clothing)
+Karazphobia - Fear of garages
+Karazportanoichtiriphobia - Fear of garage door openers
+Karazportaphobia - Fear of garage doors
+Karfiphobia - Fear of nails
+Karotsakiphobia - Fear of strollers
+Kassaphobia - Fear of cash registers
+Kasoniphobia - Fear of boxes
+Katagelophobia - Fear of ridicule
+Katsavidiphobia - Fear of screwdrivers
+Katarraktiphobia - Fear of waterfalls
+Kefiphobia - Fear of fun
+Kenophobia - Fear of voids or empty spaces
+Keraphobia - Fear of horns
+Kerasophobia - same as Keraphobia
+Keriphobia - Fear of candles
+Kifnaphobia - Fear of drones
+Kilnphobia - Fear of kilns
+Kinzodophobia - Fear of handheld metal detectors
+Kirompigiaphobia - Fear of crayons
+Kleidariaphobia - Fear of locks
+Kleidiphobia - Fear of keys
+Klɛbzeenphobia - Fear of flat tires
+Koinoniphobia - Fear of rooms
+Koloniaphobia - Fear of colognes and perfumes
+Konsentophobia - Fear of electric outlets  
+Kosmemophobia - Fear of jewelry
+Koumpiphobia - Fear of buttons
+Kouniaphobia - Fear of swings
+Kouvaphobia - Fear of buckets
+Kouziphobia - Fear of stoves, branch of syskeviphobia (fear of appliances)
+Kremastraphobia - Fear of coat hangers
+Kypellophobia - Fear of mugs
+K2nqiphobia - Fear of space heaters
+Ladderphobia - Fear of ladders
+Lagoumiphobia - Fear of rabbit holes, branch of trypophobia (fear of holes)
+Lampaphobia - Fear of lamps, branch of oikophobia (fear of home surroundings)
+Lastichophobia - Fear of tires
+Lateriphobia - Fear of Legos (branch of ludilophobia)
+Lechophobia - Fear of couches, branch of epiplaphobia (fear of furnitures)
+Lentophobia - Fear of contact lenses
+Levophobia - Fear of things to the left side of the body
+Ligamentophobia - Fear of ribbons
+Lighterphobia - Fear of lighters
+Ligyrophobia - Fear of loud noises (psychological phobia) (branch of phonophobia)
+Limniphobia - Fear of lakes
+Linonophobia - Fear of strings
+Linyuphobia - Fear of showers, branch of oikophobia (fear of home surroundings)
+Lockerphobia - Fear of lockers
+Lodiculaphobia - Fear of blankets
+Logicomechanibiophobia - Fear of artificial life (robots, drones, cyborgs)
+Logocrisiaphobia - Fear of censorship
+Loutrophobia - Fear of bathrooms
+Lrashaphobia - Fear of massage chairs
+Lumenophobia - Fear of light fixtures
+Luodophobia - Fear of floor lamps
+Lysbrytophobia - Fear of light-switches  
+Mageireiophobia - Fear of kitchens
+Maikbanphobia - Fear of whiteboards
+Monoxeidioanthrakaphobia - Fear of carbon monoxide
+Mageiachaliphobia - Fear of magic carpets
+Magikoravdiphobia - Fear of magic wands
+Magnitofonophobia - Fear of tape recorders
+Manholephobia - Fear of manholes
+Manussiccusphobia - Fear of hand dryers
+Mappophobia - Fear of maps
+Markadorophobia - Fear of markers
+Matterphobia - Fear of matter
+Mechanophobia - Fear of machines
+Mediaphobia - Fear of media
+Megalophobia - Fear of large things
+Megaphonophobia - Fear of megaphones
+Melophobia - Fear of music (branch of phonophobia)
+Memephobia - Fear of internet memes
+Memeophobia - Fear of memes
+Menophobia - Fear of menstruation
+Metazodephobia - Fear of metazodes
+Microphonophobia - Fear of microphones
+Minicelarophobia - Fear of low ceilings (branch of celarophobia)
+Mysophobia - Fear of dirt (Rupophobia) or contamination
+Metrophobia - Fear of poetry
+Microphobia - Fear of small things
+Mycrophobia - same as Microphobia
+Microscopophobia - Fear of microscopes
+Microvophobia - Fear of microwave ovens, branch of syskeviphobia (fear of appliances)
+Mlafenphobia - Fear of coffee grinders
+Mnemophobia - Fear of memories
+Mrnphobia - Fear of charcoal grills
+Molyviphobia - Fear of pencils
+Munjingphobia - Fear of emergency exit door alarms
+Mykitaphobia - Fear of fungus
+Mythophobia - Fear of myths, stories or false statements
+Naitosutandophobia - Fear of nightstands, branch of epiplaphobia (fear of furnitures)  
+Necrophobia - Fear of dead things
+Neophobia - Fear of newness
+Nickelphobia - Fear of nickels
+Nijoongphobia - Fear of yearbooks
+Nlaiguphobia - Fear of can openers
+Nintendophobia - Fear of Nintendo
+Nojescentrophobia - Fear of entertainment centers, branch of epiplaphobia (fear of furnitures)
+Notophobia - Fear of south
+Nrasobphobia - Fear of cheese graters
+Nucleomituphobia - Fear of nuclear weapons (branch of hoplophobia)
+Nwumpophobia - Fear of electric mixers
+N☽mwuphobia - Fear of milk jugs
+Objectshowphobia - Fear of object shows
+Octagonphobia - Fear of octagons
+Oikophobia - Fear of home surroundings
+Omniphobia - Fear of all and when you have every fear
+Onehundredbottlesofbeerphobia - Fear of 100 bottles of beer on the wall
+Opinatophobia - Fear of imagination
+Opiophobia - Fear of doctor's experience of prescribing needed pain medications for patients
+Oratoparophobia - Fear of speakers
+Ordclaviphobia - Fear of computer keyboards
+Orthophobia - Fear of property
+Osmophobia - Fear of smells
+Osouriphobia - Fear of computer mice
+Otaspidaphobia - Fear of earplugs
+Oulinophobia - Fear of scars
+Ouritiriophobia - Fear of urinals
+Ovalphobia - Fear of ovals
+Pactorbophobia - Fear of CDs
+Pagophobia - Fear of ice or frost
+Pamphobia - Fear of an unknown cause
+Panophobia - Fear of everything (branch of panphobia)
+Panphobia - Fear of all (branch of pantophobia)
+Panteloniphobia - Fear of pants, branch of vestiphobia (fear of clothing)
+Pantophobia - Fear of everything or all
+Papoutsiphobia - Fear of shoes, branch of vestiphobia (fear of clothing)
+Papyrophobia - Fear of paper
+Payphonophobia - Fear of payphones
+Patroiophobia - Fear of heredity
+Peccatophobia - Fear of imaginary crimes
+Pectusspemophobia - Fear of hope chests, branch of epiplaphobia (fear of furnitures)
+Pediophobia - Fear of dolls (branch of automatonophobia)
+Pencillophobia - Fear of pencils
+Pennyphobia - Fear of pennies
+Perstilbospherphobia - Fear of mirror balls
+Pezodromiophobia - Fear of sidewalks
+Philosophobia - Fear of philosophy
+Phonophobia - Fear of loud noise (branch of (ligyrophobia)
+Photoaugliaphobia - Fear of glaring lights (branch of photophobia)
+Photographophobia - Fear of photography
+Photophobia - Fear of light
+Piatophobia - Fear of dishes
+Pictophobia - Fear of pictures
+Pingbophobia - Fear of tablet computers
+Pingpongphobia - Fear of ping pong
+Pistotikikartaphobia - Fear of credit cards
+Pithanophobia - Fear of probabilities
+Placophobia - Fear of tombstones
+Plakidiophobia - Fear of tiles
+Planophobia - Fear of piano, branch of gakkiphobia (fear of musical instruments)
+Plastophobia - Fear of plastic bags
+Plyntiphobia - Fear of washing machines, branch of syskeviphobia (fear of appliances)
+Polyphobia - Fear of many things
+Poolphobia - Fear of pool games
+Portbankazphobia - Fear of car trunks
+Postalphobia - Fear of mail
+Potamophobia - Fear of rivers or running water
+Poukamisophobia - Fear of shirts, branch of vestiphobia (fear of clothing)
+Pragmaticophobia - Fear of reality
+Praxiphobia - Fear of actions
+Printerphobia - Fear of printers, branch of syskeviphobia (fear of appliances)
+Prophetophobia - Fear of prophecies
+Prosophobia - Fear of progress
+P🎈gronphobia - Fear of paper bags
+Psalidiphobia - Fear of scissors
+Psichaphobia - Fear of crumbs
+Psychophobia - Fear of mind
+Psygephobia - Fear of refrigerators, branch of syskeviphobia (fear of appliances)
+Pumppuphobia - Fear of sump pump, branch of syskeviphobia (fear of appliances)  
+Pupaphobia - Fear of puppets (branch of automatonophobia)
+Purinsumphobia - Fear of trash cans
+Purgamentophobia - Fear of garbage
+Pyliphobia - Fear of gates
+Pyrophobia - Fear of fire
+Pyrotechnophobia - Fear of fireworks
+Pyrsophobia - Fear of torches
+P🐟xmophobia - Fear of pizza boxes
+P3nsophobia - Fear of spray guns
+Qagazusaqphobia - Fear of paper airplanes
+Qiedjingphobia - Fear of burglar alarms
+Quarterphobia - Fear of quarters
+Radiophobia - Fear of radioactivity or X-rays
+Rasemaphobia - Fear of lawn mowers
+Ravdiphobia - Fear of walking canes
+R🚦crebphobia - Fear of cracked tiles
+Receiptphobia - Fear of receipts
+Recreationphobia - Fear of recreation
+Relaxationphobia - Fear of relaxation
+Reminderphobia - Fear of reminders
+Remmiðophobia - Fear of Christmas tree lights
+Renwuphobia - Fear of action figures (branch of automatonophobia)
+Reqiqiuphobia - Fear of hot air balloons
+Reshuiqiphobia - Fear of water heaters, branch of syskeviphobia (fear of appliances)
+Retainerphobia - Fear of dental retainers
+Revmagrammiphobia - Fear of power lines
+Ringophobia - Fear of ringing sounds
+Rlerrophobia - Fear of patio chairs
+Robophobia - Fear of robots
+Rollerskatephobia - Fear of rollerskates
+Rollatophobia - Fear of walking frames
+Roloiphobia - Fear of watches
+R🚗znonphobia - Fear of revolving doors
+Rweconphobia - Fear of picnic tables
+Sakidiophobia - Fear of backpacks
+Sakoulaphobia - Fear of bags
+Santakiphobia - Fear of purses
+Saxophonophobia - Fear of saxophones, branch of gakkiphobia (fear of musical instruments)
+Scatophobia - Fear of fecal matter
+Scharaphobia - Fear of grills
+Sciophobia - Fear of shadows
+Scotomaphobia - Fear of blindness in visual field
+Scriniaphobia - Fear of bookcases, branch of epiplaphobia (fear of furnitures)
+Seirinaphobia - Fear of sirens
+Seplophobia - Fear of decaying matter
+Senoʃuphobia - Fear of birthday cake candles
+Sfairaphobia - Fear of globes
+Sfoungaristraphobia - Fear of mops
+Sfyriphobia - Fear of hammers
+Shuicaophobia - Fear of sinks
+Sh5dophobia - Fear of paper shredders
+Simaphobia - Fear of signs
+Sinistrophobia - Fear of things to the left or left-handed
+Sixflagsphobia - Fear of Six Flags
+Shijiphobia - Fear of television sets, branch of syskeviphobia (fear of appliances)
+Shoeboxphobia - Fear of shoeboxes
+Shwnphobia - Fear of food processors
+Sh☀gmophobia - Fear of two-liter bottles
+Skateboardphobia - Fear of skateboards
+Skoupaphobia - Fear of brooms
+Snerolakophobia - Fear of ponds
+Soloiphobia - Fear of watches, branch of vestiphobia (fear of clothing)
+Soteriophobia - Fear of dependence on others
+Spacesuitphobia - Fear of spacesuits
+Spasmenagaliaphobia - Fear of broken glass (branch of nelophobia)
+Speedomophobia - Fear of speedometers
+Sphygmomanophobia - Fear of sphygmomanometers
+Spirtophobia - Fear of matches
+Sprinklerphobia - Fear of sprinklers
+Sranduophobia - Fear of crockpots
+Staurophobia - Fear of crosses or the crucifix
+Stavrodromiphobia - Fear of crossroads
+Stenophobia - Fear of narrow things or places
+Stethoscopephobia - Fear of stethoscopes
+Stickerphobia - Fear of stickers
+Stockingphobia - Fear of stockings
+Stopsignphobia - Fear of stop signs
+Strancaphobia - Fear of cold fire
+Strantophobia - Fear of the stratosphere
+Streetlightphobia - Fear of streetlights
+Strovophobia - Fear of strobe lights
+Stylophobia - Fear of pens
+St📹prophobia - Fear of soda cans
+Submechanophobia - Fear of submerged man-made objects
+Surfboardphobia - Fear of surfboards
+Symbolophobia - Fear of symbols and symbolism
+Syndetiraphobia - Fear of paperclips
+Syntrivaniphobia - Fear of fountains
+Syskeviphobia - Fear of appliances, branch of panophobia (fear of everything)
+S🐦gmophobia - Fear of toolboxes
+Tabulatophobia - Fear of floors (branch of terramophobia)
+Taillightphobia - Fear of taillights
+fds hfkdshfkjhsdkjfhsdkjfhdskjfhskjfhsdkjPHOBIA - Fear of typing
+Taiþuphobia - Fear of sunroofs
+Tameiophobia - Fear of store checkouts
+Tapetsariaphobia - Fear of wallpaper
+Taphosphobia - Fear of the grave
+Technophobia - Fear of technology
+Tectophobia - Fear of roofs
+Tegophobia - Fear of rooftops
+Teleophobia - Fear of definite plans
+Telephonophobia - Fear of telephones, branch of syskeviphobia (fear of appliances)
+Telescopophobia - Fear of telescopes
+Terramophobia - Fear of the ground
+Terrorphobia - Fear of terrorism
+Textophobia - Fear of certain fabrics
+Thaumatophobia - Fear of miracles
+Theologicophobia - Fear of theology
+Theophobia - Fear of religion
+Thermomophobia - Fear of thermometers
+Thermostatphobia - Fear of thermostats
+Thesaurophobia - Fear of treasure chests
+Tiganiphobia - Fear of frying pans
+Tilecheiristiriophobia - Fear of remote controls
+Tingchechangphobia - Fear of parking lots
+Tingchechekuphobia - Fear of parking garages
+Tlinghuphobia - Fear of campfires
+Toasterphobia - Fear of toasters, branch of syskeviphobia (fear of appliances)
+Toichophobia - Fear of walls
+Topophobia - Fear of certain places or situations, such as stage fright
+Toualetaphobia - Fear of toilets, branch of oikophobia (fear of home surroundings)
+Touvlophobia - Fear of bricks
+Tragoudiphobia - Fear of songs
+Trapezaphobia - Fear of tables, branch of epiplaphobia (fear of furnitures)
+Trokhophobia - Fear of wheels
+Trompetaphobia - Fear of trumpets, branch of gakkiphobia (fear of musical instruments)
+Trophophobia - Fear of trophies
+Trɛdnophobia - Fear of electric razors
+Trypanophobia - Fear of needles (Belonephobia) or injections (trypanophobia) (branch of aichmophobia)
+Trypophobia - Fear of holes
+Tr✈️gmophobia - Fear of skylights
+Turriphobia - Fear of towers
+Tychophobia - Fear of randomness
+Tympanophobia - Fear of drums, branch of gakkiphobia (fear of musical instruments)
+Tɯdrophobia - Fear of 3D movies
+Umbraphobia - Fear of shadows
+Umbrellaphobia - Fear of umbrellas
+Vagoniphobia - Fear of wagons
+Valantiophobia - Fear of wallets
+Valitsaphobia - Fear of suitcases
+Verkeintriphobia - Fear of traffic tickets
+Vestiphobia - Fear of clothing
+Viemaphobia - Fear of drains
+Videocassettophobia - Fear of VHS tapes
+Vinitophobia - Fear of dressers, branch of epiplaphobia (fear of furnitures)
+Violiphobia - Fear of violins, branch of gakkiphobia (fear of musical instruments)
+Voedsephobia - Fear of garbage disposals
+Voidophobia - Fear of the void
+Volanphobia - Fear of steering wheels
+Vorraphobia - Fear of north
+Vothrophobia - Fear of cesspool
+Voulisiphobia - Fear of the will to do things
+Vinylophobia - Fear of vinyl records
+V🚫shrophobia - Fear of wet floors
+Wanjuwuphobia - Fear of dollhouses (branch of automatonophobia)
+Wheelchairphobia - Fear of wheelchairs
+Wiccaphobia - Fear of witchcraft
+Wlanophobia - Fear of candy machines
+Xafniasmaphobia - Fear of surprises
+X!mzophobia - Fear of heart monitors
+Xinxiangphobia - Fear of mailboxes
+Xylophonophobia - Fear of xylophones, branch of gakkiphobia (fear of musical instruments)
+Xypnitiriphobia - Fear of alarm clocks, branch of syskeviphobia (fear of appliances)
+Xyrophobia - Fear of razors
+W@nophobia - Fear of pressure washers
+Yedanshuphobia - Fear of Christmas trees
+Yedengphobia - Fear of nightlights
+Ygrophobia - Fear of liquid
+Yinjiphobia - Fear of radio receivers
+Yinshuijiphobia - Fear of drinking fountains
+Ylophobia - Fear of wood
+Yrouxphobia - Fear of gumball machines
+Ypnodomatiophobia - Fear of bedrooms
+Yupenphobia - Fear of bathtubs, branch of oikophobia (fear of home surroundings)
+Yushixishophobia - Fear of bathroom sinks
+Yushuaphobia - Fear of windshield wipers
+Ywaohuphobia - Fear of slot machines
+Y∞gomphobia - Fear of popcorn poppers
+Zapsaulphobia - Fear of gas pumps
+Zariphobia - Fear of dice
+Zhaoqinphobia - Fear of store exit anti-theft alarms
+Zhinchaphobia - Fear of walkthrough metal detectors
+Zhuojphobia - Fear of desktop computers
+Zidongshophobia - Fear of vending machines
+Zizanmephobia - Fear of weed eaters
+Zloqingphobia - Fear of paintball guns
+Z📷mrotphobia - Fear of old shoes
+Zoniasfaleiaphobia - Fear of seatbelts
+Zraidophobia - Fear of table lamps
+Zuigerphobia - Fear of vacuum cleaners
+Zwuqiphobia - Fear of squirt guns
+Zygariaphobia - Fear of weighing scales
+
+substance_phobias.py
+Adamophobia - Fear of diamonds
+Aeriophobia - Fear of gases
+Aerophobia - Fear of air
+Ammophobia - Fear of sand
+Anabophobia - Fear of medicines with anabolic effect (branch of pharmacophobia)
+Antipapyrophobia - Fear of old paper
+Aquaphobia - Fear of water
+Argyrophobia - Fear of silver (branch of metallophobia)
+Argentophobia - same as Argyrophobia
+Asvestiophobia - Fear of calcium
+Aurophobia - Fear of gold (branch of metallophobia)
+Benziphobia - Fear of gasoline
+Blennophobia - Fear of slime
+Cacohydrophobia - Fear of sewer water, branch of aquaphobia (fear of water) and cloacaphobia (fear of sewers)
+Capnophobia - Fear of smoke
+Chaeophobia - Fear of insecticide
+Chemophobia - Fear of chemicals
+Cinerophobia - Fear of ashes
+Cresiumphobia - Fear of cesium
+Cryslaphobia - Fear of gemstones
+Crystallophobia - Fear of crystals
+Cuprophobia - Fear of copper and bronze
+Ganjophobia - Fear of cleaning agents
+Hydrargyophobia - Fear of mercurial medicines (branch of pharmacophobia)
+Jaoŋphobia - Fear of laundry detergent
+Karvounophobia - Fear of charcoal
+Kollaphobia - Fear of glue
+Koniophobia - Fear of dust
+Lanaphobia - Fear of wool
+Metallophobia - Fear of metals
+Neopharmaphobia - Fear of new drugs (branch of neophobia and pharmacophobia)
+Petraphobia - Fear of rocks
+Pigmentumphobia - Fear of paint
+Pharmacophobia - Fear of drugs, taking medicine, or medications
+Plastophobia - Fear of plastic
+Pɤnrophobia - Fear of spray paint
+Rupophobia - Fear of dirt
+Vacansopapurosophobia - Fear of blank paper (branch of papyrophobia)
+Wajjeophobia - Fear of dishwasher detergent
+Xiwophobia - Fear of dishwashing liquid
+Xylophobia - Fear of wooden objects
+
+food_and_drink_phobias.py
+Abzicheetophobia - Fear of flaming hot cheetos (branch of cibophobia, cheetophobia, and Aromaphobia)
+Acerophobia - Fear of sours (branch of cibophobia)
+Acrisophobia - Fear of bitters (branch of cibophobia)
+Alektorophobia - Fear of eating chicken (branch of carnophobia & cibophobia)
+Alliumphobia - Fear of garlic (branch of cibophobia)
+Althaiophobia - Fear of Marshmallows (Branch of cibophobia)
+Anapsytikophobia - Fear of soft drinks (branch of dipsophobia)
+Apionphobia - Fear of pears (branch of cibophobia)
+Aquaphobia - Fear of water
+Arachibutyrophobia - Fear of peanut butter sticking to the roof of one's mouth
+Arakaphobia - Fear of peas (branch of cibophobia)
+Aromaphobia - Fear of spices and spicy food (branch of cibophobia)
+Artophobia - Fear of bread (branch of cibophobia)
+Beikonphobia - Fear of bacon (branch of carnophobia & cibophobia)
+Bagelphobia - Fear of bagels (branch of cibophobia)
+Bananaphobia - Fear of bananas (branch of cibophobia)
+Biftekiphobia - Fear of steak (branch of carnophobia & cibophobia)
+Biskotophobia - Fear of biscuits (branch of cibophobia)
+Booberoophobia - Fear of booberry (branch of cibophoia)
+Browniephobia - Fear of brownies (branch of cibophobia)
+Burritophobia - Fear of burritos (branch of cibophobia)
+Caerturophobia - Fear of blue cheese (branch of cibophobia and turophobia)
+Cafephobia - Fear of coffee (branch of Dipsophobia)
+Calamusphobia - Fear of caramel (branch of cibophobia)
+Candycanephobia - Fear of candy canes (branch of cibophobia)
+Candycornphobia - Fear of candy corn (branch of cibophobia)
+Caramelaphobia - Fear of candy (branch of cibophobia)
+Karamelaphobia - same as Caramelaphobia
+Carnophobia - Fear of meat (branch of cibophobia)
+Cheetophobia - Fear of cheetos (branch of cibophobia)
+Chiclephobia - Fear of chewing gum (branch of cibophobia)
+Chiliphobia - Fear of chili (branch of cibophobia and aromaphobia)
+Chocxyphobia - Fear of chocolate covered sausages (branch of cibophobia, Loukanikophobia, carnophobia and xochocotlatephobia)
+Choirinophobia - Fear of pork (branch of carnophobia & cibophobia)
+Choiromeriphobia - Fear of ham (branch of carnophobia & cibophobia)
+Chotdonkphobia - Fear of hot dogs (branch of carnophobia & cibophobia)
+Chymomilouphobia - Fear of apple juice (branch of dipsophobia)
+Chymoportokaliphobia - Fear of orange juice (branch of dipsophobia)
+Cibofestinaphobia - Fear of fast food (branch of cibophobia)
+Cibophobia - Fear of food
+Cocaphobia - Fear of coca cola (branch of dipsophobia)
+Corporicaramelaphobia - Fear of candy being shaped like body parts (branch of cibophobia and caramelaphobia)
+Crisplowfriphobia - Fear of Munchy Boxes (branch of Cibophobia)
+Crustumphobia - Fear of pie (branch of cibophobia)
+Cucurbitaceaeophobia - Fear of watermelons (branch of cibophobia)
+Cucurbitophobia - Fear of pumpkins (branch of cibophobia)
+Cupcakephobia - Fear of cupcakes (branch of cibophobia)
+Dehydlegrithlyphobia - Fear of eating dried ants (branch of cibophobia)
+Dipsophobia - Fear of drink or beverages (branch of aquaphobia)
+Doubaphobia - Fear of pastries (branch of cibophobia)
+Dulciphobia (fear of sweets (branch of cibophobia)), Suaviphobia - Fear of anything sweet
+Fajitaphobia - Fear of fajitas (branch of cibophobia)
+Fasoliphobia - Fear of beans (branch of cibophobia)
+Filletiphobia - Fear of fillets (branch of cibophobia)
+Fraoulaphobia - Fear of strawberries
+Fructophobia - Fear of fruits (branch of cibophobia)
+Fystikovoutyrophobia - Fear of peanut butter (branch of cibophobia)
+Fɤpcophobia - Fear of frozen food (branch of cibophobia)
+Galaphobia - Fear of milk (branch of cibophobia)
+Giaourtiophobia - Fear of yogurts (branch of cibophobia & gustatophobia)
+Gingerbreadphobia - Fear of gingerbread (branch of cibophobia)
+Gleifitzouriphobia - Fear of lollipops (branch of cibophobia)
+Gumballphobia - Fear of gumballs (branch of cibophobia)
+Gustatophobia - Fear of snacks (branch of cibophobia)
+Hamburgerphobia - Fear of hamburgers (branch of carnophobia and cibophobia)
+Halophobia - Fear of salt and salty food (branch of cibophobia)
+Alatiphobia - same as Halophobia
+Ichthyophobia - Fear of fish (branch of cibophobia)
+Jellybeanphobia - Fear of jellybeans (branch of cibophobia)
+Junkcibophobia - Fear of junk food (branch of cibophobia)
+Kalampokiphobia - Fear of corn (branch of cibophobia)
+Kerasiphobia - Fear of cherries (branch of cibophobia)
+Ketsapphobia - Fear of ketchup (branch of cibophobia)
+Kurberiphobia - Fear of cranberries (branch of cibophobia)
+Lachanophobia - Fear of vegetables (branch of cibophobia)
+Lemonadaphobia - Fear of lemonade (branch of cibophobia)
+Lemoniphobia - Fear of lemons (branch of cibophobia)
+Lipophobia - Fear of fats (branch of cibophobia)
+Loukanikophobia - Fear of sausage (branch of carnophobia & cibophobia)
+Loukoumaphobia - Fear of donuts (branch of cibophobia)
+Macaroniphobia - Fear of macaroni (branch of cibophobia)
+Magionezaphobia - Fear of mayonnaise (branch of cibophobia)
+Mallitigriaphobia - Fear of cotton candy (branch of cibophobia)
+Meleagrisphobia - Fear of turkey (branch of carnophobia & cibophobia)
+Methyphobia - Fear of alcohol (branch of cibophobia)
+Milophobia - Fear of apples (branch of cibophobia)
+Moscholemonophobia - Fear of limes (branch of cibophobia)
+Mourophobia - Fear of berries (branch of cibophobia)
+Moustardaphobia - Fear of mustard (branch of cibophobia)
+Muffilophobia - Fear of muffins (branch of cibophobia)
+Mycophobia - Fear of mushrooms (branch of cibophobia)
+Myrtilophobia - Fear of blueberries (branch of cibophobia)
+M&Mphobia - Fear of M&M's (branch of cibophobia)
+Nachophobia - Fear of nachos (branch of cibophobia)
+Oenophobia - Fear of wine (branch of methyphobia)
+Ostraconophobia - Fear of shellfish (branch of cibophobia & ichthyophobia)
+Ovophobia - Fear of eggs (branch of cibophobia)
+Pagotophobia - Fear of ice cream (branch of cibophobia gustatophobia)
+Palmaria Palmataphobia - Fear of Palmaria Palmata
+Patatakiphobia - Fear of chips (branch of cibophobia)
+Pemmaphobia - Fear of cake (branch of cibophobia)
+Piperiphobia - Fear of pepper (branch of cibophobia)
+Pizzaphobia - Fear of pizza (branch of cibophobia)
+Popsiclephobia - Fear of popsicles (branch of cibophobia)
+Popcornphobia - Fear of popcorn (branch of cibophobia)
+Portokaliphobia - Fear of oranges (branch of cibophobia)
+Psomiphobia - Fear of bread (branch of cibophobia)
+Quesadillaphobia - Fear of quesadillas (branch of cibophobia)
+Rigatoniphobia - Fear of rigatoni (branch of cibophobia)
+Ryziphobia - Fear of rice (branch of cibophobia)
+Saccharophobia - Fear of sugar and sugary foods and drinks (branch of cibophobia)
+Sagiouphobia - Fear of tea
+Salutecibophobia - Fear of health food (branch of cibophobia)
+Siropiphobia - Fear of syrup (branch of cibophobia)
+Sitophobia - Fear of eating
+Skittlephobia - Fear of skittles (branch of cibophobia)
+Smeourophobia - Fear of raspberries (branch of cibophobia)
+Soupaphobia - Fear of soup (branch of cibophobia)
+Spaghettiphobia - Fear of spaghetti (branch of cibophobia)
+Tacophobia - Fear of tacos (branch of carnophobia & cibophobia)
+Taylorphobia - Fear of cream (branch of cibophobia)
+Tiganitepatatephobia - Fear of french fries (branch of cibophobia)
+Tiganopsomophobia - Fear of pancakes (branch of cibophobia)
+Tortillaphobia - Fear of tortillas (branch of cibophobia)
+Turophobia - Fear of cheese (branch of cibophobia)
+Vaflaphobia - Fear of waffles (branch of cibophobia)
+Vanillaphobia - Fear of vanilla (branch of cibophobia)
+Vatomourophobia - Fear of blackberries (branch of cibophobia)
+Vodinophobia - Fear of beef (branch of carnophobia & cibophobia)
+Voutimaphobia - Fear of cookies (branch of cibophobia)
+Voutyrophobia - Fear of butter (branch of cibophobia)
+Waterphobia - Fear of waters
+Xocolataphobia - Fear of chocolates (branch of cibophobia)
+Zelatiniphobia - Fear of jelly (branch of cibophobia)
+Zymarikaphobia - Fear of pasta (branch of cibophobia)
+Zythophobia - Fear of beer (branch of cibophobia & methyphobia)
+
+vehicle_phobias.py
+Amaxophobia - Fear of automobiles (branch of ochophobia)
+Motorphobia - same as Amaxophobia
+Armamachophobia - Fear of tanks (branch of ochophobia)
+BMWphobia - Fear of BMW (branch of ochophobia)
+Boulntozaphobia - Fear of bulldozers (branch of ochophobia)
+Bukkuophobia - Fear of bucket trucks
+Bustrophobia - Fear of buses (branch of ochophobia)
+Chevroletphobia - Fear of Chevrolet (branch of ochophobia)
+Cochephobia - Fear of cars (branch of ochophobia)
+Convertiblephobia - Fear of convertibles (branch of ochophobia)
+Coupephobia - Fear of coupes (branch of ochophobia)
+Cuimuphobia - Fear of car-boats
+Cyclophobia - Fear of bicycles (branch of ochophobia)
+Dinmuphobia - Fear of electric cars
+Disongchephobia - Fear of delivery trucks (branch of ochophobia)
+Dochogophobia - Fear of tank trucks (branch of ochophobia)
+Feichuanphobia - Fear of spaceships (branch of ochophobia)
+Feijiphobia - Fear of airplanes (branch of ochophobia)
+Feixmuphobia - Fear of flying cars
+Fordophobia - Fear of Fords (branch of ochophobia)
+Forkliftophobia - Fear of forklifts (branch of ochophobia)
+Fʌmptophobia - Fear of rowboats
+Gaofmuphobia - Fear of hovercars
+Gokarrophobia - Fear of go-carts (branch of ochophobia)
+Gelandelimophobia - Fear of SUVs (branch of ochophobia)
+Golfkarrophobia - Fear of golf carts (branch of ochophobia)
+Hatchbackphobia - Fear of hatchbacks (branch of ochophobia)
+Helicoptophobia - Fear of helicopters (branch of ochophobia)
+Hondaphobia - Fear of Honda (branch of ochophobia)
+Huochephobia - Fear of vans (branch of ochophobia)
+Imifortigophobia - Fear of pick up trucks (branch of ochophobia)
+Jingchephobia - Fear of police cars (branch of cochephobia & ochophobia)
+Jipuphobia - Fear of jeeps (branch of ochophobia)
+Jiqimuphobia - Fear of robotic cars
+Jiuhuphobia - Fear of ambulances (branch of ochophobia)
+Jixyuphobia - Fear of subways
+Kombiphobia - Fear of station wagons (branch of ochophobia)
+Koterophobia - Fear of sailboats (branch of ochophobia)
+Lajichephobia - Fear of garbage trucks (branch of ochophobia)
+Limophobia - Fear of limousines (branch of ochophobia)
+Mitsubishiphobia - Fear of Mitsubishi (branch of ochophobia)
+Mroehonphobia - Fear of old cars
+Motorcyclophobia - Fear of motorcycles (branch of ochophobia)
+Naviphobia - Fear of being on a boat or cruise ship (branch of ochophobia)
+Navisphobia - same as Naviphobia
+Nissanphobia - Fear of Nissan (branch of ochophobia)
+Ochophobia - Fear of vehicles
+Jettophobia - Fear of jet planes (branch of ochophobia)
+Porthmeiophobia - Fear of ferries (branch of ochophobia)
+Pteromerhanophobia - Fear of being on an airplane (branch of ochophobia)
+P7crophobia - Fear of jet skis
+Qichuanphobia - Fear of motorboats (branch of ochophobia)
+Qonshungphobia - Fear of submarines
+Saichephobia - Fear of race cars (branch of ochophobia)
+Scooterphobia - Fear of scooters (branch of ochophobia)
+Sedanphobia - Fear of sedans (branch of ochophobia)
+Seemptuophobia - Fear of cement trucks
+Semirophobia - Fear of semi trucks (branch of ochophobia)
+Semitrophobia - same as Semirophobia
+Sheijiphobia - Fear of seaplanes (branch of ochophobia)
+Sleighphobia - Fear of sleighs (branch of ochophobia)
+Siderodromophobia - Fear of trains, railroads or train travel (branch of ochophobia)
+Snowmobilephobia - Fear of snowmobiles (branch of ochophobia)
+Taneophobia - Fear of flying space cars
+Taxiphobia - Fear of taxis (branch of ochophobia)
+Toyotaphobia - Fear of Toyota (branch of ochophobia)
+Tuochephobia - Fear of tow trucks (branch of ochophobia)
+Tractorphobia - Fear of tractors (branch of ochophobia)
+Tricyclophobia - Fear of tricycles (branch of ochophobia)
+Trochophobia - Fear of being on a truck or bus (branch of ochophobia)
+Veloxrotaphobia - Fear of being on a roller coaster (branch of ochophobia)
+Xuegachephobia - Fear of ice cream trucks (branch of ochophobia)
+Xiaofaphobia - Fear of fire engines (branch of ochophobia)
+Xochephobia - Fear of school buses (branch of ochophobia)
+Yubinshaphobia - Fear of mail trucks (branch of ochophobia)
+Zixiechephobia - Fear of dump trucks (branch of ochophobia)
+
+condition_and_quality_phobias.py
+Achluophobia - Fear of darkness
+Acrophobia - Fear of heights
+Agateophobia - Fear of insanity
+Agnostophobia - Fear of the unknown
+Aletheiaphobia - Fear of truth
+Algophobia - Fear of pain
+Allocotophobia - Fear of oddity
+Altophobia - Fear of being up high
+Anuptaphobia - Fear of being single
+Archephobia - Fear of being controlled
+Ataxaphobia - Fear of untidiness
+Atelophobia - Fear of imperfection
+Automysophobia - Fear of being dirty
+Autophobia - Fear of isolation
+Bantuphobia - Fear of banter
+Bathophobia - Fear of depth
+Beephobia - Fear of getting b's in grades
+Cacophobia - Fear of ugliness
+Cainophobia - Fear of novelty
+Callophobia - Fear of beauty
+Ceephobia - Fear of getting c's in grades
+Chayiphobia - Fear of difference
+Cherophobia - Fear of gaiety
+Clamorphobia - Fear of screams
+Counterphobia - Fear of not being in fearful situations
+Cryophobia - Fear of extreme cold (branch of frigophobia)
+Deephobia - Fear of getting d's in grades
+Dependophobia - Fear of not being independent
+Subordinatephobia - same as Dependophobia
+Diplophobia - Fear of double vision
+Durumphobia - Fear of hard objects
+Dyskolophobia - Fear of difficulty
+Dysmorphophobia - Fear of deformity
+Effophobia - Fear of getting f's in grades
+Efkolophobia - Fear of easiness
+Eleutherophobia - Fear of freedom
+Enochlophobia - Fear of crowds
+Eosophobia - Fear of dawn or daylight
+Eremophobia - Fear of being selfish
+Eutychemaphobia - Fear of luck
+Frigophobia - Fear of cold
+Futurephobia - Fear of the future
+Gamophobia - Fear of being in a relationship
+Gerontophobia - Fear of the elderly
+Gymnophobia - Fear of nudity
+Nudaphobia - same as Gymnophobia
+Historophobia - Fear of history
+Homophobia - Fear of sameness and monotony
+Hygeiophobia - Fear of health and hygiene
+Implexaphobia - Fear of tanglement
+Inadspectusremphobia - Fear of anything that's out of sight
+Keyaiphobia - Fear of cuteness
+Lathophobia - Fear of wrongness
+Leptophobia - Fear of being skinny
+Lihaiphobia - Fear of aesthetic coolness
+Metathesiophobia - Fear of changes
+Mollephobia - Fear of soft objects
+Monophobia - Fear of being alone
+Morophobia - Fear of stupidity
+Neosphobia - Fear of newness
+Nihiliphobia - Fear of nothingness
+Noctiphobia - Fear of the night
+Nyctophobia - Fear of the dark
+Obesophobia - Fear of obesity
+Ochlophobia - Fear of mobs (branch of enochlophobia)
+Omegaphobia - Fear of being last in line
+Oudenophobia - Fear of 0 (numbers phobias)
+Paliophobia - Fear of old things
+Peniaphobia - Fear of poverty
+Phobophobia - Fear of developing a fear
+Phobusphobia - Fear of fears
+Plutophobia - Fear of wealth
+Procerophobia - Fear of being too tall
+Retrophobia - Fear of the past
+Secundophobia - Fear of success
+Sedatephobia - Fear of silences
+Sedetaphobia - Fear of silence
+Sostophobia - Fear of correctness
+Symmetrophobia - Fear of symmetry
+Tachophobia - Fear of high speeds
+Tapinophobia - Fear of being contagious
+Tongyiphobia - Fear of sameness
+Thermophobia - Fear of heat
+Xerophobia - Fear of dryness
+Ymophobia - Fear of contrariety
+
+genres_phobias.py
+Actiophobia - Fear of action films
+Adventophobia - Fear of adventure films
+Animephobia - Fear of anime
+Animophobia - Fear of soul music
+Burusuphobia - Fear of blues music
+Choreftikophobia - Fear of dance music
+Dramaphobia - Fear of dramas
+Duismalophobia - Fear of disaster films
+Fantasophobia - Fear of fantasy films
+Figmentophobia - Fear of science fiction films
+Gloriaphobia - Fear of thrillers
+Hevimetaruphobia - Fear of heavy metal music
+Hiphopphobia - Fear of hip hop music
+Horametophobia - Fear of horror films
+Housemusikaphobia - Fear of house music
+Kantoriphobia - Fear of country music
+Komoidaphobia - Fear of comedies
+Poppuphobia - Fear of pop music
+Rokkuphobia - Fear of rock music
+Romantikophobia - Fear of romance films
+Rʊcophobia - Fear of R-rated movies
+Weltmusikophobia - Fear of folk music
+Zorevophobia - Fear of jazz music
+
+movies_and_tv_show_phobias.py
+Aladdinphobia - Fear of the Disney movie Aladdin (Branch of Cinephobia)
+Barneyphobia - Fear of the kids show barney (branch of TVshowphobia)
+Callouiphobia - Fear of the kids show Caillou (branch of TVshowphobia)
+Candymanphobia - Fear of the horror movie Candyman (branch of Cinephobia)
+Cinderellaphobia - Fear of the Disney movie Cinderella (branch of cinephobia)
+Cinephobia - Fear of movies
+Cosmobellophobia - Fear of the space fantasy movie Star Wars (branch of Cinephobia)
+Dariaphobia - Fear of the cartoon Daria (dranch of TVshowphobia)
+Dragonballphobia - Fear of the anime Dragonball Z (branch of TVshowphobia)
+Numberblockiphobia - Fear of the kids show Numberblocks (branch of TVshowphobia)
+TVshowphobia - Fear of TV shows
+
+weather_phobias.py
+Aestophobia - Fear of hot weather (branch of meteophobia)
+Anemophobia - Fear of winds or drafts (branch of meteophobia)
+Astraphobia - Fear of thunder and lightning (branch of meteophobia)
+Brontophobia - Fear of thunder (branch of astraphobia & meteophobia)
+Ceraunophobia - Fear of lightning (branch of astraphobia & tempestaphobia & meteophobia)
+Chionophobia - Fear of snow (branch of meteophobia)
+Chionothyellaphobia - Fear of blizzards (branch of chionophobia & meteophobia & tempestaphobia)
+Cyclonophobia - Fear of tropical cyclones (branch of lilapsophobia and meteophobia)
+Cymophobia - Fear of wind-driven waves (branch of meteophobia)
+Frigoriphobia - Fear of cold weather (branch of meteophobia)
+Grandophobia - Fear of hail (branch of meteophobia & tempestaphobia)
+Homichlophobia - Fear of fog (branch of Nebulophobia & meteophobia)
+Humidophobia - Fear of humidity (branch of meteophobia)
+Meteophobia - Fear of weather
+Nebulophobia - Fear of fog or clouds (branch of meteophobia)
+Nephophobia - Fear of clouds (branch of Nebulophobia & meteophobia)
+Ombrophobia - Fear of rain or of being rained on (branch of meteophobia)
+Pluvifrigophobia - Fear of freezing rain (branch of meteophoia & ombrophobia)
+Serenophobia - Fear of fair weather (branch of meteophobia)
+Tempestaphobia - Fear of storms (branch of meteophobia)
+
+natural_disaster_phobias.py
+Antlophobia - Fear of flooding
+Ariditaphobia - Fear of droughts
+Agripyrophobia - Fear of wildfires (branch of pyrophobia)
+Chionokataiphobia - Fear of Ice storms
+Chionothyellaphobia - Fear of blizzards (branch of chionophobia & tempestaphobia)
+Cyclonophobia - Fear of tropical cyclones (satellite of lilapsophobia)
+Derechophobia - Fear of drechos
+Lilapsophobia - Fear of tornadoes (turbophobia) and tropical cyclones (cyclonophobia) (branch of tempestaphobia)
+Nivisphobia - Fear of avalanches (branch of chionophobia)
+Seismophobia - Fear of earthquake
+Turbophobia - Fear of tornadoes (branch of lilapsophobia)
+Tsunamiphobia - Fear of tsunamis
+Volcanophobia - Fear of volcanos
+
+space_phobias.py
+Arisphobia - Fear of Mars
+Astrophobia - Fear of celestial objects
+Callistophobia - Fear of Jupiter's moon Callisto
+Celeformophobia - Fear of constellations
+Ceresphobia - Fear of the dwarf planet Ceres
+Cometophobia - Fear of comets
+Cosmophobia - Fear of the cosmos
+Deimosphobia - Fear of Mars's moon Deimos
+Erisphobia - Fear of the dwarf planet Eris
+Etiamophobia - Fear of asteroids
+Europaphobia - Fear of Jupiter's moon Europa
+Galaxiaphobia - Fear of galaxies
+Ganymedephobia - Fear of Jupiter's moon Ganymede
+Haiwangphobia - Fear of Neptune
+Heliophobia - Fear of the sun (branch of astrophobia) or light (branch of photophobia)
+iliakosystimaphobia - Fear of the Solar System
+iomophobia - Fear of Jupiter's moon io
+Jinxiphobia - Fear of Venus
+Kosmikophobia - Fear of cosmic phenomenon
+Makemakephobia - Fear of the dwarf planet Makemake
+Melanoheliophobia - Fear of black holes (branch of trypophobia)
+Mestoselenophobia - Fear of full moon (branch of selenophobia)
+Remaphobia - same as Mestoselenophobia
+Meteorophobia - Fear of meteors
+Mingwangphobia - Fear of Pluto
+Muxiphobia - Fear of Jupiter
+Phobosphobia - Fear of Mars's moon Phobos
+Planitiphobia - Fear of planets
+Qivaniphobia - Fear of visiting Hi'aka
+Selenophobia - Fear of the moon
+Shuixphobia - Fear of Mercury
+Siderophobia - Fear of stars
+Spacephobia - Fear of outer space
+Tennophobia - Fear of Uranus
+Terraphobia - Fear of Earth
+Titanphobia - Fear of Saturn's moon Titan
+Tritonphobia - Fear of Neptune's moon Triton
+Tuxiphobia - Fear of Saturn
+Vialacteaphobia - Fear of the Milky Way Galaxy
+
+planet_phobias.py
+Arisphobia - Fear of Mars (branch of plantiphobia)
+Haiwangphobia - Fear of Neptune (branch of planitiphobia)
+Jinxiphobia - Fear of Venus (branch of planitiphobia)
+Muxiphobia - Fear of Jupiter (branch of planitiphobii)
+Planitiphobia - Fear of Planets
+Shuixphobia - Fear of Mercury (branch of planitiphobia)
+Tennophobia - Fear of Uranus (branch of planitiphobia)
+Terraphobia - Fear of Earth (branch of planitiphobia)
+Tuxiphobia - Fear of Saturn (branch of planitiphobia)
+
+color_phobias.py
+Aurophobia - Fear of gold (branch of chromophobia)
+Chromophobia - Fear of colors (not to be confused with chronophobia, fear of not having enough time)
+Chrysophobia - Fear of orange (branch of chromophobia)
+Cyanophobia - Fear of blue (branch of chromophobia)
+Erythrophobia - Fear of red (branch of chromophobia)
+Glaucophobia - Fear of gray (branch of chromophobia)
+Kastanophobia - Fear of brown (branch of chromophobia)
+Leukophobia - Fear of white (branch of chromophobia)
+Melanophobia - Fear of black (branch of chromophobia)
+Persicophobia - Fear of peach (branch of chromophobia)
+Porphyrophobia - Fear of purple (branch of chromophobia)
+Prasinophobia - Fear of green (branch of chromophobia)
+Rhodophobia - Fear of pink (branch of chromophobia)
+Xanthophobia - Fear of yellow (branch of chromophobia)
+
+language_phobias.py
+Abbreviatophobia - Fear of abbreviations
+Aibohphobia - Fear of palindromes
+Albumistaphobia - Fear of lists
+Allodoxaphobia - Fear of different people's opinions (branch of doxphobia)
+Alphabeticalphobia - Fear of the Alphabet
+Anagramiphobia - Fear of Anagrams
+Cliahiyuataphobia - Fear of complicated words (branch of hippopotomonstrosesquippedaliophobia)
+doxphobia - Fear of opinions
+euphobia - Fear of good news
+Hellenologophobia - Fear of greek terms or complex scientific terminology (branch of logophobiA)
+Hippopotomonstrosesquippedaliophobia - Fear of long or complicated words (branch of logophobia)
+Kakologophobia - Fear of swearwords (branch of deprecophobia)branch of logophobia
+kakosphobia - Fear of bad news
+Lexicophobia - Fear of dictionary
+Logophobia - Fear of words (branch of logophobia)
+Mycrologophobia - Fear of short words (branch of logophobia)
+Neologistophobia - Fear of new words (branch of logophobia)
+Nomatophobia - Fear of names
+Pangramiphobia - Fear of pangrams (branch of alphabeticalphobia and sentencephobia)
+Phopinaciphobia - Fear of phobia lists (branch of logophobia and Albumistaphboia)
+Sentencephobia - Fear of sentences (branch of logophobia)
+Xenoglossophobia - Fear of foreign languages
+
+letters_phobias.py
+Alphaphobia - Fear of A (branch of grammaphobia)
+Betaphobia - Fear of B (branch of grammaphobia)
+Cammaphobia - Fear of C (branch of grammaphobia)
+Deltaphobia - Fear of D (branch of grammaphobia)
+Epsilonphobia - Fear of E (branch of grammaphobia)
+Foxtophobia - Fear of F (branch of grammaphobia)
+Gammaphobia - Fear of G (branch of grammaphobia)
+Grammaphobia - Fear of letters (branch of panophobia)
+Hetaphobia - Fear of H (branch of grammaphobia)
+Hoofdaphobia - Fear of capital letters (branch of grammaphobia)
+Iotaphobia - Fear of I (branch of grammaphobia)
+Jotaphobia - Fear of J (branch of grammaphobia)
+Kappaphobia - Fear of K (branch of grammaphobia)
+Lambdaphobia - Fear of L (branch of grammaphobia)
+Lowcayphobia - Fear of lowercase letters
+Muphobia - Fear of M (branch of grammaphobia)
+Nuphobia - Fear of N (branch of grammaphobia)
+Omicronphobia - Fear of O (branch of grammaphobia)
+Pipophobia - Fear of P (branch of grammaphobia)
+Qoppaphobia - Fear of Q (branch of grammaphobia)
+Koppaphobia - same as Qoppaphobia
+Rhophobia - Fear of R (branch of grammaphobia)
+Sigmaphobia - Fear of S (branch of grammaphobia)
+Tauphobia - Fear of T (branch of grammaphobia)
+Upsilonphobia - Fear of U (branch of grammaphobia)
+Victophobia - Fear of V (branch of grammaphobia)
+Wauphobia - Fear of W (branch of grammaphobia)
+xinoaphobia - Fear of X (branch of grammaphobia)
+Yotaphobia - Fear of Y (branch of grammaphobia)
+Zetaphobia - Fear of Z (branch of grammaphobia)
+
+word_phobias.py
+Biniuphobia - Fear of the word 'booger'
+Bishiuphobia - Fear of the word 'snot'
+Boomophobia - Fear of the word 'boomer'
+Epistegophobia - Fear of the word 'poop'
+Fegefphobia - Fear of the word 'hell'
+Fongpiphobia - Fear of the word 'fart'
+Fylophobia - Fear of the word 'sex'
+Hunephobia - Fear of the word 'ho'
+Huophobia - Fear of the word 'w'
+Imkengphobia - Fear of the word 'd'
+Inmaophobia - Fear of the word 'c'
+Itaphobia - Fear of the word 'yes'
+Jigotophobia - Fear of the word 'damn'
+Katournmaphobia - Fear of the word 'pee'
+Katourophobia - Fear of the word 'pi'
+Kusaophobia - Fear of the word 'turd'
+Lantsuophobia - Fear of the word 'co'
+Mugouphobia - Fear of the word 'bi
+Nuyinphobia - Fear of the word 'pu'
+Ohiphobia - Fear of the word 'no'
+Rufangphobia - Fear of the word 'tit'
+Skataphobia - Fear of the word 's'
+Suophobia - Fear of the word 'sl'
+Tunbuphobia - Fear of the word 'a'
+Wuophobia - Fear of the word 'ain't'
+Yindaophobia - Fear of the word 'vagina'
+Yinjingphobia - Fear of the word 'penis'
+Younaophobia - Fear of the word 'tw'
+Zomaiphobia - Fear of the word '****'
+
+punctuation_mark_phobias.py
+~phobia - Fear of tildes
+Anticurlybracketophobia - Fear of curly brackets {}
+Bindaphobia - Fear of hyphens (people with this may be scared to the brim because there are hyhens everywhere)
+Erotimatikophobia - Fear of question marks
+Heitophobia - Fear of apostrophes
+Pistaphobia - Fear of periods
+Thaumastikaphobia - Fear of exclamation points
+Virguphobia - Fear of commas
+Colophobia - Fear of colons
+
+numerical_phobias.py
+Adriassophobia - Fear of the number 627,780,191 (branch of numerophobia)
+Aperiophobia - Fear of infinity (branch of numerophobia)
+Bicentumphobia - Fear of 200 (branch of numerophobia)
+Cardinophobia - Fear of cardinal numbers (branch of numerophobia)
+Centumgigaphobia - Fear of 100,000,000,000 (branch of numerophobia)
+Centummegaphobia - Fear of 100,000,000 (branch of numerophobia)
+Centummillephobia - Fear of 100,000 (branch of numerophobia)
+Centumteraphobia - Fear of 100,000,000,000,000 (branch of numerophobia)
+Centumvigintiphobia - Fear of 120 (branch of numerophobia)
+Compustitusnumerophobia - Fear of composite numbers (branch of numerophobia)
+Decaphobia - Fear of 10 (branch of numerophobia)
+Decemgigaphobia - Fear of 10,000,000,000 (branch of numerophobia)
+Decemmillephobia - Fear of 10,000 (branch of numerophobia)
+Decemmegaphobia - Fear of 10,000,000 (branch of numerophobia)
+Decemteraphobia - Fear of 10,000,000,000,000 (branch of numerophobia)
+Defterophobia - Fear of things that are second (branch of numerophobia)
+Dekatophobia - Fear of tenths (branch of numerophobia)
+Dekatotritophobia - Fear of thirteenths (branch of numerophobia)
+Diakosioihekkaidekaphobia - Fear of 216 (branch of numerophobia)
+Diakosioipentekontaphobia - Fear of 250 (branch of numerophobia)
+Dodecaphobia - Fear of 12 (branch of numerophobia)
+Dodekatophobia - Fear of twelfths (branch of numerophobia)
+Ducentosoquinquagintaphobia - Fear of 255 (branch of numerophobia)
+Duochiliaheptahekatohexentatreisophobia - Fear of 2,763 (branch of numerophobia)
+Dyophobia - Fear of 2 (branch of numerophobia)
+Eikosihexaphobia - Fear of 26 (branch of numerophobia)
+Eikositriophobia - Fear of 23 (branch of numerophobia)
+Enatophobia - Fear of ninths (branch of numerophobia)
+Endekatophobia - Fear of elevenths (branch of numerophobia)
+Enenekontenneaphobia - Fear of 99 (branch of numerophobia)
+Enneaidekaphobia - Fear of 19 (branch of numerophobia)
+Enneaphobia - Fear of 9 (branch of numerophobia)
+Enniakosioenenekontenneaphobia - Fear of 999 (branch of numerophobia)
+Enniakosioihendecaphobia - Fear of 911 (branch of numerophobia)
+Emphobia - Fear of the number 648
+Ektophobia - Fear of sixths (branch of numerophobia)
+Evdomophobia - Fear of sevenths (branch of numerophobia)
+Exaphobia - Fear of the number 1,000,000,000,000,000,000 (branch of numerophobia)
+Gigaphobia - Fear of the number 1,000,000,000 (branch of numerophobia)
+Googolphobia - Fear of the number googol (branch of numerophobia)
+Heftakosioitessarakontaheptaphobia - Fear of 747 (branch of numerophobia)
+Hekatenenekontahenophobia - Fear of 191 (branch of numerophobia)
+Hekatenophobia - Fear of 101 (branch of numerophobia)
+Hekatohendecaphobia - Fear of 111 (branch of numerophobia)
+Hekatophobia - Fear of 100 (branch of numerophobia)
+Hendecaphobia - Fear of 11 (branch of numerophobia)
+Henophobia - Fear of 1 (branch of numerophobia)
+Heptaidekaphobia - Fear of 17 (branch of numerophobia)
+Heptaphobia - Fear of 7 (branch of numerophobia)
+Hebdomekontahenophobia - Fear of 71 (branch of numerophobia)
+Hekkaidekaphobia - Fear of 16 (branch of numerophobia)
+Hexakosioihekkaidekaphobia - Fear of 616 (branch of numerophobia)
+Hexakosioihexekontahexaphobia - Fear of 666 (branch of numerophobia)
+Hexaphobia - Fear of 6 (branch of numerophobia)
+Hexekontadyophobia - Fear of 62 (branch of numerophobia)
+Hexekontenneaphobia - Fear of 69 (branch of numerophobia)
+Illionophobia - Fear of numbers ending in -illion (branch of numerophobia)
+Imparnumerophobia - Fear of odd numbers (branch of numerophobia)
+Megaphobia - Fear of the number 1,000,000 (branch of numerophobia)
+Meganumerophobia - Fear of large numbers (branch of numerophobia)
+Micronumerophobia - Fear of small numbers (branch of numerophobia)
+Miliatessarakontadyophobia - Fear of 1042 (branch of numerophobia)
+Milliphobia - Fear of the number 1000 (branch of numerophobia)
+Neganumerophobia - Fear of negative numbers (branch of numerophobia)
+Nonagintaphobia - Fear of 90 (branch of numerophobia)
+Nonicentumphobia - Fear of 900 (branch of numerophobia)
+Numerophobia - Fear of numbers
+Octicentumphobia - Fear of 800 (branch of numerophobia)
+Octaidekaphobia - Fear of 18 (branch of numerophobia)
+Octophobia - Fear of 8 (branch of numerophobia)
+Octogintaphobia - Fear of 80 (branch of numerophobia)
+Octokontaheptaphobia - Fear of 87 (branch of numerophobia)
+Ogdoophobia - Fear of eighths (branch of numerophobia)
+Omalonumerophobia - Fear of even numbers (branch of numerophobia)
+Ordinophobia - Fear of ordinal numbers (branch of numerophobia)
+Oudenophobia - Fear of 0 (branch of numerophobia)
+Paranumerophobia - Fear of irrational numbers (branch of numerophobia)
+Pentaphobia - Fear of 5 (branch of numerophobia)
+Pentakosioipentekontahenophobia - Fear of 551 (branch of numerophobia)
+Pentekontoctophobia - Fear of 58 (branch of numerophobia)
+Pemptophobia - Fear of fifths (branch of numerophobia)
+Petaphobia - Fear of 1,000,000,000,000,000 (branch of numerophobia)
+Phiphobia - Fear of the golden ratio (1.6180339887)
+Piphobia - Fear of pi (3.14159265359)
+Primotitusheteronumerophobia - Fear of prime numbers (branch of numerophobia)
+Protistophobia - Fear of firsts (branch of numerophobia)
+Quattuordecimphobia - Fear of 14 (branch of numerophobia)
+Quadragintaphobia - Fear of 40 (branch of numerophobia)
+Quindecimphobia - Fear of 15 (branch of numerophobia)
+Quadricentumphobia - Fear of 400 (branch of numerophobia)
+Quincentumphobia - Fear of 500 (branch of numerophobia)
+Quinquagintaphobia - Fear of 50 (branch of numerophobia)
+Semiphobia - Fear of 0.5 (branch of numerophobia)
+Septicentumphobia - Fear of 700 (branch of numerophobia)
+Septuagintaphobia - Fear of 70 (branch of numerophobia)
+Sexagintaphobia - Fear of 60 (branch of numerophobia)
+Sexticentumphobia - Fear of 600 (branch of numerophobia)
+Teraphobia - Fear of the number 1,000,000,000,000 (branch of numerophobia)
+Tessarakontadyochilexintaphobia - Fear of 42069 (branch of numerophobia)
+Tessarakontadyophobia - Fear of 42 (branch of numerophobia)
+Tessarakontaheptaphobia - Fear of 47 (branch of numerophobia)
+Tetartophobia - Fear of fourths (branch of numerophobia)
+Tetrakosioeikosiphobia - Fear of 420 (branch of numerophobia)
+Tetraphobia - Fear of 4 (branch of numerophobia)
+Triakontenneaphobia - Fear of 39 (branch of numerophobia)
+Triakosioitriakontatriophobia - Fear of 333 (branch of numerophobia)
+Tricentumphobia - Fear of 300 (branch of numerophobia)
+Trigintiphobia - Fear of 30 (branch of numerophobia)
+Triskaidekaphobia - Fear of 13 (branch of numerophobia)
+Triskaphobia - Fear of 3 (branch of numerophobia)
+Tritophobia - Fear of thirds (branch of numerophobia)
+Vigintiduphobia - Fear of 22 (branch of numerophobia)
+Vigintiunusphobia - Fear of 21 (branch of numerophobia)
+Vigintiphobia - Fear of 20 (branch of numerophobia)
+Yottaphobia - Fear of the number 1,000,000,000,000,000,000,000,000 (branch of numerophobia)
+Zettaphobia - Fear of the number 1,000,000,000,000,000,000,000 (branch of numerophobia)
+
+shape_phobias.py
+Apeirogophobia - Fear of Apeirogons (branch of Apeirophobia and Schimaphobia)
+Circulaphobia - Fear of circles and circular structure (branch of schimaphobia)
+Duesanerexaphobia - Fear of 2 sided shapes (branch of schimaphobia)
+Dwaniphobia - Fear of irregular nonagons (branch of Schimaphobia)
+Edrophobia - Fear of dodecahedrons (branch of schimaphobia)
+Hectogophobia - Fear of 100 sided shapes (branch of schimaphobia)
+Isoscelesphobia - Fear of Isosceles triangles (branch of schimaphobia)
+Ovalphobia - Fear of ovals (branch of schimaphobia)
+Pentagonaphobia - Fear of pentagons (branch of schimaphobia)
+Rectanglephobia - Fear of rectangles (branch of schimaphobia)
+Schimaphobia - Fear of shapes
+Spherephobia - Fear of spheres
+Squarephobia - Fear of squares (branch of schimaphobia)
+Trianglephobia - Fear of triangles (branch of schimaphobia)
+
+legendary_beings_phobias.py
+Alienophobia - Fear of aliens
+Angelophobia - Fear of angels
+Anthroarachnophobia - Fear of any creature possessing humanoid and arachnid-like properions
+Bigfootphobia - Fear of Bigfoot
+Bogyphobia - Fear of bogeys or the bogeyman
+Cryptossaultapuphobia - Fear of Bigfoot being harassed
+Demonophobia - Fear of demons
+Diabolophobia - Fear of devils
+Dontineraiphobia - Fear of the Tooth Fairy
+Dracophobia - Fear of dragons
+Fayophobia - Fear of elves
+Kinemortophobia - Fear of zombies
+Kryptophobia - Fear of cryptids
+Kryptozoophobia - same as Kryptophobia
+Lupophobia - Fear of werewolves
+Monokerophobia - Fear of unicorns
+Meglochunguphobia - Fear of Big Chungus
+Neraidaphobia - Fear of fairies
+Phasmophobia - Fear of ghosts
+Pneumatiphobia - Fear of spirits
+Sanguivoriphobia - Fear of vampires
+Satanophobia - Fear of Satan
+Serenephobia - Fear of mermaids
+Skelephobia - Fear of skeletons
+Spectrophobia - Fear of specters, ghosts (Phasmophobia) or phantoms
+Teratophobia - Fear of monsters
+Theriophobia - Fear of divine beasts
+Wiccaphobia - Fear of witches
+
+fictional_character_phobias.py
+Accumulatheolofurretophobia - Fear of the Pokemon Furret
+Aladdinphobia - Fear of Aladdin (branch of kyrofelonoshophobia)
+Alanphobia - Fear of Alan 'The Brain' Powers from Arthur (branch of kyrofelonoshophobia)
+Anthrodosophobia - Fear of any animated character shaped like the number two (Branch of kyrofelonoshophobia)
+Arnoldphobia - Fear of Arnold Perlstein (branch of kyrofelonoshophobia)
+Arthurphobia - Fear of Arthur Read (branch of kyrofelonoshophobia)
+Auracariophobia - Fear of Lucario (branch of krofelonoshophobia and pokephobia)
+Babybopphobia - Fear of Baby Bop (branch of kyrofelonoshophobia)
+Baldiphobia - Fear of Baldi (branch of kyrofelonoshophobia)
+Banjophobia - Fear of banjo and kazooie (branch of kyrofelonoshophobia)
+Barbiephobia - Fear of Barbie (branch of kyrofelonoshophobia)
+Barneyphobia - Fear of Barney the dinosaur (branch of kyrofelonoshophobia)
+Barrophobia - Fear of Barry B Benson (branch of kyrofelonoshophobia)
+Batmanphobia - Fear of Batman (branch of kyrofelonoshophobia)
+Beavisphobia - Fear of Beavis (branch of kyrofelonoshophobia)
+Bigbirdphobia - Fear of Big Bird (branch of kyrofelonoshophobia)
+Binksophobia - Fear of Jar Jar Binks
+Binkyphobia - Fear of Binky Barnes (branch of kyrofelonoshophobia)
+BJphobia - Fear of B.J. the protoceratops (branch of kyrofelonoshophobia)
+Booberoophobia - Fear of Boo Berry (branch of kyrofelonoshophobia)
+Busterphobia - Fear of Buster Baxter (branch of kyrofelonoshophobia)
+Buttheadphobia - Fear of Butt-Head (branch of kyrofelonoshophobia)
+Caeroukantanarticuliphobia - Fear of blue Ugandan Knuckles (Branch of kyrofelonoshophobia)
+Callouiphobia - Fear of Caillou (branch of kyrofelonoshophobia)
+Candymanphobia - Fear of the candyman
+Carebearphobia - Fear of Care Bears (branch of kyrofelonoshophobia)
+Carlosphobia - Fear of Carlos Ramon (branch of kyrofelonoshophobia)
+CatDogphobia - Fear of CatDog (branch of kyrofelonoshophobia)
+Chargecreepophobia - Fear of charged creepers (branch of kyrofelonoshophobia, cubranchiophobia and creepophobia)
+Chewiephobia - Fear of Chewbacca
+Cibolaliophobia - Fear of talking food (branch of kyrofelonoshophobia)
+Cinderellaphobia - Fear of Cinderella (branch of kyrofelonoshophobia)
+Colephobia - Fear of Cole from ninjago (branchofkyrofelonoshophobia)
+Couragephobia - Fear of Courage the Cowardly Dog (branch of kyrofelonoshophobia)
+Creepophobia - Fear of Creepers (branch of kyrogelonoshophobia)
+Cubrancharachnophobia - Fear of Minecraft spiders (Branch of kyrofelonoshophobia, cubranchiophobias, and arachnophobia)
+Cupheadphobia - Fear of Cuphead (branch of kyrofelonoshophobia)
+Dannyphobia - Fear of Danny Phantom (branch of kyrofelonoshophobia)
+Dariaphobia - Fear of Daria Morgendorffer (branch of kyrofelonoshophobia)
+Davidreadphobia - Fear of David Read from Arthur (branch of kyrofelonoshophobia)
+Diddykongphobia - Fear of Diddy Kong (branch of kyrofelonoshophobia)
+Dixiekongphobia - Fear of Dixie Kong (branch of kyrofelonoshophobia)
+Donaldphobia - Fear of Donald Duck (branch of kyrofelonoshophobia)
+Donatellophobia - Fear of Donatello (branch of kyrofelonoshophobia)
+Donkeykongphobia - Fear of Donkey Kong (branch of kyrofelonoshophobia)
+Doraphobia - Fear of Dora the Explorer (branch of kyrofelonoshophobia)
+Dorothyphobia - Fear of Dorothy Ann (branch of kyrofelonoshophobia)
+DWphobia - Fear of D.W. Read (branch of kyrofelonoshophobia)
+Elmophobia - Fear of Elmo (branch of kyrofelonoshophobia)
+Evilleafyphobia - Fear of Evil Leafy (branch of kyrofelonoshophobia)
+Fernwaltersphobia - Fear of Fern Walters (branch of kyrofelonoshophobia)
+Francinephobia - Fear of Francine Frensky (branch of kyrofelonoshophobia)
+Frankensteinphobia - Fear of Frankenstein (branch of kyrofelonoshophobia)
+Frizzlephobia - Fear of Ms. Frizzle (branch of kyrofelonoshophobia)
+Garfieldphobia - Fear of Garfield (branch of kyrofelonoshophobia)
+Georgelundgrenphobia - Fear of George Lundgren (branch of kyrofelonoshophobia)
+Goofyphobia - Fear of Goofy (branch of kyrofelonoshophobia)
+Grandmathoraphobia - Fear of Grandma Thora from Arthur (branch of kyrofelonoshophobia)
+Grandpadavephobia - Fear of Grandpa Dave from Arthur (branch of kyrofelonoshophobia)
+Grokephobia - Fear of the Groke (branch of kyrofelonoshophobia)
+Homerphobia - Fear of Homer Simpson (branch of kyrofelonoshophobia)
+Ironmanphobia - Fear of Iron Man (branch of kyrofelonoshophobia)
+Janereadphobia - Fear of Jane Read from Arthur (branch of kyrofelonoshophobia)
+Janetperlsteinphobia - Fear of Janet Perlstein (branch of kyrofelonoshophobia)
+Jennamorganphobia - Fear of Jenna Morgan (branch of kyrofelonoshophobia)
+Keeshaphobia - Fear of Keesha Franklin (branch of kyrofelonoshophobia)
+Kermitphobia - Fear of Kermit the frog (branch of kyrofelonoshophobia)
+Kyrofelonoshophobia - Fear of cartoon characters
+Leonardophobia - Fear of Leonardo (branch of kyrofelonoshophobia)
+Lizphobia - Fear from Liz from the Magic School Bus (branch of kyrofelonoshophobia)
+Luigiphobia - Fear of Luigi (branch of kyrofelonoshophobia)
+Mariophobia - Fear of Mario (branch of kyrofelonoshophobia)
+Materphobia - Fear of Tow Mater (branch of kyrofelonoshophobia)
+McDonaldphobia - Fear of Ronald McDonald (branch of kyrofelonoshophobia & mcdonaldsphobia)
+McQueenphobia - Fear of Lightning McQueen (branch of kyrofelonoshophobia)
+Mercutiophobia - Fear of mercutio
+Metazoidphobia - Fear of the Metazoid (the Marvel monster)
+Michelangelophobia - Fear of Michelangelo (branch of kyrofelonoshophobia)
+Mickeyphobia - Fear of Mickey Mouse (branch of kyrofelonoshophobia)
+Minniephobia - Fear of Minnie Mouse (branch of kyrofelonoshophobia)
+Mortdecophobia - Fear of Mort (branch of kyrofelonoshophobia)
+Muffyphobia - Fear of Muffy Crosswire (branch of kyrofelonoshophobia)
+Mylittleponyphobia - Fear of My Little Pony
+Ninjaturtlephobia - Fear of Ninja Turtles (branch of kyrofelonoshophobia)
+Objectshowphobia - Fear of Object Shows (branch of kyrofelonoshophobia)
+Oggyphobia - Fear of Oggy (branch of kyrofelonoshophobia)
+Pablophobia - Fear of Pablo (branch of kyrofelonoshophobia)
+Paulerphobia - Fear of Jake Paul (branch of kyrofelonoshophobia)
+Peppapigphobia - Fear of Peppa Pig (branch of kyrofelonoshophobia)
+Phoebephobia - Fear of Phoebe Terese (branch of kyrofelonoshophobia)
+Poképhobia - Fear of Pokémon (branch of kyrofelonoshophobia)
+Powerpuffgirlphobia - Fear of the Powerpuff Girls (branch of kyrofelonoshophobia)
+Pikaphobia - Fear of Pikachu (branch of kyrofelonoshophobia & poképhobia)
+Pinguphobia - Fear of Pingu
+Powerrangerphobia - Fear of Power Rangers (branch of kyrofelonoshophobia)
+Prunelladeeganphobia - Fear of Prunella Deegan (branch of kyrofelonoshophobia)
+Ralphiephobia - Fear of Ralphie Tennelli (branch of kyrofelonoshophobia)
+Raphaelphobia - Fear of Raphael (branch of kyrofelonoshophobia)
+Ratburnphobia - Fear of Mr. Ratburn (branch of kyrofelonoshophobia)
+Riffphobia - Fear of Riff the hadrosaur (branch of kyrofelonoshophobia)
+Rottenphobia - Fear of Robbie Rotten (branch of kyrofelonoshophobia)
+Scoobyphobia - Fear of Scooby Doo (branch of kyrofelonoshophobia)
+Sephirothphobia - Fear of Sephiroth
+Simpsonphobia - Fear of the Simpsons (branch of kyrofelonoshophobia)
+Slendermanphobia - Fear of Slenderman (branch of kyrofelonoshophobia)
+Smokeyphobia - Fear of Smokey the Bear (branch of kyrofelonoshophobia)
+Sonicphobia - Fear of Sonic the Hedgehog (branch of kyrofelonoshophobia)
+Spidermanphobia - Fear of Spider-Man (branch of kyrofelonoshophobia)
+Spongebophobia - Fear of Spongebob SquarePants (branch of kyrofelonoshophobia)
+Sueellenphobia - Fear of Sue Ellen (branch of kyrofelonoshophobia)
+Supermanphobia - Fear of Superman (branch of kyrofelonoshophobia)
+Tailsphobia - Fear of Tails (branch of kyrofelonoshophobia)
+Talkingtomphobia - Fear of Talking Tom (branch of kyrofelonoshophobia)
+Teletubbyphobia - Fear of Teletubbies (branch of kyrofelonoshophobia)
+Timmytibblephobia - Fear of Timmy Tibble (branch of kyrofelonoshophobia)
+Timothyphobia - Fear of Timothy 'Tim' from the Magic School Bus (branch of kyrofelonoshophobia)
+Tommytibblephobia - Fear of Tommy Tibble (branch of kyrofelonoshophobia)
+Tomjerrophobia - Fear of Tom and Jerry (branch of kyrofelonoshophobia)
+UltimateAlienphobia - Fear of Ben 10 (branch of kyrofelonoshophobia)
+Wandaphobia - Fear of Wanda Li (branch of kyrofelonoshophobia)
+Winniephobia - Fear of Winnie the Pooh (branch of kyrofelonoshophobia)
+Wonderwomanphobia - Fear of Wonder Woman (branch of kyrofelonoshophobia)
+Violaswampphobia - Fear of Miss Viola Swamp (branch of kyrofelonoshophobia)
+X-menphobia - Fear of X-men (branch of kyrofelonoshophobia)
+Zeldaphobia - Fear of Zelda (branch of kyrofelonoshophobia)
+NightmareElmStreetphobia - Fear of Freddy Krueger (branch of kyrofelonoshophobia)
+
+company_phobias.py
+Amazonphobia - Fear of Amazon
+Bandcamphobia - Fear of Bandcamp
+Bemanophobia - Fear of Bemani
+BMWphobia - Fear of BMW
+Chevroletphobia - Fear of Chevrolet
+Cocaphobia - Fear of Coca Cola (branch of dipsophobia)
+Discordphobia - Fear of Discord
+Disneyphobia - Fear of The Walt Disney Company
+EBayphobia - Fear of eBay
+Earthviulaphobia - Fear of Google Earth (branch of Googlephobia)
+Facebookphobia - Fear of Facebook
+Lazadaphobia - Fear of Lazada
+Microsoftphobia - Fear of Microsoft
+Sonyphobia - Fear of Sony
+THX phobia - Fear of THX
+Twitterphobia - Fear of Twitter
+
+sports_toys_game_and_videogame_phobias.py
+Angroornithophobia - Fear of Angry Birds (branch of ludectrophobia)
+Athlemaphobia - Fear of sports
+Baldiphobia - Fear of Baldi's basics (branch of ludectrophobia)
+Banjophobia - Fear of Banjo and Kazooie (branch of ludectrophobia)
+Barbiephobia - Fear of barbie dolls (branch of ludilophobia)
+Baseballphobia - Fear of baseball (branch of athlemaphobia)
+Basketballphobia - Fear of basketball (branch of athlemaphobia)
+Bavibophobia - Fear of the floor is lava (branch of ludophobia)
+Bloonopygrosoamynaphobia - Fear of bloons tower defense (branch of ludectophobia)
+Boitepigkouinophobia - Fear of club penguin (branch of ludectophobia)
+Bowlingphobia - Fear of bowling (branch of athlemaphobia)
+Brawlursinophobia - Fear of bear wrestling (branch of athlemaphobia)
+Carebearphobia - Fear of carebears (branch of Ludilophobia)
+Cashballphobia - Fear of expensive baseballs (branch of athelmaphobia and baseballphobia)
+Cosmoskafophobia - Fear of the game Starcraft (branch of ludectrophobia)
+Cs:gophobia - Fear of CS:GO (branch of ludectrophobia)
+Cubranchiophobia - Fear of Minecraft (branch of ludectrophobia)
+Cupheadphobia - Fear of Cuphead (branch of ludectrophobia)
+Dartophobia - Fear of Darts (branch of athlemaphobia)
+Defteribiophobia - Fear of the game Second Life (branch of ludectrophobia)
+Dotryollphobia - Fear of Troll Dolls (branch of Luilophobia)
+Innobisphobia - Fear of Among Us (branch of ludectrophobia)
+Ludectrophobia - Fear of video games, branch of ludophobia
+Ludilophobia - Fear of toys (branch of ludophobia)
+Ludophobia - Fear of games
+Mooglophobia - Fear of Final Fantasy (branch of ludectrophobia)
+Simphobia - Fear of the Sims (branch of ludectrophobia)
+Yahtziphobia - Fear of Yahtzi (branch of ludophobia)
+
+other_phobias.py
+Abnormalthinkingophobia - Fear of abnormal thinking
+Abstracophobia - Fear of abstract things
+Afairophobia - Fear of the abstract plane of existence
+Aftokratorikimonadaphobia - Fear of imperial measurement units
+Apomisipokemonphobia - Fear of fanmade pokemon
+Arachnohomophobia - Fear of gay spiders
+Astralplanephobia - Fear of Astral Planes
+Bassboostophobia - Fear of bass boosted memes
+Beonecropathophobia - Fear of a zombie uprising
+Bibliophobiphobia - Fear of bibliophobes
+Bluzzedrallphobia - Fear of gore (Branch of Hemophobia (Fear of blood)
+Bokaroidophobia - Fear of Vocaloid songs, Hatsune Miku and/or Vocaloids in general.
+Clickphobia - Fear of your Miis whispering
+Colacipelockrophobia - Fear of the Coca Cola secret recipe vault
+Comicsansphobia - Fear of the font Comic Sans
+Comitoophobia - Fear of to be continued signs
+Createphobiaphobia - Fear of creating phobias
+Cringephobia - Fear of cringe
+Cthulidriyoglothophobia - Fear of cosmicism
+cubranchiospilaiophonophobia - Fear of minecraft cave sounds
+Cyanimagomortiphobia - Fear of the blue screen of death
+Deezjuglandaceaephobia - Fear of Deez nuts jokes
+Defaultiphobia - Fear of default skins in videogames
+Dianoiphobia - Fear of the mental plane of existence
+Dittophobia - Fear of repetition Dittophobia - Fear of repetition Dittophobia - Fear of repetition
+Eeeootoqphnphobia - Fear of Ennennennoctocttrioctquadpenthexnilium
+Emotaophobia - Fear of emotional things
+Fysikophobia - Fear of the physical plane of existence
+Helliophobia - Fear of Hellium (He)
+Kleptwaifuophobia - Fear of your waifus being stolen
+Mathemophobia - Fear of math
+Mentaophobia - Fear of mental things
+Metazoibphobia - Fear of humans and animals (metazoibs)
+Multiversophobia - Fear of the multiverse
+Nomiedophobia - Fear of normies
+Funfebophobia - Fear of the physical plane, spiritual plane, mental plane, emotional plane, and abstract plane of existence.
+Phobiawikiaphobia - Fear of the Phobia Wiki (branch of wikiphobia)
+Physophobia - Fear of physical things
+Pnevmaphobia - Fear of the spiritual plane of existence
+Scientophobia - Fear of science
+Stupidfovaphobia - Fear of the Stupid phobias category(not the Stupid Phobias one) (branch of stupidphobiacategoryphobia)
+Stupidphobiacategoryphobia - Fear of stupidphobiacategory (branch of phobiawikiaphobia)
+Synaiphobia - Fear of the emotional plane of existence
+Thantomemephobia - Fear of dead memes
+Threskeophobia - Fear of religion
+Tipotaphobia - Fear of nothingness
+Universophobia - Fear of the universe
+Urbandictionaryphobia - Fear of Urban Dictionary
+Wikiaphobia - Fear of Wikia
+Wikihowphobia - Fear of wikiHow
+Wikimediaphobia - Fear of Wikimedia
+Wikipediaphobia - Fear of Wikipedia
+Wiktionaryphobia - Fear of Wiktionary
+Wikiphobia - Fear of wikis
+Williamophobia - Fear of William
+Yugipediaphobia - Fear of yugipedia
+
+joke_and_fictional_phobias.py
+Albumistanumerophobia - Fear of Number lists and list of number phobias (branch of Albumistaphobia)
+Aibohphobia - Fear of palindromes. A joke term for the phobia, which is a palindrome itself. The term is a piece of computer humor entered into the 1981 The Devil's DP Dictionary
+Anachrophobia - Fear of temporal displacement, from a Doctor Who novel by Jonathan Morris
+Anatidaephobia - The fictional fear that somewhere, somehow, a duck is watching you. From Gary Larson's The Far Side
+Anoraknophobia - A portmanteau of 'anorak' and 'arachnophobia'. Used in the Wallace and Gromit comic book Anoraknophobia. Also the title of an album by Marillion
+Arachibutyrophobia - Fear of peanut butter sticking to the roof of one's mouth. The word is used by Charles M. Schulz in a 1982 installment of his 'Peanuts' comic strip and by Peter O'Donnell in his 1985 Modesty Blaise adventure novel Dead Man's Handle
+Aurolaustracclesiometallophobia - Fear of gold being contained in a shrine of reinforced metal
+Claustrommetaphobia - Fear of suffocating on one's own eyeballs
+Deuterophobia - Fear of Mondays
+Hippopotomonstrosesquipedaliophobia - Fear of long words
+Keanuphobia - Fear of Keanu Reeves, portrayed in the Dean Koontz book, False Memory, where a woman has an irrational fear of Keanu Reeves and has to see her psychiatrist, Mark Ahriman, each week, unaware that she only has the fear in the first place because the psychotic Ahriman implanted it via hypnotic suggestion to amuse himself. He calls her the 'Keanuphobe' in his head
+Kyriakiphobia - Fear of Sundays
+Luposlipaphobia - Fear of being pursued by timber wolves while running around a kitchen table while wearing socks on a newly waxed floor, also from Gary Larson's The Far Side
+Lunaediesophobia - Fear of Mondays (comes from the Latin word Luna meaning 'Moon', and the suffix -phobia)
+Nihiliphobia - Fear of nothingness (comes from the combination of the Latin word nihil which means nothing, none, and the suffix -phobia), as described by the Doctor in the Star Trek: Voyager episode Night. Voyager's morale officer and chef Neelix suffers from this condition, having panic attacks while the ship was traversing a dark expanse of space known as the Void. It is also the title of a 2008 album by Neuronium. Also, the animated version of George of the Jungle (2007 TV series) is seen suffering in one episode of the cartoon, where they are telling scary stories
+Nonagintannophobia - Fear of turning 90 years old
+Octogintannophobia - Fear of turning 80 years old
+Paraskeviphobia - Fear of Fridays
+Pemptiphobia - Fear of Thursdays
+Quadragintannophobia - Fear of turning 40 years old
+Quinquagintannophobia - Fear of turning 50 years old
+Robophobia - Fear of robots/androids, also known as 'Grimwade's Syndrome'. First heard in the Doctor Who story The Robots of Death
+Savvatophobia - Fear of Saturdays
+Semaphobia - Fear of average Web developers to use Semantic Web technologies
+Septuagintannophobia - Fear of turning 70 years old
+Sexatannophobia - Fear of turning 60 years old
+Sredaphobia - Fear of Wednesdays
+Trigintannophobia - Fear of turning 30 years old
+Tritiphobia - Fear of Tuesdays
+Venustraphobia - Fear of beautiful women, according to a 1998 humorous article published by BBC News. The word is a portmanteau of 'Venus trap' and 'phobia'. Venustraphobia is the title of a 2006 album by Casbah Club
+Vigintannophobia - Fear of turning 20 years old your momma dead
+JoeMamophobia - Fear of Joe Mama jokes
+HhkfdhgthgsfudhgtrfhgergorhieghahkghhsgjhtaghteahhhhhhhhhhhhhhhhhhhhhgaydgfjhijhpjPhobia - Fear of Karens
+Sebeefriknobphobia - Fear of Roblox Star Creator/Youtube channel 23Sebee/friknob
+
+star_phobias.py
+Siriusphobia - Fear of Star Sirius
+HIP 13044phobia - Fear of Star HIP 13044
+HD 140283phobia - Fear of Star HD 140283
+HE 1327-2326phobia - Fear of Star HE 1327-2326
+HD 224693phobia - Fear of Star HD 224693

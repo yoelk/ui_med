@@ -6,13 +6,13 @@ from ui_med.model.enums import Languages
 
 class PlantPhobias(Enum):
     """
-    Plant phobias
+    Plant Phobias Names
     """
     AGROSTOPHOBIA = auto()
     ANTHOPHOBIA = auto()
     BOTANOPHOBIA = auto()
     CITAROPHOBIA = auto()
-    DENDROPHOBIA = auto()
+    'DENDROPHOBIA = auto()
     DISTLEPHOBIA = auto()
     DOGWOODPHOBIA = auto()
     DRUSOPHOBIA = auto()
@@ -25,7 +25,8 @@ class PlantPhobias(Enum):
     VIRIDITAPHOBIA = auto()
 
 
-PlantPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+PLANT_PHOBIAS_NAMES_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     PlantPhobias.AGROSTOPHOBIA: {
         Languages.ENGLISH: "Agrostophobia",
         Languages.HEBREW: None,
@@ -46,8 +47,8 @@ PlantPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PlantPhobias.DENDROPHOBIA: {
-        Languages.ENGLISH: "Dendrophobia",
+    PlantPhobias.'DENDROPHOBIA: {
+        Languages.ENGLISH: "'Dendrophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -106,13 +107,13 @@ PlantPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
 
 class PlantPhobiasDescriptions(Enum):
     """
-    Plant phobias descriptions
+    Plant Phobias Descriptions
     """
     AGROSTOPHOBIA = auto()
     ANTHOPHOBIA = auto()
     BOTANOPHOBIA = auto()
     CITAROPHOBIA = auto()
-    DENDROPHOBIA = auto()
+    'DENDROPHOBIA = auto()
     DISTLEPHOBIA = auto()
     DOGWOODPHOBIA = auto()
     DRUSOPHOBIA = auto()
@@ -125,7 +126,8 @@ class PlantPhobiasDescriptions(Enum):
     VIRIDITAPHOBIA = auto()
 
 
-PlantPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+PLANT_PHOBIAS_DESCRIPTIONS_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     PlantPhobiasDescriptions.AGROSTOPHOBIA: {
         Languages.ENGLISH: "Fear of grass (branch of boranophobia)",
         Languages.HEBREW: None,
@@ -146,8 +148,8 @@ PlantPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    PlantPhobiasDescriptions.DENDROPHOBIA: {
-        Languages.ENGLISH: "Fear of trees (branch of Botanophobia)",
+    PlantPhobiasDescriptions.'DENDROPHOBIA: {
+        Languages.ENGLISH: "Fear of trees (branch of botanophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -187,7 +189,7 @@ PlantPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     PlantPhobiasDescriptions.MAPLELEAFAPHOBIA: {
-        Languages.ENGLISH: "Fear of maple leaves (branch of Phyllophobia)",
+        Languages.ENGLISH: "Fear of maple leaves (branch of phyllophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -201,5 +203,4 @@ PlantPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-
 }

@@ -6,7 +6,7 @@ from ui_med.model.enums import Languages
 
 class NamesAndSpecificPeoplePhobias(Enum):
     """
-    Names and Specific People phobias
+    Names And Specific People Phobias Names
     """
     ABBASIPHOBIA = auto()
     ADRIASSOPHOBIA = auto()
@@ -24,7 +24,8 @@ class NamesAndSpecificPeoplePhobias(Enum):
     MEMEPHOBIA = auto()
 
 
-NamesAndSpecificPeoplePhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+NAMES_AND_SPECIFIC_PEOPLE_PHOBIAS_NAMES_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     NamesAndSpecificPeoplePhobias.ABBASIPHOBIA: {
         Languages.ENGLISH: "Abbasiphobia",
         Languages.HEBREW: None,
@@ -100,7 +101,7 @@ NamesAndSpecificPeoplePhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]
 
 class NamesAndSpecificPeoplePhobiasDescriptions(Enum):
     """
-    Names and Specific People phobias descriptions
+    Names And Specific People Phobias Descriptions
     """
     ABBASIPHOBIA = auto()
     ADRIASSOPHOBIA = auto()
@@ -118,75 +119,75 @@ class NamesAndSpecificPeoplePhobiasDescriptions(Enum):
     MEMEPHOBIA = auto()
 
 
-NamesAndSpecificPeoplePhobiasDescriptions_STRINGS: Dict[
+NAMES_AND_SPECIFIC_PEOPLE_PHOBIAS_DESCRIPTIONS_LANGUAGE_STRINGS: Dict[
     Enum, Dict[Languages, Optional[str]]] = {
-    NamesAndSpecificPeoplePhobiasDescriptions.Abbasiphobia: {
-        Languages.ENGLISH: "fear of the name Abbasi",
+    NamesAndSpecificPeoplePhobiasDescriptions.ABBASIPHOBIA: {
+        Languages.ENGLISH: "Fear of the name abbasi",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Adriassophobia: {
-        Languages.ENGLISH: "fear of the name Adrian",
+    NamesAndSpecificPeoplePhobiasDescriptions.ADRIASSOPHOBIA: {
+        Languages.ENGLISH: "Fear of the name adrian",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Alastairphobia: {
-        Languages.ENGLISH: "fear of anyone names Alastair",
+    NamesAndSpecificPeoplePhobiasDescriptions.ALASTAIRPHOBIA: {
+        Languages.ENGLISH: "Fear of anyone names alastair",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Alekphobia: {
-        Languages.ENGLISH: "fear of the name Aleksander",
+    NamesAndSpecificPeoplePhobiasDescriptions.ALEKPHOBIA: {
+        Languages.ENGLISH: "Fear of the name aleksander",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Alishaphobia: {
-        Languages.ENGLISH: "fear of the name Alisha",
+    NamesAndSpecificPeoplePhobiasDescriptions.ALISHAPHOBIA: {
+        Languages.ENGLISH: "Fear of the name alisha",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Beskaheintrecliphobia: {
-        Languages.ENGLISH: "fear of Duncan Hines",
+    NamesAndSpecificPeoplePhobiasDescriptions.BESKAHEINTRECLIPHOBIA: {
+        Languages.ENGLISH: "Fear of duncan hines",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Bidenphobia: {
-        Languages.ENGLISH: "fear of Joe Biden",
+    NamesAndSpecificPeoplePhobiasDescriptions.BIDENPHOBIA: {
+        Languages.ENGLISH: "Fear of joe biden",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Bobigerphobia: {
-        Languages.ENGLISH: "fear of Bob Iger",
+    NamesAndSpecificPeoplePhobiasDescriptions.BOBIGERPHOBIA: {
+        Languages.ENGLISH: "Fear of bob iger",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Bushophobia: {
-        Languages.ENGLISH: "fear of H. W. Bush",
+    NamesAndSpecificPeoplePhobiasDescriptions.BUSHOPHOBIA: {
+        Languages.ENGLISH: "Fear of h. w. bush",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Christonymophobia: {
-        Languages.ENGLISH: "fear of certain usernames",
+    NamesAndSpecificPeoplePhobiasDescriptions.CHRISTONYMOPHOBIA: {
+        Languages.ENGLISH: "Fear of certain usernames",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Churchillphobia: {
-        Languages.ENGLISH: "fear of Winston Churchill",
+    NamesAndSpecificPeoplePhobiasDescriptions.CHURCHILLPHOBIA: {
+        Languages.ENGLISH: "Fear of winston churchill",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Conneryophobia: {
-        Languages.ENGLISH: "fear of Sean Connery",
+    NamesAndSpecificPeoplePhobiasDescriptions.CONNERYOPHOBIA: {
+        Languages.ENGLISH: "Fear of sean connery",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Danielphobia: {
-        Languages.ENGLISH: "fear of anyone named Daniel",
+    NamesAndSpecificPeoplePhobiasDescriptions.DANIELPHOBIA: {
+        Languages.ENGLISH: "Fear of anyone named daniel",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    NamesAndSpecificPeoplePhobiasDescriptions.Memephobia: {
-        Languages.ENGLISH: "fear of Donald Trump",
+    NamesAndSpecificPeoplePhobiasDescriptions.MEMEPHOBIA: {
+        Languages.ENGLISH: "Fear of donald trump",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },

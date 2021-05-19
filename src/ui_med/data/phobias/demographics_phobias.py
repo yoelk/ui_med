@@ -6,7 +6,7 @@ from ui_med.model.enums import Languages
 
 class DemographicsPhobias(Enum):
     """
-    Demographics phobias
+    Demographics Phobias Names
     """
     AFGHANISTANPHOBIA = auto()
     AFROPHOBIA = auto()
@@ -33,7 +33,7 @@ class DemographicsPhobias(Enum):
     COLORADOPHOBIA = auto()
     CONNECTICUTPHOBIA = auto()
     DELAWAREPHOBIA = auto()
-    DOMINIKANEDEMOCRATIAKONG = auto()
+    DOMINIKANEDEMOCRATIAKONG'KOPHOBIA = auto()
     DUTCHPHOBIA = auto()
     EUROPHOBIA = auto()
     FILIPINOPHOBIA = auto()
@@ -67,7 +67,8 @@ class DemographicsPhobias(Enum):
     WALLOONPHOBIA = auto()
 
 
-DemographicsPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+DEMOGRAPHICS_PHOBIAS_NAMES_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     DemographicsPhobias.AFGHANISTANPHOBIA: {
         Languages.ENGLISH: "Afghanistanphobia",
         Languages.HEBREW: None,
@@ -193,8 +194,8 @@ DemographicsPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    DemographicsPhobias.DOMINIKANEDEMOCRATIAKONG: {
-        Languages.ENGLISH: "Dominikanedemocratiakong",
+    DemographicsPhobias.DOMINIKANEDEMOCRATIAKONG'KOPHOBIA: {
+        Languages.ENGLISH: "Dominikanedemocratiakong'Kophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
@@ -358,7 +359,7 @@ DemographicsPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
 
 class DemographicsPhobiasDescriptions(Enum):
     """
-    Demographics phobias descriptions
+    Demographics Phobias Descriptions
     """
     AFGHANISTANPHOBIA = auto()
     AFROPHOBIA = auto()
@@ -385,7 +386,7 @@ class DemographicsPhobiasDescriptions(Enum):
     COLORADOPHOBIA = auto()
     CONNECTICUTPHOBIA = auto()
     DELAWAREPHOBIA = auto()
-    DOMINIKANEDEMOCRATIAKONG = auto()
+    DOMINIKANEDEMOCRATIAKONG'KOPHOBIA = auto()
     DUTCHPHOBIA = auto()
     EUROPHOBIA = auto()
     FILIPINOPHOBIA = auto()
@@ -419,291 +420,291 @@ class DemographicsPhobiasDescriptions(Enum):
     WALLOONPHOBIA = auto()
 
 
-DemographicsPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+DEMOGRAPHICS_PHOBIAS_DESCRIPTIONS_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     DemographicsPhobiasDescriptions.AFGHANISTANPHOBIA: {
-        Languages.ENGLISH: " fear of the Afghani",
+        Languages.ENGLISH: "Fear of the afghani",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.AFROPHOBIA: {
-        Languages.ENGLISH: " fear of Africans",
+        Languages.ENGLISH: "Fear of africans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.AIGUPTOSOPHOBIA: {
-        Languages.ENGLISH: " fear of Egyptians",
+        Languages.ENGLISH: "Fear of egyptians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.AITHIOPIAPHOBIA: {
-        Languages.ENGLISH: " fear of Ethiopians",
+        Languages.ENGLISH: "Fear of ethiopians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.ALABAMAPHOBIA: {
-        Languages.ENGLISH: " fear of Alabamians",
+        Languages.ENGLISH: "Fear of alabamians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.ALASKAPHOBIA: {
-        Languages.ENGLISH: " fear of Alaskans",
+        Languages.ENGLISH: "Fear of alaskans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.ALBANOPHOBIA: {
-        Languages.ENGLISH: " fear of Albanians",
+        Languages.ENGLISH: "Fear of albanians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.AMERICANOPHOBIA: {
-        Languages.ENGLISH: " fear of Americans",
+        Languages.ENGLISH: "Fear of americans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.ANTARCTICAPHOBIA: {
-        Languages.ENGLISH: " fear of Antarcticans",
+        Languages.ENGLISH: "Fear of antarcticans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.ANGLOPHOBIA: {
-        Languages.ENGLISH: " fear of the English",
+        Languages.ENGLISH: "Fear of the english",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    DemographicsPhobiasDescriptions.ARGENTÍNIPHOBIA: {
-        Languages.ENGLISH: " fear of Argentines",
+    DemographicsPhobiasDescriptions.ARGENTINIPHOBIA: {
+        Languages.ENGLISH: "Fear of argentines",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.ARIZONAPHOBIA: {
-        Languages.ENGLISH: " fear of Arizonans",
+        Languages.ENGLISH: "Fear of arizonans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.ARKANSASPHOBIA: {
-        Languages.ENGLISH: " fear of Arkansans",
+        Languages.ENGLISH: "Fear of arkansans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.ASIANOPHOBIA: {
-        Languages.ENGLISH: " fear of the Asians",
+        Languages.ENGLISH: "Fear of the asians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.BASQUEPHOBIA: {
-        Languages.ENGLISH: " fear of the Basque",
+        Languages.ENGLISH: "Fear of the basque",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.BIETNAMOPHOBIA: {
-        Languages.ENGLISH: " fear of the Vietnamese",
+        Languages.ENGLISH: "Fear of the vietnamese",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.BOLSHEPHOBIA: {
-        Languages.ENGLISH: " fear of the Bolsheviks",
+        Languages.ENGLISH: "Fear of the bolsheviks",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.BRAZILIAPHOBIA: {
-        Languages.ENGLISH: " fear of Brazilians",
+        Languages.ENGLISH: "Fear of brazilians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.CALIFORNIAPHOBIA: {
-        Languages.ENGLISH: " fear of Californians",
+        Languages.ENGLISH: "Fear of californians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.CANAPHOBIA: {
-        Languages.ENGLISH: " fear of Canadians",
+        Languages.ENGLISH: "Fear of canadians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.CATALANOPHOBIA: {
-        Languages.ENGLISH: " fear of the Catalans",
+        Languages.ENGLISH: "Fear of the catalans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.CHUKCHOPHOBIA: {
-        Languages.ENGLISH: " fear of the Chukchi",
+        Languages.ENGLISH: "Fear of the chukchi",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.COLORADOPHOBIA: {
-        Languages.ENGLISH: " fear of Coloradans",
+        Languages.ENGLISH: "Fear of coloradans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.CONNECTICUTPHOBIA: {
-        Languages.ENGLISH: " fear of Connecticuters",
+        Languages.ENGLISH: "Fear of connecticuters",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.DELAWAREPHOBIA: {
-        Languages.ENGLISH: " fear of Delawareans",
+        Languages.ENGLISH: "Fear of delawareans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-    DemographicsPhobiasDescriptions.DOMINIKANEDEMOCRATIAKONG: {
-        Languages.ENGLISH: "ophobia – fear of the Congolese",
+    DemographicsPhobiasDescriptions.DOMINIKANEDEMOCRATIAKONG'KOPHOBIA: {
+        Languages.ENGLISH: "Fear of the congolese",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.DUTCHPHOBIA: {
-        Languages.ENGLISH: " fear of the Dutch",
+        Languages.ENGLISH: "Fear of the dutch",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.EUROPHOBIA: {
-        Languages.ENGLISH: " fear of the Europeans",
+        Languages.ENGLISH: "Fear of the europeans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.FILIPINOPHOBIA: {
-        Languages.ENGLISH: " fear of the Filipinos",
+        Languages.ENGLISH: "Fear of the filipinos",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.FRANCOPHOBIA: {
-        Languages.ENGLISH: "fear of the French",
+        Languages.ENGLISH: "Fear of the french",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.GALLOPHOBIA: {
-        Languages.ENGLISH: "same as Francophobia",
+        Languages.ENGLISH: "Same as francophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.GALIOPHOBIA: {
-        Languages.ENGLISH: "same as Francophobia",
+        Languages.ENGLISH: "Same as francophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.GAGAUZIPHOBIA: {
-        Languages.ENGLISH: " fear of the Gagauz",
+        Languages.ENGLISH: "Fear of the gagauz",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.GENTEMOPHOBIA: {
-        Languages.ENGLISH: "fear of Nations or Countries",
+        Languages.ENGLISH: "Fear of nations or countries",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.PATRIAMOPHOBIA: {
-        Languages.ENGLISH: "same as Gentemophobia",
+        Languages.ENGLISH: "Same as gentemophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.GERMANOPHOBIA: {
-        Languages.ENGLISH: "fear of the Germans",
+        Languages.ENGLISH: "Fear of the germans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.TEUTOPHOBIA: {
-        Languages.ENGLISH: "same as Germanophobia",
+        Languages.ENGLISH: "Same as germanophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.HISPANOPHOBIA: {
-        Languages.ENGLISH: " fear of Hispanics",
+        Languages.ENGLISH: "Fear of hispanics",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.INDIANOPHOBIA: {
-        Languages.ENGLISH: " fear of Native Americans",
+        Languages.ENGLISH: "Fear of native americans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.INDOPHOBIA: {
-        Languages.ENGLISH: " fear of the Indians or South Asians",
+        Languages.ENGLISH: "Fear of the indians or south asians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.MALAYOPHOBIA: {
-        Languages.ENGLISH: " fear of Malays",
+        Languages.ENGLISH: "Fear of malays",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.MEXICANOPHOBIA: {
-        Languages.ENGLISH: " fear of the Mexicans",
+        Languages.ENGLISH: "Fear of the mexicans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.NEGROPHOBIA: {
-        Languages.ENGLISH: " fear of black people or African Americans",
+        Languages.ENGLISH: "Fear of black people or african americans",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.NIPPONOPHOBIA: {
-        Languages.ENGLISH: "fear of the Japanese",
+        Languages.ENGLISH: "Fear of the japanese",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.JAPANOPHOBIA: {
-        Languages.ENGLISH: "same as Nipponophobia",
+        Languages.ENGLISH: "Same as nipponophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.NORDPHOBIA: {
-        Languages.ENGLISH: " fear of the Norwegians",
+        Languages.ENGLISH: "Fear of the norwegians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.PERSOPHOBIA: {
-        Languages.ENGLISH: "fear of the Persians",
+        Languages.ENGLISH: "Fear of the persians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.PERSIANOPHOBIA: {
-        Languages.ENGLISH: "fear of the Persians",
+        Languages.ENGLISH: "Fear of the persians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.POLONOPHOBIA: {
-        Languages.ENGLISH: " fear of the Polish",
+        Languages.ENGLISH: "Fear of the polish",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.QARAQALPAQLARPHOBIA: {
-        Languages.ENGLISH: " fear of the Karakalpaks",
+        Languages.ENGLISH: "Fear of the karakalpaks",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.RUSSOPHOBIA: {
-        Languages.ENGLISH: " fear of the Russians",
+        Languages.ENGLISH: "Fear of the russians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.SINOPHOBIA: {
-        Languages.ENGLISH: "fear of the Chinese",
+        Languages.ENGLISH: "Fear of the chinese",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.CHINESOPHOBIA: {
-        Languages.ENGLISH: "same as Sinophobia",
+        Languages.ENGLISH: "Same as sinophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.TRIBOPHOBIA: {
-        Languages.ENGLISH: " fear of tribes",
+        Languages.ENGLISH: "Fear of tribes",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.TURCOPHOBIA: {
-        Languages.ENGLISH: " fear of the Turks",
+        Languages.ENGLISH: "Fear of the turks",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.UCRAINOPHOBIA: {
-        Languages.ENGLISH: " fear of the Ukrainians",
+        Languages.ENGLISH: "Fear of the ukrainians",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     DemographicsPhobiasDescriptions.WALLOONPHOBIA: {
-        Languages.ENGLISH: " fear of the Walloons",
+        Languages.ENGLISH: "Fear of the walloons",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
-
 }

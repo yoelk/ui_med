@@ -6,7 +6,7 @@ from ui_med.model.enums import Languages
 
 class ReligousPhobias(Enum):
     """
-    Religous phobias
+    Religous Phobias Names
     """
     ANGELOPHOBIA = auto()
     ATHEOPHOBIA = auto()
@@ -36,7 +36,8 @@ class ReligousPhobias(Enum):
     URANOPHOBIA = auto()
 
 
-ReligousPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+RELIGOUS_PHOBIAS_NAMES_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     ReligousPhobias.ANGELOPHOBIA: {
         Languages.ENGLISH: "Angelophobia",
         Languages.HEBREW: None,
@@ -172,7 +173,7 @@ ReligousPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
 
 class ReligousPhobiasDescriptions(Enum):
     """
-    Religous phobias descriptions
+    Religous Phobias Descriptions
     """
     ANGELOPHOBIA = auto()
     ATHEOPHOBIA = auto()
@@ -202,134 +203,135 @@ class ReligousPhobiasDescriptions(Enum):
     URANOPHOBIA = auto()
 
 
-ReligousPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+RELIGOUS_PHOBIAS_DESCRIPTIONS_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     ReligousPhobiasDescriptions.ANGELOPHOBIA: {
-        Languages.ENGLISH: "fear of angels (branch of theophobia)",
+        Languages.ENGLISH: "Fear of angels (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.ATHEOPHOBIA: {
-        Languages.ENGLISH: "fear of atheists (branch of theophobia)",
+        Languages.ENGLISH: "Fear of atheists (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.BIBLEPHOBIA: {
-        Languages.ENGLISH: "fear of Bibles (branch of theophobia)",
+        Languages.ENGLISH: "Fear of bibles (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.BUDDHIPHOBIA: {
-        Languages.ENGLISH: "fear of Buddhuism (branch of theophobia)",
+        Languages.ENGLISH: "Fear of buddhuism (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.CHRISTIANOPHOBIA: {
-        Languages.ENGLISH: "fear of the Christians (branch of theophobia)",
+        Languages.ENGLISH: "Fear of the christians (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.CHRISTOPHOBIA: {
-        Languages.ENGLISH: "fear of people that hate christian faith (branch of theophobia)",
+        Languages.ENGLISH: "Fear of people that hate christian faith (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.ECCLESIOPHOBIA: {
-        Languages.ENGLISH: "fear of church (branch of theophobia and christianophobia)",
+        Languages.ENGLISH: "Fear of church (branch of theophobia and christianophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.DEMONOPHOBIA: {
-        Languages.ENGLISH: "fear of demons (branch of theophobia)",
+        Languages.ENGLISH: "Fear of demons (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.DIABOLOPHOBIA: {
-        Languages.ENGLISH: "fear of devils (branch of theophobia)",
+        Languages.ENGLISH: "Fear of devils (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.FEGEFPHOBIA: {
-        Languages.ENGLISH: "fear of the word 'hell' (branch of theophobia)",
+        Languages.ENGLISH: "Fear of the word 'hell' (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.GODOAPHINPHOBIA: {
-        Languages.ENGLISH: "fear of god's number, 555 (branch of theophobia and numerophobia)",
+        Languages.ENGLISH: "Fear of god's number, 555 (branch of theophobia and numerophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.HELIOTHUSIAPHOBIA: {
-        Languages.ENGLISH: "fear of sun sacrifices (branch of theophobia)",
+        Languages.ENGLISH: "Fear of sun sacrifices (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.HINDUPHOBIA: {
-        Languages.ENGLISH: "fear of Hinduism (branch of theophobia)",
+        Languages.ENGLISH: "Fear of hinduism (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.ISLAMOPHOBIA: {
-        Languages.ENGLISH: "fear of Muslims (branch of theophobia)",
+        Languages.ENGLISH: "Fear of muslims (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.JESUSOPHOBIA: {
-        Languages.ENGLISH: "fear of Jesus (branch of theophobia and christianophobia)",
+        Languages.ENGLISH: "Fear of jesus (branch of theophobia and christianophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.LIOSUSCHRISTUSPHOBIA: {
-        Languages.ENGLISH: "same as Jesusophobia",
+        Languages.ENGLISH: "Same as jesusophobia",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.JUDEOPHOBIA: {
-        Languages.ENGLISH: "fear of Jews (branch of theophobia)",
+        Languages.ENGLISH: "Fear of jews (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.PAPAPHOBIA: {
-        Languages.ENGLISH: "fear of the Pope (branch of theophobia and christianophobia)",
+        Languages.ENGLISH: "Fear of the pope (branch of theophobia and christianophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.RITOURGIAPHOBIA: {
-        Languages.ENGLISH: "fear of rituals (branch of theophobia)",
+        Languages.ENGLISH: "Fear of rituals (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.SATANOPHOBIA: {
-        Languages.ENGLISH: "fear of Satan (branch of theophobia)",
+        Languages.ENGLISH: "Fear of satan (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.SPIRITUPHOBIA: {
-        Languages.ENGLISH: "fear of spiritual things",
+        Languages.ENGLISH: "Fear of spiritual things",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.STAUROPHOBIA: {
-        Languages.ENGLISH: "fear of crosses or the crucifix (branch of theophobia and christianophobia)",
+        Languages.ENGLISH: "Fear of crosses or the crucifix (branch of theophobia and christianophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.STYGIOPHOBIA: {
-        Languages.ENGLISH: "fear of Hell (branch of theophobia)",
+        Languages.ENGLISH: "Fear of hell (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.TELEOPHOBIA: {
-        Languages.ENGLISH: "fear of religious ceremonies (branch of theophobia)",
+        Languages.ENGLISH: "Fear of religious ceremonies (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.THEOPHOBIA: {
-        Languages.ENGLISH: "fear of religion",
+        Languages.ENGLISH: "Fear of religion",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     ReligousPhobiasDescriptions.URANOPHOBIA: {
-        Languages.ENGLISH: "fear of Heaven (branch of theophobia)",
+        Languages.ENGLISH: "Fear of heaven (branch of theophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },

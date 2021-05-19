@@ -6,7 +6,7 @@ from ui_med.model.enums import Languages
 
 class MicroorganismPhobias(Enum):
     """
-    Microorganism phobias
+    Microorganism Phobias Names
     """
     ANOPHELIPHOBIA = auto()
     BACILLOPHOBIA = auto()
@@ -18,7 +18,8 @@ class MicroorganismPhobias(Enum):
     VIROPHOBIA = auto()
 
 
-MicroorganismPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+MICROORGANISM_PHOBIAS_NAMES_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     MicroorganismPhobias.ANOPHELIPHOBIA: {
         Languages.ENGLISH: "Anopheliphobia",
         Languages.HEBREW: None,
@@ -64,7 +65,7 @@ MicroorganismPhobias_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
 
 class MicroorganismPhobiasDescriptions(Enum):
     """
-    Microorganism phobias descriptions
+    Microorganism Phobias Descriptions
     """
     ANOPHELIPHOBIA = auto()
     BACILLOPHOBIA = auto()
@@ -76,44 +77,45 @@ class MicroorganismPhobiasDescriptions(Enum):
     VIROPHOBIA = auto()
 
 
-MicroorganismPhobiasDescriptions_STRINGS: Dict[Enum, Dict[Languages, Optional[str]]] = {
+MICROORGANISM_PHOBIAS_DESCRIPTIONS_LANGUAGE_STRINGS: Dict[
+    Enum, Dict[Languages, Optional[str]]] = {
     MicroorganismPhobiasDescriptions.ANOPHELIPHOBIA: {
-        Languages.ENGLISH: "fear of malaria (branch of micobiophobia)",
+        Languages.ENGLISH: "Fear of malaria (branch of micobiophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     MicroorganismPhobiasDescriptions.BACILLOPHOBIA: {
-        Languages.ENGLISH: "fear of bacillus (branch of microbiophobia)",
+        Languages.ENGLISH: "Fear of bacillus (branch of microbiophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     MicroorganismPhobiasDescriptions.BACTERIOPHOBIA: {
-        Languages.ENGLISH: "fear of bacteria (branch of microbiophobia)",
+        Languages.ENGLISH: "Fear of bacteria (branch of microbiophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     MicroorganismPhobiasDescriptions.CHOLEROPHOBIA: {
-        Languages.ENGLISH: "fear of Vibreo cholerae (the bacteria that causes cholera) (branch of microbiophobia)",
+        Languages.ENGLISH: "Fear of vibreo cholerae (the bacteria that causes cholera) (branch of microbiophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     MicroorganismPhobiasDescriptions.EBOLAPHOBIA: {
-        Languages.ENGLISH: "fear of the Ebola Virus (branch of virophobia)",
+        Languages.ENGLISH: "Fear of the ebola virus (branch of virophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     MicroorganismPhobiasDescriptions.MICROBIOPHOBIA: {
-        Languages.ENGLISH: "fear of micro-organisms (branch of pantophobia)",
+        Languages.ENGLISH: "Fear of micro-organisms (branch of pantophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     MicroorganismPhobiasDescriptions.VERMINOPHOBIA: {
-        Languages.ENGLISH: "fear of germs (branch of microbiophobia)",
+        Languages.ENGLISH: "Fear of germs (branch of microbiophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
     MicroorganismPhobiasDescriptions.VIROPHOBIA: {
-        Languages.ENGLISH: "fear of viruses (not the ones on computers) (branch of microbiophobia)",
+        Languages.ENGLISH: "Fear of viruses (not the ones on computers) (branch of microbiophobia)",
         Languages.HEBREW: None,
         Languages.ARAB: None,
         Languages.ITALIAN: None, },
