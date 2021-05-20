@@ -1,11 +1,9 @@
-import os
-from typing import Dict, List, Optional
+from typing import List, Optional
 
-from ui_med.model.enums import Languages, PhobiaTypes
+from ui_med.model.enums import PhobiaTypes
 from ui_med.model.languages import add_translation
 from ui_med.model.phobias import Phobia
 from ui_med.std.enum import enum_names
-from ui_med.std.files import recreate_folder
 
 
 class PhobiaEntry(object):
@@ -44,22 +42,22 @@ class PhobiasExtractor(object):
         return PhobiaTypes[phobia_type_name]
 
     @classmethod
-    def parse_phobia_line(cls, line: str, phobia_type: PhobiaTypes) -> Phobia:
+    def parse_phobia_line(cls, line: str) -> Phobia:
         """
         Parse an phobia line
         :param line: The line
-        :param phobia_type: The phobia type
         :return: The parsed phobia
         """
 
         def get_value(txt: str) -> str:
-            return txt.split('="')[1].rstrip('"')
+            return txt.split('=')[1].strip('"')
 
         parts: List[str] = line.split("; ")
         name: Optional[str] = None
         desc: Optional[str] = None
         synonym_name: Optional[str] = None
         parent_names: Optional[List[str]] = None
+        phobia_types: Optional[List[PhobiaTypes]] = None
         for part in parts:
             if part.startswith("name="):
                 assert name is None, "More than one name"
@@ -73,26 +71,33 @@ class PhobiasExtractor(object):
                 assert synonym_name is None, "More than one synonym"
                 synonym_name = get_value(part).title()
 
-            if part.startswith("parent="):
-                if parent_names is None:
-                    parent_names = []
-                parent_names.append(get_value(part))
+            if part.startswith("parents="):
+                assert parent_names is None, "More than one parent_names"
+                parent_names = eval(get_value(part))
+                assert isinstance(parent_names, list)
 
-        return Phobia(phobia_type=phobia_type, name=name, desc=desc,
+            if part.startswith("phobia_types="):
+                assert phobia_types is None, "More than one phobia_types"
+                phobia_types_names: List[str] = eval(get_value(part))
+                phobia_types = [PhobiaTypes[name] for name in phobia_types_names]
+                assert isinstance(phobia_types, list)
+
+        return Phobia(phobia_types=phobia_types, name=name, desc=desc,
                       synonym_name=synonym_name, parent_names=parent_names)
 
     @classmethod
-    def extract_entry(cls, line: str, phobia_type: PhobiaTypes) -> None:
+    def extract_entry(cls, line: str) -> None:
         """
         Extract an entry
         :param line: The line
         :param phobia_type: The phobia type
         :return: Nothing
         """
-        phobia = cls.parse_phobia_line(line=line, phobia_type=phobia_type)
+        phobia = cls.parse_phobia_line(line=line)
         Phobia.register_phobia(phobia=phobia)
         add_translation(text=f"{phobia.name}")
-        add_translation(text=f"{phobia.desc}")
+        if phobia.desc:
+            add_translation(text=f"{phobia.desc}")
 
     @classmethod
     def extract(cls, phobias_file_path: str) -> None:
@@ -104,7 +109,6 @@ class PhobiasExtractor(object):
         with open(phobias_file_path, "r", encoding="utf-8") as fh:
             lines: List[str] = fh.read().split('\n')
 
-        phobia_type: Optional[PhobiaTypes] = None
         for line in lines:
             line = line.strip(" ")
 
@@ -112,17 +116,4 @@ class PhobiasExtractor(object):
             if not line:
                 continue
 
-            # Update the phobia type if possible
-            if cls.get_phobia_type_from_line(line=line) is not None:
-                phobia_type = cls.get_phobia_type_from_line(line=line)
-                continue
-
-            # Extract the entry
-            cls.extract_entry(line=line, phobia_type=phobia_type)
-
-
-# TODO(joel):
-#  - Create classes for each phobia
-#  - Make connections between phobias and their parents / synonims
-#  - Take care of duplicate entries from different files
-#  - Concentrate all of the strings' dictionaries in a single place
+            cls.extract_entry(line=line)

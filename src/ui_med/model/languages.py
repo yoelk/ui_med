@@ -1,6 +1,6 @@
 from typing import Dict, Optional
 
-from ui_med.app_base import get_app
+from ui_med.app_base import get_app, get_logger
 from ui_med.model.enums import Languages
 
 
@@ -60,8 +60,11 @@ def add_translation(
     :param translations: The translations
     :return: Nothing
     """
-    assert text not in TRANSLATIONS, f"Translation already exists for {text}"
-    TRANSLATIONS[text] = translations if translations else {}
+    if text not in TRANSLATIONS:
+        TRANSLATIONS[text] = translations if translations else {}
+
+    else:
+        get_logger().debug(f"More than one translation for {text}")
 
 
 def to_str(text: str, language: Optional[Languages] = None) -> str:
