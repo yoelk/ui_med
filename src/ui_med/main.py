@@ -15,7 +15,8 @@ from ui_med.model.db import DB_STORAGE_FILENAME, DbKeys
 from ui_med.model.enums import Languages
 from ui_med.model.people import FullName, Person
 from ui_med.model.phobias import ALL_PHOBIAS
-from ui_med.views.people import EditNameLayout, EditPersonLayout, ManagePeopleLayout
+from ui_med.views.people import EditPersonLayout, ManagePeopleLayout
+from ui_med.views.names import EditNameLayout
 
 
 class UiMedApp(AppBase):
@@ -78,11 +79,7 @@ class UiMedApp(AppBase):
         self._set_root_widget(
             widget=ManagePeopleLayout(people=self.db_get(DbKeys.PEOPLE)))
 
-    def view_edit_person(self, person: Union[Person, int], *args) -> None:
-        if isinstance(person, int):
-            person = self.db_get(DbKeys.PEOPLE)[person]
-
-        assert isinstance(person, Person)
+    def view_edit_person(self, person: Person, *args) -> None:
         self._set_root_widget(
             widget=EditPersonLayout(
                 is_editable=True, person=person, on_close=self.view_manage_people))

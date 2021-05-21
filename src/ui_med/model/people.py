@@ -2,6 +2,7 @@ from typing import List, Optional
 from uuid import UUID, uuid4
 
 from ui_med.model.enums import Languages
+from ui_med.model.phobias import Phobia
 
 
 class FullName(object):
@@ -50,7 +51,7 @@ class Person(object):
         """
         self.uuid: UUID = uuid4()
         self.names: List[FullName] = []
-        self.fears: List[Fear] = []
+        self.phobias: List[Phobia] = []
 
     @property
     def languages_with_names(self) -> List[Languages]:

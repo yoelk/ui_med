@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import Any, Callable, List, Optional
 
 from kivy.lang import Builder
 from kivy.properties import BooleanProperty
@@ -9,7 +9,7 @@ from kivy.uix.recycleview import RecycleView
 from kivy.uix.recycleview.layout import LayoutSelectionBehavior
 from kivy.uix.recycleview.views import RecycleDataViewBehavior
 
-from ui_med.app_base import get_app, get_logger
+from ui_med.app_base import get_app
 from ui_med.model.people import Person
 
 Builder.load_string('''
@@ -21,7 +21,7 @@ Builder.load_string('''
         Rectangle:
             pos: self.pos
             size: self.size
-<PeopleRecycleView>:
+<SelectionRecycleView>:
     viewclass: 'SelectableLabel'
     SelectableRecycleBoxLayout:
         default_size: None, dp(56)
@@ -39,6 +39,31 @@ class SelectableRecycleBoxLayout(FocusBehavior, LayoutSelectionBehavior,
     """
     Adds selection and focus behaviour to the view.
     """
+
+
+# TODO(joel): Make multiselect optional and save a list of the selected entries
+class SelectionRecycleView(RecycleView):
+    def __init__(self, objects: Optional[List[Any]],
+                 on_selection: Optional[Callable[[Any], None]], **kwargs):
+        """
+        Initialize
+        :param data: A list of objects to be presented in the view
+        :param on_selection: Callback for when an entry is selected
+        """
+        super(SelectionRecycleView, self).__init__(**kwargs)
+        self.objects: List[Any] = objects if objects else []
+        self._on_selection: Optional[Callable[[Any], None]] = on_selection
+
+        self.data = [{'text': str(x)} for x in self.objects]
+
+    def on_selected_index(self, index: int) -> None:
+        """
+        Callback for when an entry is selected
+        :param index: The index of the selected entry
+        :return: None
+        """
+        if self._on_selection:
+            self._on_selection(self.objects[index])
 
 
 class SelectableLabel(RecycleDataViewBehavior, Label):
@@ -62,17 +87,8 @@ class SelectableLabel(RecycleDataViewBehavior, Label):
         if self.collide_point(*touch.pos) and self.selectable:
             return self.parent.select_with_touch(self.index, touch)
 
-    def apply_selection(self, rv, index, is_selected) -> None:
+    def apply_selection(self, rv: SelectionRecycleView, index, is_selected) -> None:
         """ Respond to the selection of items in the view. """
         self.selected = is_selected
         if is_selected:
-            get_app().view_edit_person(index)
-
-
-class PeopleRecycleView(RecycleView):
-    def __init__(self, people: Optional[List[Person]], **kwargs):
-        super(PeopleRecycleView, self).__init__(**kwargs)
-
-        if not people:
-            people = []
-        self.data = [{'text': str(x)} for x in people]
+            rv.on_selected_index(index)

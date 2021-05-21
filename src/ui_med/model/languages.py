@@ -24,6 +24,7 @@ class Texts(object):
     PEOPLE = "People"
     PHOBIAS = "Phobias"
     SAVE = "Save"
+    SELECT = "Select"
 
 
 TRANSLATIONS: Dict[str, Dict[Languages, Optional[str]]] = {
