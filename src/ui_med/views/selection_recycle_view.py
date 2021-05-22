@@ -1,7 +1,7 @@
 from typing import Any, Callable, List, Optional
 
 from kivy.lang import Builder
-from kivy.properties import BooleanProperty
+from kivy.properties import BooleanProperty, ListProperty
 from kivy.uix.behaviors import FocusBehavior
 from kivy.uix.label import Label
 from kivy.uix.recycleboxlayout import RecycleBoxLayout
@@ -32,7 +32,8 @@ Builder.load_string('''
 ''')
 
 
-class SelectableRecycleBoxLayout(FocusBehavior, LayoutSelectionBehavior,
+class SelectableRecycleBoxLayout(FocusBehavior,
+                                 LayoutSelectionBehavior,
                                  RecycleBoxLayout):
     """
     Adds selection and focus behaviour to the view.
@@ -41,6 +42,10 @@ class SelectableRecycleBoxLayout(FocusBehavior, LayoutSelectionBehavior,
 
 # TODO(joel): Make multiselect optional and save a list of the selected entries
 class SelectionRecycleView(RecycleView):
+    selected_indices = ListProperty([])
+    """The indices of the currently selected entries
+    """
+
     def __init__(self, objects: Optional[List[Any]],
                  on_selection: Optional[Callable[[Any], None]] = None, **kwargs):
         """
@@ -65,15 +70,6 @@ class SelectionRecycleView(RecycleView):
         """
         return [self.objects[i] for i in self.selected_indices]
 
-    @property
-    def single_selected_object(self) -> Any:
-        """
-        :return: The currently single selected object
-        """
-        objects: List[Any] = self.selected_objects
-        assert len(objects) <= 1
-        return objects[0]
-
     def on_selected_index(self, index: int, is_selected: bool) -> None:
         """
         Callback for when an entry is selected
@@ -82,13 +78,14 @@ class SelectionRecycleView(RecycleView):
         :return: None
         """
         if is_selected:
-            self.selected_indices.remove(index)
+            self.selected_indices.append(index)
 
             if self._on_selection:
                 self._on_selection(self.objects[index])
 
         else:
-            self.selected_indices.append(index)
+            if index in self.selected_indices:
+                self.selected_indices.remove(index)
 
 
 class SelectableLabel(RecycleDataViewBehavior, Label):

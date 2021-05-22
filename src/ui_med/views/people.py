@@ -1,3 +1,4 @@
+from functools import partial
 from typing import List, Optional
 
 from kivy.uix.boxlayout import BoxLayout
@@ -59,14 +60,22 @@ class EditPersonLayout(InputLayout):
         add_phobia_button = Button(text=to_str(Texts.ADD_PHOBIA),
                                    size_hint=(1, None),
                                    height=ViewCfg.TEXT_WIDGET_HEIGHT,
-                                   on_press=get_app().view_add_person_phobia,
+                                   on_press=partial(get_app().view_add_person_phobia,
+                                                    person),
                                    disabled=not self.is_add_name_enabled)
         self.add_widget(add_phobia_button)
 
         # Save
         self.add_save_button()
 
-    # TODO(joel): figure out who adds the phobia entry to Person and how on_close works
+    @property
+    def is_add_name_enabled(self) -> bool:
+        """
+        :return: Is the name adding button enabled
+        """
+        return self.is_editable and self.person.languages_without_name
+
+    # noinspection PyUnusedLocal
     def open_add_name_screen(self, *args) -> None:
         """
         Open a screen for adding a name

@@ -50,6 +50,7 @@ class PhobiaEntryLayout(BoxLayout):
         get_app().view_edit_person(person)
 
 
+# TODO(joel): Search bar should be single-line and it doesn't work
 class AddPhobiaLayout(InputLayout):
     """
     A layout for adding a phobia
@@ -104,6 +105,9 @@ class AddPhobiaLayout(InputLayout):
         self.phobias_list_container.add_widget(self.phobias_list_widget)
 
     def on_close_button_pressed(self, *args) -> None:
-        self.person.phobias.append(self.phobias_list_widget.single_selected_object)
+        assert len(self.phobias_list_widget.selected_objects) <= 1
+        if len(self.phobias_list_widget.selected_objects) == 1:
+            self.person.phobias.append(self.phobias_list_widget.selected_objects[0])
+
         get_app().view_edit_person(self.person)
         super().on_close_button_pressed()

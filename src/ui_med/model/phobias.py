@@ -33,6 +33,20 @@ class Phobia(object):
         self.parent_names: Optional[List[str]] = parent_names
         self.phobia_types: List[PhobiaTypes] = phobia_types
 
+    def __str__(self) -> str:
+        """
+        :return: Ourselves as a string
+        """
+        return f"{self.name}: {self.desc}"
+
+    def __eq__(self, other: 'Phobia') -> bool:
+        """
+        :param other: Another instance
+        :return: True if we are equal to other, else False
+        """
+        return self.name == other.name \
+               and self.desc == other.desc
+
     @classmethod
     def register_phobia(cls, phobia: 'Phobia') -> None:
         """
