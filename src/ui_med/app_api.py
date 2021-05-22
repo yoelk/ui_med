@@ -43,7 +43,7 @@ class UiMedAppApi(object):
         """
         raise NotImplementedError
 
-    def view_add_person_fear(self, person: Person, *args) -> None:
+    def view_add_person_phobia(self, person: Person, *args) -> None:
         """
         Open the view for adding a person's fear
         :param person: The person

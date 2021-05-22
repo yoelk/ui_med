@@ -17,6 +17,7 @@ from ui_med.model.people import FullName, Person
 from ui_med.model.phobias import ALL_PHOBIAS
 from ui_med.views.people import EditPersonLayout, ManagePeopleLayout
 from ui_med.views.names import EditNameLayout
+from ui_med.views.phobias import AddPhobiaLayout
 
 
 class UiMedApp(AppBase):
@@ -93,9 +94,8 @@ class UiMedApp(AppBase):
                 is_editable=True, person=person, name=name,
                 on_close=partial(self.view_edit_person, person)))
 
-    def view_add_person_fear(self, person: Person, *args) -> None:
-        # TODO(joel): implement choice view for phobias, with a search box
-        pass
+    def view_add_person_phobia(self, person: Person, *args) -> None:
+        self._set_root_widget(widget=AddPhobiaLayout(person=person))
 
     def model_put_person(self, person: Person, *args) -> None:
         people: List[Person] = self.db_get(DbKeys.PEOPLE)

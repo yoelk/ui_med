@@ -10,7 +10,7 @@ from ui_med.model.enums import Languages, Orientations
 from ui_med.model.people import FullName, Person
 from ui_med.views.input import InputLayout
 from ui_med.views.names import NameEntryLayout
-from ui_med.views.people_recycle_view import SelectionRecycleView
+from ui_med.views.selection_recycle_view import SelectionRecycleView
 from ui_med.views.phobias import PhobiaEntryLayout
 
 
@@ -59,14 +59,14 @@ class EditPersonLayout(InputLayout):
         add_phobia_button = Button(text=to_str(Texts.ADD_PHOBIA),
                                    size_hint=(1, None),
                                    height=ViewCfg.TEXT_WIDGET_HEIGHT,
-                                   on_press=get_app().view_add_person_fear,
+                                   on_press=get_app().view_add_person_phobia,
                                    disabled=not self.is_add_name_enabled)
         self.add_widget(add_phobia_button)
 
         # Save
         self.add_save_button()
 
-    # noinspection PyUnusedLocal
+    # TODO(joel): figure out who adds the phobia entry to Person and how on_close works
     def open_add_name_screen(self, *args) -> None:
         """
         Open a screen for adding a name

@@ -1,5 +1,5 @@
 from functools import partial
-from typing import List
+from typing import List, Optional
 
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
@@ -11,7 +11,7 @@ from ui_med.model.languages import Texts, to_str
 from ui_med.model.people import Person
 from ui_med.model.phobias import ALL_PHOBIAS, Phobia
 from ui_med.views.input import InputLayout
-from ui_med.views.people_recycle_view import SelectionRecycleView
+from ui_med.views.selection_recycle_view import SelectionRecycleView
 
 
 class PhobiaEntryLayout(BoxLayout):
@@ -61,7 +61,7 @@ class AddPhobiaLayout(InputLayout):
         :param person: The person
         :return: Nothing
         """
-        super().__init__(close_button_text=to_str(Texts.BACK), on_close=self., **kwargs)
+        super().__init__(close_button_text=to_str(Texts.BACK), **kwargs)
         self.orientation = Orientations.VERTICAL
 
         self.person: Person = person
@@ -75,6 +75,8 @@ class AddPhobiaLayout(InputLayout):
         self.phobias_list_container = BoxLayout(orientation=Orientations.VERTICAL,
                                                 size_hint=(1, 1))
         self.add_widget(self.phobias_list_container)
+        self.phobias_list_widget: Optional[SelectionRecycleView] = None
+        self.update_phobias_list()
 
         self.add_save_button()
 
@@ -97,11 +99,11 @@ class AddPhobiaLayout(InputLayout):
         :return: Nothing
         """
         self.phobias_list_container.clear_widgets()
-        self.phobias_list_container.add_widget(
-            SelectionRecycleView(objects=self.narrowed_objects_list))
+        self.phobias_list_widget = \
+            SelectionRecycleView(objects=self.narrowed_objects_list)
+        self.phobias_list_container.add_widget(self.phobias_list_widget)
 
     def on_close_button_pressed(self, *args) -> None:
-        # TODO(joel): get the selected object from the list
-        self.person.phobias.append(the selected phobia from the list)
+        self.person.phobias.append(self.phobias_list_widget.single_selected_object)
         get_app().view_edit_person(self.person)
         super().on_close_button_pressed()

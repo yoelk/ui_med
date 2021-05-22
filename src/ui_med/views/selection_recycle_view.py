@@ -29,8 +29,6 @@ Builder.load_string('''
         size_hint_y: None
         height: self.minimum_height
         orientation: 'vertical'
-        multiselect: True
-        touch_multiselect: True
 ''')
 
 
@@ -44,26 +42,53 @@ class SelectableRecycleBoxLayout(FocusBehavior, LayoutSelectionBehavior,
 # TODO(joel): Make multiselect optional and save a list of the selected entries
 class SelectionRecycleView(RecycleView):
     def __init__(self, objects: Optional[List[Any]],
-                 on_selection: Optional[Callable[[Any], None]], **kwargs):
+                 on_selection: Optional[Callable[[Any], None]] = None, **kwargs):
         """
         Initialize
         :param data: A list of objects to be presented in the view
         :param on_selection: Callback for when an entry is selected
         """
+        if kwargs.get("multiselect", None) is True:
+            kwargs["touch_multiselect"] = True
+
         super(SelectionRecycleView, self).__init__(**kwargs)
         self.objects: List[Any] = objects if objects else []
         self._on_selection: Optional[Callable[[Any], None]] = on_selection
 
         self.data = [{'text': str(x)} for x in self.objects]
+        self.selected_indices: List[int] = []
 
-    def on_selected_index(self, index: int) -> None:
+    @property
+    def selected_objects(self) -> List[Any]:
+        """
+        :return: The currently selected objects
+        """
+        return [self.objects[i] for i in self.selected_indices]
+
+    @property
+    def single_selected_object(self) -> Any:
+        """
+        :return: The currently single selected object
+        """
+        objects: List[Any] = self.selected_objects
+        assert len(objects) <= 1
+        return objects[0]
+
+    def on_selected_index(self, index: int, is_selected: bool) -> None:
         """
         Callback for when an entry is selected
         :param index: The index of the selected entry
+        :param is_selected: Is the entry selected
         :return: None
         """
-        if self._on_selection:
-            self._on_selection(self.objects[index])
+        if is_selected:
+            self.selected_indices.remove(index)
+
+            if self._on_selection:
+                self._on_selection(self.objects[index])
+
+        else:
+            self.selected_indices.append(index)
 
 
 class SelectableLabel(RecycleDataViewBehavior, Label):
@@ -90,5 +115,4 @@ class SelectableLabel(RecycleDataViewBehavior, Label):
     def apply_selection(self, rv: SelectionRecycleView, index, is_selected) -> None:
         """ Respond to the selection of items in the view. """
         self.selected = is_selected
-        if is_selected:
-            rv.on_selected_index(index)
+        rv.on_selected_index(index=index, is_selected=is_selected)
