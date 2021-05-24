@@ -50,7 +50,6 @@ class PhobiaEntryLayout(BoxLayout):
         get_app().view_edit_person(person)
 
 
-# TODO(joel): Search bar should be single-line and it doesn't work
 class AddPhobiaLayout(InputLayout):
     """
     A layout for adding a phobia
@@ -68,9 +67,10 @@ class AddPhobiaLayout(InputLayout):
         self.person: Person = person
         self.all_objects: List[Phobia] = ALL_PHOBIAS
 
-        self.search_bar: TextInput = TextInput(text="", size_hint=(1, None),
-                                               height=ViewCfg.TEXT_WIDGET_HEIGHT,
-                                               on_text=self.update_phobias_list)
+        self.search_bar: TextInput = TextInput(text="", multiline=False,
+                                               size_hint=(1, None),
+                                               height=ViewCfg.TEXT_WIDGET_HEIGHT)
+        self.search_bar.bind(text=self.update_phobias_list)
         self.add_widget(self.search_bar)
 
         self.phobias_list_container = BoxLayout(orientation=Orientations.VERTICAL,
