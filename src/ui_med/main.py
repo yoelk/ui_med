@@ -6,6 +6,7 @@ from kivy.modules import inspector
 from kivy.uix.widget import Widget
 
 from ui_med.app_base import AppBase, get_logger
+from ui_med.app_settings import AppWithSettings
 from ui_med.data import get_data_resource
 from ui_med.data.data_extractors.phobias_extractor import PhobiasExtractor
 from ui_med.model.db import Db
@@ -37,7 +38,7 @@ from ui_med.views.phobias import AddPhobiaLayout
 from ui_med.views.view_wrapper import RootWidgetWrapper
 
 
-class UiMedApp(AppBase):
+class UiMedApp(AppWithSettings):
     """
     The main app
     """
@@ -48,6 +49,7 @@ class UiMedApp(AppBase):
         :return: Nothing
         """
         super().__init__(**kwargs)
+        self.title = "UI MED"
         self.init_static_data()
         self.db: Db = Db()
 
@@ -58,10 +60,6 @@ class UiMedApp(AppBase):
         :return: Nothing
         """
         PhobiasExtractor.extract(phobias_file_path=get_data_resource("phobias.txt"))
-
-    @property
-    def screen_name(self) -> str:
-        return "UI MED"
 
     def build(self):
         manage_people_layout = \

@@ -102,6 +102,7 @@ class Texts(object):
     EDIT_NAME = "Edit Name"
     FIRST_NAMES = "First Names"
     FULL_NAME = "Full Name"
+    LANGUAGE = "Language"
     LAST_NAMES = "Last Names"
     MANAGE_PEOPLE = "Manage People"
     NAMES = "Names"

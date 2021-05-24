@@ -34,7 +34,7 @@ class RootWidgetWrapper(BoxLayout):
         settings_button.bind(on_press=get_app().open_settings)
         top_bar.add_widget(settings_button)
 
-        app_name = Label(text=get_app().screen_name,
+        app_name = Label(text=get_app().title,
                          size_hint=(None, 1), height=ViewCfg.TEXT_FIELD_NAME_WIDTH)
         top_bar.add_widget(app_name)
 

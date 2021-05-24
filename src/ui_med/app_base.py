@@ -20,13 +20,6 @@ class AppBase(App, ABC):
         self.logger: Logger = logging.getLogger(self.name)
         self.init_logger()
 
-    @property
-    def screen_name(self) -> str:
-        """
-        :return: The app's name, as it should be shown on the screen
-        """
-        raise NotImplementedError
-
     def init_logger(self) -> None:
         """
         Initialize the logger
