@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from ui_med.model.enums import PhobiaTypes
+from ui_med.model.enums import PhobiaExplanations, PhobiaTypes
 
 ALL_PHOBIAS: List['Phobia'] = []
 """All of the phobias
@@ -32,6 +32,14 @@ class Phobia(object):
 
         self.parent_names: Optional[List[str]] = parent_names
         self.phobia_types: List[PhobiaTypes] = phobia_types
+
+    # TODO(joel): Decide how to map phobias to their explanations
+    # @property
+    # def phobia_explanation(self) -> PhobiaExplanations:
+    #     """
+    #     :return: The explanation for the phobia
+    #     """
+    #     return PhobiaExplanations.
 
     def __str__(self) -> str:
         """

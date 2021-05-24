@@ -15,6 +15,21 @@ from ui_med.views.names import EditNameLayout
 from ui_med.views.phobias import AddPhobiaLayout
 
 
+# TODO(joel):
+#  Views:
+#  - How can I apply a style system-wide?
+#  - Show titles nicer
+#  - Work out a nicer design for how the screen look
+#  - Add icon buttons for stuff like "add", "edit" or "back"
+#  - In the Person view, add a place for a photo
+#  =======================================================================
+#  Functionality:
+#  - Add a part for getting the human code and providing information about your type.
+#    To begin with, use questioners to get the info
+#  - Add a Phobia page with explanation for how to treat it with FEEL/TTRT
+#  - Add general information pages (not person-bound) about the chakras, meridians,
+#    FEEL, TTRT, etc.
+#  - Add a "diseases" section like "phobias"
 class UiMedApp(AppBase):
     """
     The main app

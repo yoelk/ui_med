@@ -40,7 +40,13 @@ class SelectableRecycleBoxLayout(FocusBehavior,
     """
 
 
-# TODO(joel): Make multiselect optional and save a list of the selected entries
+# TODO(joel):
+#  - Allow more complex entry visual representations
+#    For example, if there are two lines, then the first one should look like a header, and the second one smaller
+#  - What to do when the text is too long?
+#    - Make it short in the dataset?
+#    - Trim with "..." and add a multiline float-over?
+#    - Spread the long second line to multiple lines of smaller font?
 class SelectionRecycleView(RecycleView):
     selected_indices = ListProperty([])
     """The indices of the currently selected entries
