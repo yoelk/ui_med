@@ -6,14 +6,14 @@ from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 
-from ui_med.app_base import ViewCfg
+from ui_med.views.view_cfg import ViewCfg
 from ui_med.model.enums import Orientations
-from ui_med.model.languages import to_str
+from ui_med.model.languages import Lang
 
 
 class EditTextFieldLayout(BoxLayout):
     """
-    A layout for editing a single text field
+    A root_widget for editing a single text field
     """
 
     def __init__(self, is_editable: bool, field_name: str,
@@ -33,7 +33,7 @@ class EditTextFieldLayout(BoxLayout):
         self.size_hint = (1, None)
         self.height = ViewCfg.TEXT_WIDGET_HEIGHT
 
-        self.name_widget = Label(text=f"{to_str(field_name)}:",
+        self.name_widget = Label(text=f"{Lang.to_str(field_name)}:",
                                  size_hint=(None, 1), width=ViewCfg.TEXT_FIELD_NAME_WIDTH)
         self.add_widget(self.name_widget)
 
@@ -43,14 +43,14 @@ class EditTextFieldLayout(BoxLayout):
 
     def get_value(self) -> str:
         """
-        :return: The text of the value widget
+        :return: The text of the value root_widget
         """
         return self.value_widget.text
 
 
 class InputLayout(BoxLayout):
     """
-    An input layout with a save button
+    An input root_widget with a save button
     """
 
     def __init__(self, on_close: Callable[[], None], close_button_text: str,

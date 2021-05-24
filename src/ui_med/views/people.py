@@ -5,9 +5,10 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
 
-from ui_med.app_base import ViewCfg, get_app
-from ui_med.model.languages import Texts, to_str
-from ui_med.model.enums import Languages, Orientations
+from ui_med.views.view_cfg import ViewCfg
+from ui_med.app_base import get_app
+from ui_med.model.languages import Lang
+from ui_med.model.enums import Languages, Orientations, Texts
 from ui_med.model.people import FullName, Person
 from ui_med.views.input import InputLayout
 from ui_med.views.names import NameEntryLayout
@@ -17,7 +18,7 @@ from ui_med.views.phobias import PhobiaEntryLayout
 
 class EditPersonLayout(InputLayout):
     """
-    A layout for adding/editing a person
+    A root_widget for adding/editing a person
     """
 
     def __init__(self, is_editable: bool, person: Person, **kwargs) -> None:
@@ -30,11 +31,11 @@ class EditPersonLayout(InputLayout):
         self.is_editable: bool = is_editable
         self.person: Person = person
 
-        super().__init__(close_button_text=to_str(Texts.SAVE), **kwargs)
+        super().__init__(close_button_text=Lang.to_str(Texts.SAVE), **kwargs)
         self.orientation = Orientations.VERTICAL
 
         # Names
-        names_title = Label(text=f"{to_str(Texts.NAMES)}:",
+        names_title = Label(text=f"{Lang.to_str(Texts.NAMES)}:",
                             size_hint=(1, None), height=ViewCfg.TEXT_WIDGET_HEIGHT)
         self.add_widget(names_title)
         for name in person.names:
@@ -42,7 +43,7 @@ class EditPersonLayout(InputLayout):
             self.add_widget(name_widget)
 
         self.add_name_button: Optional[Button] = None
-        self.add_name_button = Button(text=to_str(Texts.ADD_NAME),
+        self.add_name_button = Button(text=Lang.to_str(Texts.ADD_NAME),
                                       size_hint=(1, None),
                                       height=ViewCfg.TEXT_WIDGET_HEIGHT,
                                       on_press=self.open_add_name_screen,
@@ -50,14 +51,14 @@ class EditPersonLayout(InputLayout):
         self.add_widget(self.add_name_button)
 
         # Phobias
-        phobias_title = Label(text=f"{to_str(Texts.PHOBIAS)}:",
+        phobias_title = Label(text=f"{Lang.to_str(Texts.PHOBIAS)}:",
                               size_hint=(1, None), height=ViewCfg.TEXT_WIDGET_HEIGHT)
         self.add_widget(phobias_title)
         for phobia in person.phobias:
             phobia_widget = PhobiaEntryLayout(person=person, phobia=phobia)
             self.add_widget(phobia_widget)
 
-        add_phobia_button = Button(text=to_str(Texts.ADD_PHOBIA),
+        add_phobia_button = Button(text=Lang.to_str(Texts.ADD_PHOBIA),
                                    size_hint=(1, None),
                                    height=ViewCfg.TEXT_WIDGET_HEIGHT,
                                    on_press=partial(get_app().view_add_person_phobia,
@@ -100,7 +101,7 @@ class EditPersonLayout(InputLayout):
 
 class ManagePeopleLayout(BoxLayout):
     """
-    A layout for managing people
+    A root_widget for managing people
     """
 
     def __init__(self, people: Optional[List[Person]], **kwargs) -> None:
@@ -112,7 +113,7 @@ class ManagePeopleLayout(BoxLayout):
         super().__init__(**kwargs)
         self.orientation = Orientations.VERTICAL
 
-        people_title = Label(text=f"{to_str(Texts.PEOPLE)}:",
+        people_title = Label(text=f"{Lang.to_str(Texts.PEOPLE)}:",
                              size_hint=(1, None), height=ViewCfg.TEXT_WIDGET_HEIGHT)
         self.add_widget(people_title)
 
@@ -122,7 +123,7 @@ class ManagePeopleLayout(BoxLayout):
         self.add_widget(people_list)
 
         add_person_button = Button(
-            text=to_str(Texts.ADD_PERSON),
+            text=Lang.to_str(Texts.ADD_PERSON),
             size_hint=(1, None),
             height=ViewCfg.TEXT_WIDGET_HEIGHT,
             on_press=get_app().view_add_person)

@@ -5,16 +5,17 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.spinner import Spinner
-from ui_med.app_base import ViewCfg, get_app
-from ui_med.model.enums import Languages, Orientations
-from ui_med.model.languages import Texts, to_str
+from ui_med.views.view_cfg import ViewCfg
+from ui_med.app_base import get_app
+from ui_med.model.enums import Languages, Orientations, Texts
+from ui_med.model.languages import Lang
 from ui_med.model.people import FullName, Person
 from ui_med.views.input import EditTextFieldLayout, InputLayout
 
 
 class NameEntryLayout(BoxLayout):
     """
-    A layout for a name entry in a list
+    A root_widget for a name entry in a list
     """
 
     def __init__(self, person: Person, name: FullName, **kwargs) -> None:
@@ -30,16 +31,16 @@ class NameEntryLayout(BoxLayout):
         self.height = ViewCfg.TEXT_WIDGET_HEIGHT
 
         self.add_widget(
-            Button(text=to_str(name.language.value), disabled=True,
+            Button(text=Lang.to_str(name.language.value), disabled=True,
                    size_hint=(None, 1), width=ViewCfg.TEXT_FIELD_NAME_WIDTH))
         self.add_widget(
             Label(text=str(name), size_hint=(1, 1)))
         self.add_widget(
-            Button(text=to_str(Texts.EDIT),
+            Button(text=Lang.to_str(Texts.EDIT),
                    size_hint=(None, 1), width=ViewCfg.TEXT_FIELD_NAME_WIDTH,
                    on_press=partial(get_app().view_edit_person_name, person, name)))
         self.add_widget(
-            Button(text=to_str(Texts.DELETE),
+            Button(text=Lang.to_str(Texts.DELETE),
                    size_hint=(None, 1), width=ViewCfg.TEXT_FIELD_NAME_WIDTH,
                    on_press=partial(self.delete_name, person, name)))
 
@@ -57,7 +58,7 @@ class NameEntryLayout(BoxLayout):
 
 class EditNameLayout(InputLayout):
     """
-    A layout for adding/editing a name
+    A root_widget for adding/editing a name
     """
 
     def __init__(self, is_editable: bool, person: Person, name: FullName,
@@ -69,7 +70,7 @@ class EditNameLayout(InputLayout):
         :param name: The name
         :return: Nothing
         """
-        super().__init__(close_button_text=to_str(Texts.BACK), **kwargs)
+        super().__init__(close_button_text=Lang.to_str(Texts.BACK), **kwargs)
         self.orientation = Orientations.VERTICAL
 
         self.person: Person = person
@@ -77,9 +78,9 @@ class EditNameLayout(InputLayout):
 
         self.language_values_to_languages: Dict[str, Languages] = {}
         for lang in person.languages_without_name + [self.name.language]:
-            self.language_values_to_languages[to_str(lang.value)] = lang
+            self.language_values_to_languages[Lang.to_str(lang.value)] = lang
         self.language_widget: Spinner = \
-            Spinner(text=to_str(self.name.language.value),
+            Spinner(text=Lang.to_str(self.name.language.value),
                     values=sorted(self.language_values_to_languages.keys()),
                     size_hint=(1, None), height=ViewCfg.TEXT_WIDGET_HEIGHT,
                     disabled=not is_editable)

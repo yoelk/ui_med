@@ -86,3 +86,27 @@ class PhobiaExplanations(Enum):
     FEAR_OF_DISEASE = "FEAR_OF_DISEASE"
     SEXUAL_ABUSE_AND_TRAUMA = "SEXUAL_ABUSE_AND_TRAUMA"
     GENITAL_SECRETION_RELATED = "GENITAL_SECRETION_RELATED"
+
+
+class Texts(object):
+    """
+    Texts in the system
+    """
+    ADD_PHOBIA = "Add Phobia"
+    ADD_NAME = "Add Name"
+    ADD_PERSON = "Add Person"
+    BACK = "Back"
+    DELETE = "Delete"
+    EDIT = "Edit"
+    EDIT_PERSON = "Edit Person"
+    EDIT_NAME = "Edit Name"
+    FIRST_NAMES = "First Names"
+    FULL_NAME = "Full Name"
+    LAST_NAMES = "Last Names"
+    MANAGE_PEOPLE = "Manage People"
+    NAMES = "Names"
+    PEOPLE = "People"
+    PHOBIAS = "Phobias"
+    SAVE = "Save"
+    SELECT = "Select"
+    SETTINGS = "Settings"

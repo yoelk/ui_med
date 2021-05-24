@@ -1,7 +1,7 @@
 from typing import List, Optional
 
 from ui_med.model.enums import PhobiaTypes
-from ui_med.model.languages import add_translation
+from ui_med.model.languages import Lang
 from ui_med.model.phobias import Phobia
 from ui_med.std.enum import enum_names
 
@@ -95,9 +95,9 @@ class PhobiasExtractor(object):
         """
         phobia = cls.parse_phobia_line(line=line)
         Phobia.register_phobia(phobia=phobia)
-        add_translation(text=f"{phobia.name}")
+        Lang.add_translation(text=f"{phobia.name}")
         if phobia.desc:
-            add_translation(text=f"{phobia.desc}")
+            Lang.add_translation(text=f"{phobia.desc}")
 
     @classmethod
     def extract(cls, phobias_file_path: str) -> None:

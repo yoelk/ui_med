@@ -4,26 +4,9 @@ from logging import Formatter, Logger, StreamHandler
 from typing import Optional
 
 from kivy.app import App
-from kivy.uix.widget import Widget
-
-from ui_med.app_api import UiMedAppApi
 
 
-class ViewCfg(object):
-    """
-    Configuration for views
-    """
-
-    TEXT_WIDGET_HEIGHT: str = "50dp"
-    """The height of a text field
-    """
-
-    TEXT_FIELD_NAME_WIDTH: str = "200dp"
-    """The width of a text field's name
-    """
-
-
-class AppBase(App, UiMedAppApi, ABC):
+class AppBase(App, ABC):
     """
     Base class for our app
     """
@@ -37,6 +20,13 @@ class AppBase(App, UiMedAppApi, ABC):
         self.logger: Logger = logging.getLogger(self.name)
         self.init_logger()
 
+    @property
+    def screen_name(self) -> str:
+        """
+        :return: The app's name, as it should be shown on the screen
+        """
+        raise NotImplementedError
+
     def init_logger(self) -> None:
         """
         Initialize the logger
@@ -47,18 +37,6 @@ class AppBase(App, UiMedAppApi, ABC):
         console_handler.setFormatter(fmt=Formatter(
             fmt='%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
         self.logger.addHandler(hdlr=console_handler)
-
-    def _set_root_widget(self, widget: Widget) -> None:
-        """
-        Set the root widget
-        :param widget: The new widget
-        :return: Nothing
-        """
-        get_logger().info(f"set_root_widget {self.root} -> {widget}")
-        window = self.root.parent
-        window.remove_widget(self.root)
-        window.add_widget(widget)
-        self.root = widget
 
 
 def get_app() -> Optional[AppBase]:

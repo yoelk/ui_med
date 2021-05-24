@@ -58,7 +58,6 @@ class UiMedAppApi(object):
         """
         raise NotImplementedError
 
-    # TODO(joel): the current language should be part of the settings
     def get_cur_lang(self, *args) -> Languages:
         """
         :return: The current app language
