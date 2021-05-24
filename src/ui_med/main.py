@@ -33,8 +33,11 @@ from ui_med.views.phobias import AddPhobiaLayout
 #    FEEL, TTRT, etc.
 #  - Add a "diseases" section like "phobias"
 #  - Automatically fill translations from google-translate or something like that
+#  =======================================================================
+#  Current:
 #  - Add settings with a button
 #  - The current language should be part of the settings
+#  - Currently the settings don't read from the right config file
 from ui_med.views.view_wrapper import RootWidgetWrapper
 
 
