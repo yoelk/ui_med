@@ -32,6 +32,8 @@ from ui_med.views.phobias import AddPhobiaLayout
 #      both Hebrew and Arabic: 'font_name="DejaVuSans-Oblique.ttf"'. But does it exist
 #      in installed devices like Android? Maybe better include the font as part of the
 #      code as a resource.
+#    - Make sure we reload the current view once the language is changed, so that when
+#      we get back from the settings screen, you can see the changes
 #  =======================================================================
 #  Functionality:
 #  - Add a part for getting the human code and providing information about your type.
