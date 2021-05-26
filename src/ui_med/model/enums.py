@@ -5,13 +5,19 @@ class Languages(Enum):
     """
     Supported allowed_languages names
     """
-    ARAB = "ARAB"
-    ENGLISH = "ENGLISH"
-    HEBREW = "HEBREW"
-    ITALIAN = "ITALIAN"
+    ARAB = "Arab"
+    ENGLISH = "English"
+    HEBREW = "Hebrew"
+    ITALIAN = "Italian"
 
     DEFAULT = ENGLISH
 
+    @property
+    def is_rtl(self) -> bool:
+        """
+        :return: True if this language is written left-to-right
+        """
+        return self in [Languages.ARAB, Languages.HEBREW]
 
 class Orientations(object):
     """

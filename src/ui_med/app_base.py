@@ -4,9 +4,10 @@ from logging import Formatter, Logger, StreamHandler
 from typing import Optional
 
 from kivy.app import App
+from ui_med.app_api_ui_med import UiMedAppApi
 
 
-class AppBase(App, ABC):
+class AppBase(App, UiMedAppApi, ABC):
     """
     Base class for our app
     """

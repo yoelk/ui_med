@@ -1,29 +1,37 @@
+from enum import Enum
 from functools import partial
-from typing import List
+from typing import List, Optional
 
 from kivy.core.window import Window
 from kivy.modules import inspector
 from kivy.uix.widget import Widget
 
-from ui_med.app_base import AppBase, get_logger
-from ui_med.app_settings import AppWithSettings
+from ui_med.app_base import get_logger
+from ui_med.app_settings import AppWithSettings, ConfigKeys, ConfigSections
 from ui_med.data import get_data_resource
 from ui_med.data.data_extractors.phobias_extractor import PhobiasExtractor
 from ui_med.model.db import Db
 from ui_med.model.enums import Languages, Texts
 from ui_med.model.languages import Lang
 from ui_med.model.people import FullName, Person
+from ui_med.std.enum import enum_from_value
 from ui_med.views.people import EditPersonLayout, ManagePeopleLayout
 from ui_med.views.names import EditNameLayout
 from ui_med.views.phobias import AddPhobiaLayout
 
 # TODO(joel):
 #  Views:
-#  - How can I apply a style system-wide?
-#  - Show titles nicer
+#  - How can I apply a style system-wide? I think I have to use inheritance for each
+#    Widget class I use.
+#  - Show titles nicer, using bigger fonts for example.
 #  - Work out a nicer design for how the screen look
 #  - Add icon buttons for stuff like "add", "edit" or "back"
 #  - In the Person view, add a place for a photo
+#  - To support different languages:
+#    - Use a font that allows other languages. For example, this supports
+#      both Hebrew and Arabic: 'font_name="DejaVuSans-Oblique.ttf"'. But does it exist
+#      in installed devices like Android? Maybe better include the font as part of the
+#      code as a resource.
 #  =======================================================================
 #  Functionality:
 #  - Add a part for getting the human code and providing information about your type.
@@ -35,9 +43,7 @@ from ui_med.views.phobias import AddPhobiaLayout
 #  - Automatically fill translations from google-translate or something like that
 #  =======================================================================
 #  Current:
-#  - Add settings with a button
-#  - The current language should be part of the settings
-#  - Currently the settings don't read from the right config file
+
 from ui_med.views.view_wrapper import RootWidgetWrapper
 
 
@@ -62,7 +68,8 @@ class UiMedApp(AppWithSettings):
         Initialize static data
         :return: Nothing
         """
-        PhobiasExtractor.extract(phobias_file_path=get_data_resource("phobias.txt"))
+        PhobiasExtractor.extract(
+            phobias_file_path=get_data_resource(relpath="phobias.txt"))
 
     def build(self):
         manage_people_layout = \
@@ -124,8 +131,11 @@ class UiMedApp(AppWithSettings):
         self.db.people = people
 
     def get_cur_lang(self, *args) -> Languages:
-        # TODO(joel): use app config for default language
-        return Languages.ENGLISH
+        language: Optional[Enum] = enum_from_value(
+            enum_cls=Languages,
+            value=self.config.get(ConfigSections.USER, ConfigKeys.LANGUAGE))
+        assert isinstance(language, Languages)
+        return language
 
 
 if __name__ == '__main__':

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from typing import Dict, Optional
 
 from ui_med.app_base import get_app, get_logger
@@ -44,8 +45,12 @@ class Lang(object):
 
         if not language:
             language = get_app().get_cur_lang()
-        if language in cls.TRANSLATIONS[text]:
-            return cls.TRANSLATIONS[text][language]
 
-        else:
-            return text
+        if language in cls.TRANSLATIONS[text]:
+            text = cls.TRANSLATIONS[text][language]
+
+            # Reverse the characters' order if needed
+            if language.is_rtl:
+                text = text[::-1]
+
+        return text
